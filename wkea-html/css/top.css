@@ -1,0 +1,245 @@
+.top {
+    background-color: white;
+    height: 239px;
+}
+
+.top-top-left ul li:first-child {
+    font-size: 12px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+.top-top-right-welcome {
+    font-family: "微软雅黑";
+    color: #34495e;
+    font-size: 14px;
+}
+
+.top-top-left ul {
+    margin: 0;
+}
+
+.top-top-right ul li {
+    padding-right: 5px;
+}
+
+.top-top-right ul li a:hover {
+    text-decoration: none;
+}
+
+.top-top-right ul li .top-top-right-number {
+    width: 15px;
+    margin-top: 3px;
+    margin-left: 8px;
+    height: 15px;
+    line-height: 15px;
+    display: inline-block;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'TitilliumWeb';
+    color: #34495e;
+    background-color: #C9DCEB;
+}
+
+.top .top-top .top-top-right hr {
+    position: relative;
+    top: 6px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 21px;
+    width: 1px;
+    background-color: #EFF3F6;
+    display: inline-block;
+}
+
+.top .top-top .top-top-right ul li:last-child hr {
+    display: none;
+}
+
+.top-top-right ul li a {
+    font-size: 12px;
+    font-family: '微软雅黑';
+    line-height: 50px;
+    color: #34495e;
+}
+
+.top-top-left ul li {
+    font-size: 12px;
+    font-family: '微软雅黑';
+    line-height: 50px;
+    padding-right: 15px;
+}
+
+.top-top-right ul li svg {
+    margin-right: 5px;
+}
+
+.top-top-left ul li a {
+    color: #019be1;
+}
+
+.top-top-right {
+    height: 50px;
+    line-height: 50px;
+}
+
+.top-top-right span {
+    font-family: 'TitilliumWeb';
+    color: #34495e;
+}
+
+.top hr {
+    padding: 0;
+    margin: 0;
+}
+
+/* input输入框 logo 购物车 */
+.top-content {
+    padding-top: 25px;
+    height: 95px;
+}
+
+.top-content div {
+    float: left;
+}
+
+.top-content-logo {
+    margin-top: 5px;
+    margin-right: 150px;
+}
+
+.top-content-logo p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    display: block;
+    font-size: 16px;
+    color: #34495E;
+    text-align-last: justify;
+    font-family: "微软雅黑";
+    width: 250px;
+}
+
+.top-content-input {
+    margin-right: 30px;
+    border-radius: 3px;
+    border: 2px solid #019be1;
+    height: 50px;
+    width: 670px;
+}
+
+.top-content-input svg {
+    margin-left: 15px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.top-content-input input {
+    width: 470px;
+    padding: 0;
+    height: 46px;
+    line-height: 46px;
+    border: none;
+    outline: none;
+}
+
+.top-content-input button {
+    width: 145px;
+    background-color: #019be1;
+    padding: 0;
+    color: white;
+    border: none;
+    outline: none;
+    height: 46px;
+}
+
+.top-content-cart {
+    border-radius: 3px;
+    border: 1px solid #ebebeb;
+    width: 150px;
+    height: 50px;
+    line-height: 25px;
+    padding-top: 10px;
+}
+
+.top-content-cart img {
+    margin-left: 20px;
+    margin-right: 3px;
+}
+
+.top-content-cart-cart {
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+
+.numberCircle {
+    position: absolute;
+    width: 20px;
+    margin-top: 3px;
+    margin-left: 8px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 2px;
+    font-family: 'TitilliumWeb';
+    color: white;
+    background-color: #019be1;
+}
+
+/* 导航栏 */
+.top-nav {
+    padding-top: 35px;
+}
+
+.top-nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top .top-nav ul li {
+    margin-right: 30px;
+    width: 250px;
+    text-align: center;
+    height: 58px;
+    line-height: 58px;
+    background-color: #009ce1;
+}
+.top-content-recommended{
+    margin-top: 5px;
+}
+.top-content-recommended ul{
+    padding: 0px;
+}
+.top-content-recommended ul li{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.top-content-recommended  ul li a{
+    font-size: 14px;
+    color: #72899B;
+}
+.top-content-recommended ul li a:hover{
+    text-decoration: none;
+}
+.top .top-nav ul li a:hover {
+    text-decoration: none;
+}
+
+.top .top-nav ul li a {
+    color: white;
+    font-family: "微软雅黑";
+}
+
+.top .top-nav ul li+li a {
+    color: #34495E;
+    font-family: "微软雅黑";
+    font-weight: 500;
+}
+
+.top .top-nav ul li+li {
+    margin-right: 0px;
+    width: 120px;
+    background-color: white;
+}

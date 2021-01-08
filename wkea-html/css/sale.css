@@ -1,0 +1,200 @@
+body{
+  background-color: white;
+}
+.top .top-nav ul li:nth-child(3) a {
+  color: #009CE1;
+  border-bottom: 4px solid #009CE1;
+  padding: 6px 0;
+}
+
+.content{
+  /* margin-left: 5px ; */
+  width: 100%;
+  /* border-top: 1px solid #009CE1; */
+  background-color: white;
+  height: auto;
+}
+
+.content-sale {
+  /* width: 1303px; */
+  width: 1290px;
+  height: auto;
+}
+/* 内容左 */
+.sale-left{
+  width: 251px;
+  height: auto; 
+  float: left;
+}
+.sale-left p{
+  padding: 10px 0;
+}
+.sale-left p a:first-child{
+  margin-right: 5px ;
+}
+.sale-left p a:not(:first-child){
+  margin:5px;
+}
+.sale-left p a,.sale-left p{
+  color: #97A5AD;
+  font-size:14px;
+  margin-top: 15px;
+}
+.sale-left p a{
+  text-decoration: none;
+}
+.sale-left p span a {
+ margin: 5px;
+  color:#34495E ;
+}
+.sale-left p span a:hover{
+  color:#34495E ;
+  text-decoration: none;
+}
+.sale-left .left-ul{
+  width:100%;
+  height:273px;
+  border:1px solid #EFF3F6;
+ 
+}
+.sale-left .left-ul li{
+  margin-left: -40px;
+  width: 251px;
+  display: block;
+  list-style-type: none;
+ 
+}
+.sale-left .left-ul li span{
+margin: 0 5px;
+}
+.sale-left .left-ul li:first-child{
+height:79px;
+line-height: 79px;
+font-size:24px;
+color:#34495E ;
+background-color: #FBFBFB;
+text-align:center;
+}
+.sale-left .left-ul .second a{
+  color: #009CE1 !important;
+  padding: 3px 0;
+  border-bottom: 1px solid #009CE1;
+}
+.sale-left .left-ul .second a:hover{
+  color: #009CE1 !important;
+}
+.sale-left .left-ul li:not(:first-child){
+  margin: 30px -35px;
+}
+.sale-left .left-ul li:not(:first-child) a{
+  color: #72899B;
+  font-size: 16px;
+}
+.sale-left .left-ul li:not(:first-child) a:hover{
+  color: #72899B;
+  text-decoration: none;
+}
+.sale-left .left-ul li:not(:first-child) span:first-child{
+  margin-left:35px;
+}
+/* 内容右 */
+.sale-right{
+  float: left;
+  width: 900px;
+  height: auto;
+  margin: 40px 26px 110px;
+}
+.content-sale-top {
+  padding-top: 12px;
+  height: 250px;
+}
+
+.content-sale-top p {
+  color: #a19e9e;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.content-sale-top p span {
+  color: black;
+}
+
+.content-sale-top .content-sale-pic p:last-child {
+  margin-top: -220px;
+  /* margin-left: 2px; */
+}
+
+.content-sale-top .content-sale-word {
+  margin-top: -190px;
+  margin-left: 20px;
+}
+
+.content-sale-top .content-sale-word p {
+  color: white;
+}
+
+.content-sale-top .content-sale-word p:first-child {
+  font-size: 38px;
+  text-align: center;
+} 
+.content-sale-top .content-sale-word p:last-child {
+  font-size: 16px;
+  text-align: center;
+  width: 955px;
+  margin: auto;
+  font-weight: 300;
+}
+
+.content-sale-content {
+  clear: both;
+}
+
+.content-sale-content .how .how-info p:first-child{
+  padding: 5px 0;
+  border-bottom: 1px solid #EFF3F6;
+}
+.content-sale-content .how .how-info p:first-child span{
+  color:#34495E;
+  font-size:32px; 
+  font-weight: bold;
+  padding: 5px 0;
+  border-bottom: 4px solid #009CE1;
+}
+.content-sale-content .how .how-info p:last-child {
+  margin: 30px 0;
+}
+.content-sale-content .how .how-info p:last-child span{
+  color:#526A7D;
+  font-size:16px;
+  width: 1010px;
+  margin: auto;
+  display: block;
+
+}
+.content-sale-content .how .step{
+margin: 5px 50px;
+}
+.content-sale-content .how .step ul li {
+  list-style-type: disc;
+}
+.content-sale-content .how .step p span{
+  color:#34495E ;
+  font-size: 20px;
+}
+
+.content-sale-content .how .step .step-ul-last{
+  margin-top: 5px;
+}
+.content-sale-content .how .step ul li{
+  font-size: 12px;
+  color:#72899B ;
+  padding: 8px 0;
+}
+.content-sale-content .how .step div{
+  margin: 30px 0;
+}
+/* 底部 */
+.tail{
+  border-top: 2px solid #eff3f5;
+  clear: both;
+}

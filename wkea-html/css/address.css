@@ -1,0 +1,1027 @@
+input[type=radio] {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 0;
+    outline: 0 !important;
+    line-height: 20px;
+    color: #d8d8d8;
+}
+input[type=radio]:after {
+    content: "〇";
+    transform:matrix(-0.766044,-0.642788,-0.642788,0.766044,0,0);
+    -webkit-transform:matrix(-0.766044,-0.642788,-0.642788,0.766044,0,0);
+    border-color: #B9B9B9;
+    background-color: white;
+}
+input[type=radio]:checked:after {
+    content: "";
+    display:block;
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 14px;
+    font-size: 16px;
+    color: #fff;
+    border: 6px solid #009CE1;
+    background-color: #fff;
+    box-sizing:border-box;
+}
+input[type=checkbox] {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 0;
+    outline: 0 !important;
+    line-height: 20px;
+    color: #d8d8d8;
+}
+input[type=checkbox]:after {
+    content: "";
+    display:block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 14px;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-sizing:border-box;
+    border-radius: 5px;
+}
+
+input[type=checkbox]:checked:after {
+    content: "\2714";
+    display:block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 14px;
+    font-size: 16px; 
+    border-color: #009CE1;
+    background-color: #009CE1;
+    box-shadow: 0 3px 4px rgb(0, 156, 225 ,0.18);
+}
+select {
+    padding-right:90px;
+    color:#a7bce3;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    border: 0;
+    background: url('../images/下载.png') no-repeat scroll right center transparent;
+    background-size: 50px;  
+}
+
+/* 选择地址 */
+#chooseaddress{
+    min-width: 980px;
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    background-color: white;
+    z-index: 4;
+    border-radius: 10px;
+}
+.chooseaddress_info{
+    width: 980px;
+    height: 602px;
+}
+.chooseaddress_info .info-item-1{
+    width: 980px;
+    height: 86px;
+    line-height: 86px;
+    background-color:#FFFFFF;
+    box-shadow: 0 2px 11px rgb(0, 156, 225 ,0.15);
+    border-radius: 10px;
+}
+.chooseaddress_info .info-item-1 .tit{
+    font-size: 24px;
+    margin-left: 50px;
+    color: #34495E;
+}
+.chooseaddress_info .info-item-1 .wrong{
+    margin-left: 700px;
+}
+.chooseaddress_info .type-1{
+    border: 2px solid #1296DB;
+    font-size: 16px;
+    width: 365px;
+    height: 177px;
+    line-height: 20px;
+    color: #34495E;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.chooseaddress_info .type-1 .adr{
+    width: 365px;
+    height: 30px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    line-height: 30px;
+}
+.chooseaddress_info .type-1 .adr #hh{
+    width: 65px;
+    height: 22px;
+    background-color: #009CE1;
+    color: white;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+    margin-left: 200px;
+    margin-top: -27px;
+    border-radius: 5px;
+}
+.chooseaddress_info .type-1 .adr #hh1{
+    width: 65px;
+    height: 22px;
+    background-color: #009CE1;
+    color: white;
+    display: block;
+    font-size: 12px;
+    margin-left: 280px;
+    margin-top: -22px;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 5px;
+}
+.chooseaddress_info .type-1 .details_adr{
+    width: 300px;
+    height: 20px;
+    line-height: 20px;
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    font-size: 14px;
+    color: #72899B;
+    margin-left: 25px;
+}
+.chooseaddress_info .type-1 .phone{
+    width: 100px;
+    height: 20px;
+    color: #72899B;
+    font-size: 14px;
+    margin-left: 25px;
+}
+.chooseaddress_info .type-1 .svg{
+    width: 361px;
+    height: 43px;
+    border-top: 1px solid #EFF3F6;
+    margin-top: 10px;
+    background-color: #FBFBFB;
+}
+.chooseaddress_info .type-2{
+    border: 1px solid #EBEBEB;
+    font-size: 16px;
+    width: 365px;
+    height: 177px;
+    line-height: 20px;
+    color: #34495E;
+    margin-left: 520px;
+    margin-top: -175px;
+}
+.chooseaddress_info .type-2 .adr{
+    width: 365px;
+    height: 30px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    line-height: 30px;
+}
+.chooseaddress_info .type-2 .details_adr{
+    width: 300px;
+    height: 20px;
+    line-height: 20px;
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    font-size: 14px;
+    color: #72899B;
+    margin-left: 25px;
+}
+.chooseaddress_info .type-2 .phone{
+    width: 100px;
+    height: 20px;
+    color: #72899B;
+    font-size: 14px;
+    margin-left: 25px;
+}
+.chooseaddress_info .type-2 .svg{
+    width: 363px;
+    height: 45px;
+    border-top: 1px solid #EFF3F6;
+    margin-top: 10px;
+    line-height: 45px;
+    background-color: #FBFBFB;
+}
+.chooseaddress_info .type-2 .svg p{
+    width: 200px;
+    height: 45px;
+    /* border: 1px solid red; */
+    margin-left: 13px;
+    color: #009CE1;
+    font-size: 14px;
+}
+.chooseaddress_info .type-3 label{
+    width: 18px;
+    height: 18px;
+    display:block;
+    background-color: #009CE1;
+    color: white;
+    line-height: 12px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 55px;
+    margin-left: 100px;
+    line-height: 14px;
+}
+.chooseaddress_info .type-3 a{
+    text-decoration: none;
+    color: #009CE1;
+    margin-left: 130px;
+    margin-top: -29px;
+    display: block;
+}
+.chooseaddress_info .choose{
+    width: 977px;
+    margin-top: 105px;
+    border:1px solid #EFF3F6;
+}
+.chooseaddress_info .info-confirm{
+    width: 980px;
+    height: 100px;
+    /* border: 1px solid red; */
+    margin: 0;
+}
+.chooseaddress_info .info-confirm .No{
+    width: 180px;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: block;
+    margin-left: 285px;
+}
+.info-confirm .No input[type=button]{
+    width: 180px;
+    height: 50px;
+    border: 1px solid #E1E9EF;
+    display: block;
+    margin-left: 20px;
+    margin-top: 25px;
+    background-color: white;
+    color: #34495E;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.info-confirm .No #btn_no1{
+    box-shadow: 0 1px 4px rgb(201, 220, 235,0.9);
+}
+.chooseaddress_info .info-confirm .Yes{
+    width: 180px;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: block;
+    margin-left:530px;
+    margin-top: -100px;
+}
+.info-confirm .Yes input[type=button]{
+    width: 180px;
+    height: 50px;
+    border: 1px solid #2289C2;
+    display: block;
+    background-color: #009CE1;
+    color: white;
+    margin-top: -60px;
+    border-radius: 5px;
+    box-shadow: 0 3px 9px rgb(0, 156, 225,0.45);  
+}
+
+/* 新增收货地址 */
+#myaddress{
+    min-width: 980px;
+    position:absolute;
+    top: 70px;
+    left: 350px;
+    background-color: white;
+    z-index: 4;
+    border-radius: 10px;
+}
+.myaddress_info{
+    width: 980px;
+    height: 774px;
+    /* border: 1px solid red; */
+}
+.myaddress_info .info-item-1{
+    width: 980px;
+    height: 86px;
+    background-color:#FFFFFF;
+    box-shadow: 0 2px 11px rgb(0, 156, 225 ,0.15);
+    line-height: 86px;
+    border-radius: 10px;
+}
+.myaddress_info .info-item-1 .tit{
+    font-size: 24px;
+    margin-left: 50px;
+    color: #34495E;
+}
+.myaddress_info .info-item-1 .wrong{
+    margin-left: 700px;
+}
+.myaddress_info p{
+    color: #667B8B;
+    font-size: 18px;
+}
+.myaddress_info .people{
+    margin-left: 160px;
+    margin-top: 60px;
+}
+.myaddress_info .people input[type=text]{
+    margin-left: 38px;
+    width: 527px;
+    height: 58px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #EFF3F6;
+}
+.myaddress_info .callus{
+    margin-left: 160px;
+}
+.myaddress_info .callus input[type=text]{
+    margin-left: 39px;
+    width: 527px;
+    height: 58px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #EFF3F6;
+}
+.myaddress_info .myhome{
+    margin-left: 160px;
+}
+.myaddress_info .myhome select{
+    margin-left: 39px;
+    width: 146px;
+    height: 58px;
+    margin-top: 10px;
+    color: #34495E;
+    border-radius:5px ;
+    border: 1px solid #EFF3F6;
+    padding-right: 14px;
+}
+.myaddress_info .details{
+    margin-left: 160px;
+    margin-top: 0;
+}
+.myaddress_info .details label{
+    display: block;
+    margin-top: 30px;
+    float: left;
+}
+.myaddress_info .details textarea{
+    margin-left: 45px;
+    width: 527px;
+    height: 144px;
+    line-height: 60px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #EFF3F6;
+    font-size: 16px;
+}
+.myaddress_info .details textarea::placeholder{
+    color: #BDC7CE;
+}
+.myaddress_info .type-1{
+    margin-left: 300px;
+    margin-top: 10px;
+    line-height: -20px;
+}
+.myaddress_info .type-1 input[type=radio]{
+    float: left;
+    margin-left: 110px;
+    margin-top: 15px;
+}
+.myaddress_info .type-1 label{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.myaddress_info .type-2{
+    padding-left: 520px;
+    margin-top: -80px;
+    line-height: -20px;
+}
+.myaddress_info .type-2 input[type=radio]{
+    margin-left: 110px;
+    /* margin-top: 28px; */
+}
+.myaddress_info .type-2 label{
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.myaddress_info .hui{
+    width: 977px;
+    margin-top: 55px;
+    border:1px solid #EFF3F6;
+}
+.myaddress_info .info-confirm{
+    width: 980px;
+    height: 100px;
+    /* border: 1px solid red; */
+}
+.myaddress_info .info-confirm .No{
+    width: 180px;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: block;
+    margin-left: 285px;
+}
+.info-confirm .No input[type=button]{
+    width: 180px;
+    height: 50px;
+    border: 1px solid #E1E9EF;
+    display: block;
+    margin-left: 20px;
+    margin-top: 25px;
+    background-color: white;
+    color: #34495E;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.info-confirm .No #btn_no2{
+    box-shadow: 0 1px 4px rgb(201, 220, 235,0.9);
+}
+.myaddress_info .info-confirm .Yes{
+    width: 180px;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: block;
+    margin-left:530px;
+    margin-top: -100px;
+}
+.info-confirm .Yes input[type=button]{
+    width: 180px;
+    height: 50px;
+    border: 1px solid #2289C2;
+    display: block;
+    background-color: #009CE1;
+    margin-top: -50px;
+    border-radius: 5px;
+    box-shadow: 0 3px 9px rgb(0, 156, 225,0.45);  
+}
+
+/* 选择发票 */
+#chooseinvoice{
+    min-width: 980px;
+    position: absolute;
+    top: 270px;
+    left: 350px;
+    background-color:white ;
+    z-index: 4;
+    border-radius: 10px;
+}
+.chooseinvoice_info{
+    width: 980px;
+    height: 482px;
+}
+.chooseinvoice_info .info-item-1{
+    width: 980px;
+    height: 86px;
+    background-color:#FFFFFF;
+    box-shadow: 0 2px 11px rgb(0, 156, 225 ,0.15);
+    line-height: 86px;
+    border-radius: 10px;
+}
+.chooseinvoice_info .info-item-1 .tit{
+    font-size: 24px;
+    margin-left: 50px;
+    color: #34495E;
+}
+.chooseinvoice_info .info-item-1 .wrong{
+    margin-left: 740px;
+}
+.chooseinvoice_info .type{
+    /* border: 1px solid red; */
+    font-size: 16px;
+    width: 980px;
+    height: 60px;
+    line-height: 20px;
+    margin-top: 60px;
+    color: #34495E;
+    margin-left: 110px;
+}
+.chooseinvoice_info .type input[type=radio]{
+    float: left;
+    margin-left: 50px;
+    margin-top: 11px;
+    color: #B9B9B9;
+}
+.chooseinvoice_info .type label{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.chooseinvoice_info .type-1{
+    /* border: 1px solid red; */
+    font-size: 16px;
+    width: 980px;
+    height: 40px;
+    line-height: 20px;
+    color: #34495E;
+    margin-left: 110px;
+    margin-top: -15px;
+}
+.chooseinvoice_info .type-1 input[type=radio]{
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: #009CE1;
+}
+.chooseinvoice_info .type-1 label{
+    margin-left: 15px;
+    margin-top: 8px;
+    color: #34495E;
+}
+.chooseinvoice_info .type-1 label a{
+    color: white;
+    text-decoration: none;
+    width: 42px;
+    height: 22px;
+    background-color: #009CE1;
+    font-size: 12px;
+    display: block;
+    margin-left: 460px;
+    text-align: center;
+    margin-top: -20px;
+    line-height: 22px;
+    border-radius: 10px;
+}
+.chooseinvoice_info .type-2{
+    margin-top: 30px;
+    color: #34495E;
+    margin-left: 110px;
+}
+.chooseinvoice_info .type-2 label{
+    width: 18px;
+    height: 18px;
+    display:block;
+    background-color: #009CE1;
+    color: white;
+    line-height: 12px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 50px;
+    line-height: 14px;
+}
+.chooseinvoice_info .type-2 a{
+    text-decoration: none;
+    color: #009CE1;
+    margin-left: 90px;
+    margin-top: -29px;
+    display: block;
+}
+.chooseinvoice_info .choose{
+    width: 977px;
+    margin-top:80px;
+    border:1px solid #EFF3F6;
+}
+.chooseinvoice_info .info-confirm{
+    width: 980px;
+    height: 100px;
+    /* border: 1px solid red; */
+}
+.chooseinvoice_info .info-confirm .No{
+    width: 180px;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: block;
+    margin-left: 285px;
+}
+.info-confirm .No input[type=button]{
+    width: 180px;
+    height: 50px;
+    border: 1px solid #E1E9EF;
+    display: block;
+    margin-left: 20px;
+    margin-top: 25px;
+    background-color: white;
+    color: #34495E;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.info-confirm .No #btn_no3{
+    box-shadow: 0 1px 4px rgb(201, 220, 235,0.9);
+}
+.chooseinvoice_info .info-confirm .Yes{
+    width: 180px;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: block;
+    margin-left:530px;
+    margin-top: -100px;
+}
+.info-confirm .Yes input[type=button]{
+    width: 180px;
+    height: 50px;
+    border: 1px solid #2289C2;
+    display: block;
+    background-color: #009CE1;
+    margin-top: -50px;
+    border-radius: 5px;
+    box-shadow: 0 3px 9px rgb(0, 156, 225,0.45);  
+}
+
+
+/* 新增发票_专用 */
+#zhuaninvoice{
+    min-width: 980px;
+    position: absolute;
+    top: 20px;
+    left: 350px;
+    background-color: white;
+    z-index: 6;
+    border-radius: 10px;
+}
+.zhuaninvoice_info{
+    width: 980px;
+    height: 923px;
+}
+.zhuaninvoice_info .info-item-1{
+    width: 980px;
+    height: 80px;
+    background-color:#FFFFFF;
+    box-shadow: 0 2px 11px rgb(0, 156, 225 ,0.15);
+    line-height: 86px;
+    border-radius: 10px;
+}
+.zhuaninvoice_info .info-item-1 .tit{
+    font-size: 24px;
+    margin-left: 50px;
+    color: #34495E;
+}
+.zhuaninvoice_info .info-item-1 .wrong{
+    margin-left: 740px;
+}
+.zhuaninvoice_info p{
+    color: #667B8B;
+    font-size: 18px;
+}
+.zhuaninvoice_info .invoice{
+    margin-left:  160px;
+    margin-top: 60px;
+}
+.zhuaninvoice_info .invoice input[type=radio]{
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.zhuaninvoice_info .zhuan{
+    color:#34495E;
+}
+.zhuaninvoice_info .pu{
+    color:#34495E;
+}
+.zhuaninvoice_info .people label{
+    margin-left: 160px;
+}
+.zhuaninvoice_info .people input[type=text]{
+    width: 527px;
+    height: 58px;
+    margin-left: 50px;
+    border: 1px solid #EFF3F6;
+    border-radius: 5px;
+}
+.zhuaninvoice_info .callus label{
+    margin-left: 160px;
+}
+.zhuaninvoice_info .callus input[type=text]{
+    width: 527px;
+    height: 58px;
+    margin-left: 50px;
+    border: 1px solid #EFF3F6;
+    background-color: #F4F4F4;
+    border-radius: 5px;
+}
+.zhuaninvoice_info .myhome label{
+    margin-left: 160px;
+}
+.zhuaninvoice_info .myhome input[type=text]{
+    width: 527px;
+    height: 58px;
+    margin-left: 50px;
+    border: 1px solid #EFF3F6;
+    border-radius: 5px;
+}
+.zhuaninvoice_info .money label{
+    margin-left: 160px;
+}
+.zhuaninvoice_info .money input[type=text]{
+    width: 527px;
+    height: 58px;
+    margin-left: 50px;
+    border: 1px solid #EFF3F6;
+    border-radius: 5px;
+}
+.zhuaninvoice_info .type-1{
+    margin-left: 160px;
+    margin-top: 10px;
+    line-height: -20px;
+}
+.zhuaninvoice_info .type-1 input[type=radio]{
+    float: left;
+    margin-left: 160px;
+    margin-top: 18px;
+}
+.zhuaninvoice_info .type-1 label{
+    margin-left: 15px;
+    margin-top: 13px;
+    color: #34495E;
+}
+ .hui{
+    width: 977px;
+    margin-top: 90px;
+    border:1px solid #EFF3F6;
+}
+.zhuaninvoice_info .myself{
+    margin-left: 160px;
+    /* margin-top: 7px; */
+    line-height: -20px;
+}
+.zhuaninvoice_info .myself input[type=checkbox]{
+    float: left;
+    margin-left: 160px;
+    margin-top: 5px;
+}
+.zhuaninvoice_info .myself label{
+    margin-left: 15px;
+    /* margin-top: 6px; */
+    color: #34495E;
+}
+.zhuaninvoice_info .myself label a{
+    color: #009CE1;
+    text-decoration: none;
+}
+.zhuaninvoice_info .zp{
+    color: #009CE1;
+    border: 1px solid #009CE1;
+    width: 140px;
+    margin-top: -25px;
+    margin-left: 508px;
+}
+.zhuaninvoice_info .info-confirm{
+    width: 980px;
+    height: 100px;
+    /* border: 1px solid red; */
+}
+.zhuaninvoice_info .info-confirm .No{
+    width: 180px;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: block;
+    margin-left: 285px;
+}
+.info-confirm .No input[type=button]{
+    width: 180px;
+    height: 50px;
+    border: 1px solid #E1E9EF;
+    display: block;
+    margin-left: 20px;
+    margin-top: 25px;
+    background-color: white;
+    color: #34495E;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px rgb(201, 220, 235);
+}
+.info-confirm .No #btn_no4{
+    box-shadow: 0 1px 4px rgb(201, 220, 235,0.9);
+}
+.zhuaninvoice_info .info-confirm .Yes{
+    width: 180px;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: block;
+    margin-left:530px;
+    margin-top: -100px;
+}
+.info-confirm .Yes input[type=button]{
+    width: 180px;
+    height: 50px;
+    border: 1px solid #2289C2;
+    display: block;
+    background-color: #009CE1;
+    margin-top: -50px;
+    border-radius: 5px;
+    box-shadow: 0 3px 9px rgb(0, 156, 225,0.45);   
+}
+
+ /* 新增发票_普通 */
+ #puinvoice{
+    min-width: 980px;
+    position: absolute;
+    top: 180px;
+    left: 350px;
+    background-color: white;
+    z-index: 5;
+    border-radius: 10px;
+}
+.puinvoice_info{
+    width: 980px;
+    height: 632px;
+}
+.puinvoice_info .info-item-1{
+    width: 980px;
+    height: 80px;
+    background-color:#FFFFFF;
+    box-shadow: 0 2px 11px rgb(0, 156, 225 ,0.15);
+    line-height: 86px;
+    border-radius: 10px;
+}
+.puinvoice_info .info-item-1 .tit{
+    font-size: 24px;
+    margin-left: 50px;
+    color: #34495E;
+}
+.puinvoice_info .info-item-1 .wrong{
+    margin-left: 740px;
+}
+.puinvoice_info p{
+    color: #667B8B;
+    font-size: 18px;
+}
+.puinvoice_info .invoice{
+    margin-left:  161px;
+    margin-top: 60px;
+    color:#667B8B
+}
+.puinvoice_info .invoice input[type=radio]{
+    margin-left: 48px;
+    margin-right: 20px;
+}
+.puinvoice_info .invoice-type{
+    margin-left:  160px;
+    margin-top: 25px;
+    color:#667B8B
+}
+.puinvoice_info .invoice-type  input[type=radio]{
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.puinvoice_info .zhuan{
+    color: #34495E;
+}
+.puinvoice_info .pu{
+    color: #34495E;
+}
+.puinvoice_info .people label{
+    margin-left: 160px;
+}
+.puinvoice_info .people input[type=text]{
+    width: 527px;
+    height: 58px;
+    margin-left: 50px;
+    border: 1px solid #EFF3F6;
+    border-radius: 5px;
+}
+.puinvoice_info .type-1{
+    margin-left: 215px;
+    margin-top: 10px;
+    line-height: -20px;
+}
+.puinvoice_info .type-1 input[type=radio]{
+    float: left;
+    margin-left: 110px;
+    margin-top: 18px;
+}
+.puinvoice_info .type-1 label{
+    margin-left: 15px;
+    margin-top: 13px;
+    color: #34495E;
+}
+
+.puinvoice_info .myself{
+    margin-left: 215px;
+    margin-top: 10px;
+    line-height: -20px;
+}
+.puinvoice_info .myself input[type=checkbox]{
+    float: left;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.puinvoice_info .myself label{
+    margin-left: 15px;
+    margin-top: 6px;
+    color: #34495E;
+}
+.puinvoice_info .myself label a{
+    color: #009CE1;
+    text-decoration: none;
+}
+.puinvoice_info .zp{
+    color: #009CE1;
+    border: 1px solid #009CE1;
+    width: 140px;
+    margin-top: -25px;
+    margin-left: 514px;
+}
+.puinvoice_info .hui{
+    width: 977px;
+    margin-top: 100px;
+    border:1px solid #EFF3F6;
+}
+.puinvoice_info .info-confirm{
+    width: 980px;
+    height: 100px;
+    /* border: 1px solid red; */
+}
+.puinvoice_info .info-confirm .No{
+    width: 180px;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: block;
+    margin-left: 285px;
+}
+.info-confirm .No input[type=button]{
+    width: 180px;
+    height: 50px;
+    border: 1px solid #E1E9EF;
+    display: block;
+    margin-left: 20px;
+    margin-top: 25px;
+    background-color: white;
+    color: #34495E;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.info-confirm .No #btn_no5{
+    box-shadow: 0 1px 4px rgb(201, 220, 235,0.9);
+}
+.puinvoice_info .info-confirm .Yes{
+    width: 180px;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: block;
+    margin-left:530px;
+    margin-top: -100px;
+}
+.info-confirm .Yes input[type=button]{
+    width: 180px;
+    height: 50px;
+    border: 1px solid #2289C2;
+    display: block;
+    background-color: #009CE1;
+    margin-top: -50px;
+    border-radius: 5px;
+    box-shadow: 0 3px 9px rgb(0, 156, 225,0.45);  
+}
+
+ /* 增票开具说明书 */
+ #addinvoice{
+    min-width: 980px;
+    position: absolute;
+    top: 400px;
+    left: 350px;
+    background-color: white;
+    z-index: 7;
+}
+.addinvoice_info{
+    width: 980px;
+    height: 401px;
+}
+.addinvoice_info .info-item-1{
+    width: 980px;
+    height: 80px;
+    background-color:#FFFFFF;
+    box-shadow: 0 2px 11px rgb(0, 156, 225 ,0.15);
+    line-height: 86px;
+    margin-top: 60px;
+}
+.addinvoice_info .info-item-1 .tit{
+    font-size: 24px;
+    margin-left: 50px;
+    color: #34495E;
+}
+.addinvoice_info .info-item-1 .wrong{
+    margin-left: 700px;
+}
+.addinvoice_info .invoice-item{
+    width: 801px;
+    height: 220px;
+    margin: 0 auto;
+    color: #34495E;
+    font-size: 16px;
+    /* border: 1px solid black; */
+    margin-top: 55px;
+}
+.addinvoice_info .invoice-item .invoice{
+    width: 801px;
+    height: 106px;
+
+}
+.addinvoice_info .invoice-item .people{
+    width: 801px;
+    height: 50px;
+    /* border: 1px solid black; */
+    margin-top: 40px;
+}

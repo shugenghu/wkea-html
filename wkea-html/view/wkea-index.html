@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>维嘉商场</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/top.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/tail.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <!-- <link rel="stylesheet" href="../css/bootstrap-icons.css"> -->
+    <script src="../js/jquery-3.5.1.js"></script>
+    <script src="../js/bootstrap.js"></script>
+</head>
+
+<body>
+    <!-- top -->
+    <!-- 头部 -->
+    <div class="top">
+        <div class="top-top centre">
+            <!-- 清除浮动 两边分散 -->
+            <div class="clearfix">
+                <!-- 登录注册 -->
+                <div class="float-left top-top-left">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">欢迎来到维嘉</li>
+                        <li class="list-inline-item"><a href="">请登录</a></li>
+                        <li class="list-inline-item"><a href="">免费注册</a></li>
+                    </ul>
+                </div>
+                <!-- 展示电话号码 -->
+                <div class="float-right top-top-right">
+                    <ul class="clear">
+                        <li><a href="">消息 <span class="top-top-right-number">0</span></a><hr></li>
+                        <li><a href="">我的订单</a><hr></li>
+                        <li><a href="">个人中心</a><hr></li>
+                        <li><svg 
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="15px" height="15px">
+                           <image  opacity="0.761" x="0px" y="0px" width="15px" height="15px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAMAAAAMCGV4AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAe1BMVEX///82S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S1////9ObKVVAAAAKHRSTlMAmbhXwoSri5ARYRUjrqoeOGeXOQvBK0ANondkRixsJqeUu0cvk7egB719zAAAAAFiS0dEAIgFHUgAAAAHdElNRQfkDBUVLw2VdpzTAAAAbElEQVQI11XN6xaCIBAE4A0ntVASTay8dff931CQ41mYf98yu9BBCJEQBzbHwKl1Fjh3hRP77CzZBVAWQZ8ULiGpgo5MNZrI1xYmGhigI7rd1aMftsEITPPTfQzfkC/4vPedj38GX/nqn/ovKzpDBDPdJLDbAAAAAElFTkSuQmCC" />
+                           </svg><span class="top-top-right-welcome">欢迎致电</span><span>&nbsp;021-63721599</span><hr></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- input输入框 logo cart购物车 -->
+        <div class="top-content centre clearboth">
+            <!-- logo -->
+            <div class="top-content-logo">
+                <img src="../images/logo.png" width="250px" alt="">
+                <p>一站式工业品购买平台</p>
+            </div>
+            <!-- 输入框 -->
+            <div class="top-content-input">
+                <svg t="1608517680564" viewBox="0 0 1024 1024" version="1.1"
+                    xmlns="http://www.w3.org/2000/svg" p-id="4206" width="26" height="40">
+                    <path
+                        d="M472.9 825.3c-47.5 0-93.6-9.3-137-27.7-41.9-17.7-79.6-43.1-111.9-75.4-32.3-32.3-57.7-70-75.4-111.9-18.4-43.4-27.7-89.5-27.7-137s9.3-93.6 27.7-137c17.7-41.9 43.1-79.6 75.4-111.9 32.3-32.3 70-57.7 111.9-75.4 43.4-18.4 89.5-27.7 137-27.7s93.6 9.3 137 27.7c41.9 17.7 79.6 43.1 111.9 75.4 32.3 32.3 57.7 70 75.4 111.9 18.4 43.4 27.7 89.5 27.7 137s-9.3 93.6-27.7 137c-17.7 41.9-43.1 79.6-75.4 111.9-32.3 32.3-70 57.7-111.9 75.4-43.3 18.4-89.4 27.7-137 27.7z m0-640c-158.8 0-288 129.2-288 288s129.2 288 288 288 288-129.2 288-288-129.2-288-288-288zM848.4 893.4l-90.5-90.5c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l90.5 90.5c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0z"
+                        p-id="4207" fill="#c9cfd7"></path>
+                </svg><input type="text" placeholder="搜索/品牌/型号"><button>搜索</button>
+            </div>
+            <!-- 购物车 -->
+            <div class="top-content-cart">
+                <img src="../images/cart.png" width="16" height="16" alt="" srcset="">
+                <span class="top-content-cart-cart">&nbsp;购物车</span><span class="numberCircle">0</span>
+            </div>
+            <div class="top-content-recommended">
+                <ul class="clear">
+                    <li>
+                        <a href="">轴承</a>
+                    </li>
+                    <li>
+                        <a href="">弹簧</a>
+                    </li>
+                    <li>
+                        <a href="">联轴器</a>
+                    </li>
+                    <li>
+                        <a href="">气缸</a>
+                    </li>
+                    <li>
+                        <a href="">同步带</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- nav -->
+        <!-- 导航栏 -->
+        <div class="top-nav centre">
+            <ul class="clear">
+                <li><a href="wkea-index.html">全部商品分类</a></li>
+                <li><a href="">供应商合作</a></li>
+                <li><a href="wkea-sale.html">售后服务</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- content -->
+    <!-- 内容 -->
+    <div class="content centre clearboth">
+        <div class="content-top">
+            <div class="content-top-left">
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="">
+                            <div class="clearfix">
+                                <div class="float-left">
+                                    工厂自动化零件
+                                </div>
+                                <div class="float-right">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="13px" height="13px">
+                                        <image x="0px" y="0px" width="13px" height="13px"
+                                            xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAMAAABFNRROAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA8FBMVEX///+Mn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7H///9rn4tZAAAATnRSTlMAHurx9qmvNWkUFarVxf3cPU+CsoOUofOHXNjJHN3SvSBtmLz+IX7eW2XlrPld+2/pp+/KwyRjn/faksa2SICtG7nwnfx5BtPMNKAZTRo88qJqAAAAAWJLR0QAiAUdSAAAAAd0SU1FB+QMFRQQEK9ssAEAAACZSURBVAjXNY7nEsEAEIQ3CEGCIKJEj6gheu/Rufd/HBcz9s9+O7M3ewBL8PkDIv4KUkiiMCKMUZJJApRYnBJQKZkSvEJay+igLFMuXzDYiiiVK6hSrW42YDUBasFsA50uehonG/0B4AwxEjGeTDGjubIwYC9BKz5X1xtvTMaWdvuDt2AFjyfg7Mp0wfXm3vXH77On83rTh+ELANIR1fEm0AkAAAAASUVORK5CYII=" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="clearfix">
+                                <div class="float-left">
+                                    螺钉/螺栓/垫圈/螺帽
+                                </div>
+                                <div class="float-right">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="13px" height="12px">
+                                        <image x="0px" y="0px" width="13px" height="12px"
+                                            xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAMCAMAAACOacfrAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAulBMVEX///+Mn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7H///+hVSgTAAAAPHRSTlMAZNd/O2NdJNUBSJrL9QTkmcL+dG5+GGHhvOqBiO88IIpS6JJpyDEbpMwP5aUeYHYC53UNPvr3MkFn8z1vA0eYAAAAAWJLR0QAiAUdSAAAAAd0SU1FB+QMFRQULORvCYIAAAB2SURBVAjXY2AAA0YmZhYGGGC1AQI2GI+dA8Rl5ITwuLh5gDxePgiP30ZA0MZGSBjEFhEVE5eQlLKxkQbxZGxk5eQVFJWUgWwVVTV1DRtNBgYtkIycto2Orp6+AdgAQyNjE1MbqNkMNjZmKuYWMIstrWxsrGEcALHZDNf3A0enAAAAAElFTkSuQmCC" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="clearfix">
+                                <div class="float-left">
+                                    工业用材料
+                                </div>
+                                <div class="float-right">
+                                    <svg 
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="13PX" height="12px">
+                                   <image  x="0px" y="0px" width="13px" height="12px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAKCAMAAACzB5/1AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAz1BMVEX///+Mn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7H////AjLIuAAAAQ3RSTlMACiUpHAkSJi4oDj45QD0NEEQ22xXFLJTMrkGh0Kc/ed732EvK/e2OwAgeu803wrXTkyo8GYbRMLP2zky++cZHusfEJkH41gAAAAFiS0dEAIgFHUgAAAAHdElNRQfkDBUUFRTVdoBdAAAAg0lEQVQI1zVNVxaCQBCLoBSBtYKKBTuCoqtYUbDM/e/kypP8JHmZSQCUJLlcUVRNrwIwTItJNaCuW40mA7Vk/NG2CU6n23N/RusPhiPB3ngynbH5YumLn5UfIFwTbSIRbLHj+4O4jIHj6WwDl+stuQPmI82eeaPzIv6mxC0WoH54lIsv45QL8e9vzd0AAAAASUVORK5CYII=" />
+                                   </svg>
+                                </div>
+                            </div>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="clearfix">
+                                <div class="float-left">
+                                    接线            
+
+                                </div>
+                                <div class="float-right">
+                                    <svg 
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="13px" height="12px">
+                                   <image  x="0px" y="0px" width="13px" height="12px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABFFBMVEX///+Mn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7H///9m4qfGAAAAW3RSTlMAsda8tcm7vsvO7i8nMBcpMSWoyF2Wa6tJpH/K5XPBiPMCeqlveHVSRp0YlHR9WrJNg5c1rAOVWWOQns1c4HGFI5sqpQSczxlQiX7Ygd4fOSA8PYtohnJmZYfEqNr03wAAAAFiS0dEAIgFHUgAAAAHdElNRQfkDBUUFgGThjd1AAAAl0lEQVQI1w3M5xaBAAAG0I+KQpkhexWyyp5lZWWT9f4Pot/3nAuHkyApF0m5SZqBx+tjOX+AC7JcCGFEeERjiAtIIAkhhXQG2Vy+gGJJlMqVqlyrN5poKWq7o3R7fH8wBIMRhfGEm86ggoamzxdafUlCtwNxtTY22x1hC4U9jYMJ0cQRJ5wvuN4g3/EAY2hP6/W2pM/39wdrbxO4LmLiWAAAAABJRU5ErkJggg==" />
+                                   </svg>
+                                </div>
+                            </div>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="clearfix">
+                                <div class="float-left">
+                                    控制/电子元件
+                                </div>
+                                <div class="float-right">
+                                    <svg 
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="13px" height="12px">
+                                   <image  x="0px" y="0px" width="13px" height="12px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAANCAMAAABIK2QJAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAe1BMVEX///+Mn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7H///9GX8AfAAAAKHRSTlMAuMjGx727kpBya2zKwhccorSyqwcjycwaDsN4ex4RgoR9EsF6xL/FmTSxuQAAAAFiS0dEAIgFHUgAAAAHdElNRQfkDBUUFjNbUWb1AAAAbElEQVQI1yWM1xLCMAwED52oUQjVaaYb/P9/iDXep525AmAhJHWJwkrXm+2usRbYawccjqezXQADrmrCUDo90KlStfrAENhXH6UEU3WMc7y5+8aZ/NMqci+7x9N56Rv4hJhSivL14o85ZxL4A3cFBl644iaqAAAAAElFTkSuQmCC" />
+                                   </svg>
+                                </div>
+                            </div>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="clearfix">
+                                <div class="float-left">
+                                    切削刀具
+                                </div>
+                                <div class="float-right">
+                                    <svg 
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="13px" height="12px">
+                                   <image  x="0px" y="0px" width="13px" height="12px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAMAAABlXnzoAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA6lBMVEX///+Mn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7H///9Lf3r6AAAATHRSTlMAII7EwNbR3T5FBnWohapHw0kWh4iSp9iwk9A7H2rFxnO8Tiw2IxsaKPMpXOnPu9fb4ce/HNMkhhBIqyqRAu2JXjC4yjHLyYRTT5mPkcjmjAAAAAFiS0dEAIgFHUgAAAAHdElNRQfkDBUUFxGXKhZQAAAAjklEQVQI1zXK5xKCMAAD4CitA0FRHDgRJy7ce2/Uvv/z2CLmR+6+XBAISoQQSkPhCHgoi8qyHFPUOEtwalqSd0pPZ7I5Iw9aKIpTqaxWTL0Ki9XqjWarbRudrth7/YEzHI0n0xm8zBdYMmn1A9YaYG22vrBzsD8c/4J0As6X683n3RZtPHwqT9d1X++Phy9x3Q4H+gtdOgAAAABJRU5ErkJggg==" />
+                                   </svg>
+                                </div>
+                            </div>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="clearfix">
+                                <div class="float-left">
+                                    生产加工用品
+                                </div>
+                                <div class="float-right">
+                                    <svg 
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="13px" height="13px">
+                                   <image  x="0px" y="0px" width="13px" height="13px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAMAAABFNRROAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA3lBMVEX///+Mn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7H///+sDoKNAAAASHRSTlMAEq7GScql1TVVto+AYaFlxJTkz8UIYLB50NO5PPWMkeNSXHW1YvmHHRbHqJdNIKunkPwb19astGqImMyDmZVDi/J97SohyEvO2j+6AAAAAWJLR0QAiAUdSAAAAAd0SU1FB+QMFRQXLiFMO20AAACBSURBVAjXY2CAAEYmZg8WBhhgZWNnZeCAcji5uLkYeDygPF4+fgFBIWEoT8RDVExcQhLCkZKWkZWTV1AEMpWURVQYVNUE1TUYGDS1tHU8dPk99MCK9A0MeRhkjYwhWkxMzcwtLK2gpnlYM9hI29pBefYMDo5Ozi4wN7l6uIm4Q9kAaQMMkA0GjVUAAAAASUVORK5CYII=" />
+                                   </svg>
+                                </div>
+                            </div>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="clearfix">
+                                <div class="float-left">
+                                    捆包用品/物流保管用品
+                                </div>
+                                <div class="float-right">
+                                    <svg 
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="16px" height="14px">
+                                   <image  x="0px" y="0px" width="16px" height="14px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAOCAMAAAAR8Wy4AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA9lBMVEWMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7H///8Cj9xrAAAAUHRSTlMADrpxV9PFJpHZdCdKrenoXeGApQxauVt4mLJmx3nIR3CzT00/z/6xnxKjyjebjsItzqIgK71tlveVDZKTiMHyYQGF2pScmezAHbYFQ2ieb/6UzdkAAAABYktHRFGUaXwqAAAAB3RJTUUH5AwVFQgG2GH3PgAAAKFJREFUCNdjYIABRiZmMM3CysYOojk4uTi5QQweXj5+BgYBQSFhEVExqOIAcQlJKWkZWQY5eYiAQoCiEgObMgODiipUiZq6hiYDg5Y2g6IQREAnQFePQZWLWV9I1gAiYmhoZGxiamYuZGEJEbAKsNZitrG1s3dwhJri5Ozi6mbhBnclg0iAO5+HJ4LP4KXqHeCDxGcwD/AN4EEWYPDj84cwAMdNEQJFKlpbAAAAAElFTkSuQmCC" />
+                                   </svg>
+                                </div>
+                            </div>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="clearfix">
+                                <div class="float-left">
+                                    个人防护/安全防护/办公用品
+                                </div>
+                                <div class="float-right">
+                                    <svg 
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="13px" height="13px">
+                                   <image  x="0px" y="0px" width="13px" height="13px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAMCAMAAACz+6aNAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAvVBMVEX///+Mn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7H////IjM51AAAAPnRSTlMAAiUFGLTLx7gdmMbIvp6mr7GwnaWrrISIwaqAjsy6c8S7vXuyf2lrjLXNqYdsBJDDjcIgwK3JGTXKMwcMCsESNC0AAAABYktHRACIBR1IAAAAB3RJTUUH5AwVFQgnlAjnYAAAAJJJREFUCNdNjtcOwjAQBJfmC9ihm9CcEBJ6B2MI5f9/ixQFmIfVabQrHZBRKJbwT7nCiFnVn6gRF8IWvJ6LBm+22tTpSt7LhEN9DCwaWhjxcWqUC2/ik5wGCFUiZmqOxXK13mx32LNDbOQxbZ7SPIfAhZSttXavfpy24TfcjRAsx4joAQSRoRxjnGT7fH1ffcfnB9ogDFFLUbSiAAAAAElFTkSuQmCC" />
+                                   </svg>
+                                </div>
+                            </div>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="clearfix">
+                                <div class="float-left">
+                                    研究管理用品
+                                </div>
+                                <div class="float-right">
+                                    <svg 
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="13px" height="13px">
+                                   <image  x="0px" y="0px" width="13px" height="13px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAMAAAAMCGV4AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA+VBMVEX///+Mn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7H///+h/gvxAAAAUXRSTlMAY05FM+r08O+GFff4lvGTDPoLjQf8/vUS0kSYt4kDHrCeppsW3vLr7a3zX7qyCvnpwwJbyNCPuVDU/Q7hpDuAipA9g7u4TQVBNywvODAnMUCiiVhEAAAAAWJLR0QAiAUdSAAAAAd0SU1FB+QMFRUJF6vK5o0AAACrSURBVAjXTczXEsFgFATgo+UcfkL03hJRI3qvQaKT938ZGUzYu292ZwHecThdbvjFwyGh16aP+QM8Bm2HBCEsYMR2NBaHBEX+en8yRWnbGcpCjrj8lwWOK5agzMQPpYogV2vVOjWab7dMpS2q1OmS2bPYl9lgmFVHMJ7g1FqzmJfNxDksSFnSCtamsuErW223Vw866iDFCXkkIpSRZoZ1cDydL1dNu90fTwNe9YUSkZEJSaAAAAAASUVORK5CYII=" />
+                                   </svg>
+                                </div>
+                            </div>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="clearfix">
+                                <div class="float-left">
+                                    冲压模具用零件
+                                </div>
+                                <div class="float-right">
+                                    <svg 
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="13px" height="13px">
+                                   <image  x="0px" y="0px" width="13px" height="13px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAOCAMAAAAR8Wy4AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA4VBMVEX///+Mn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7H///+XUIedAAAASnRSTlMAnsjJzIu1treWxsfPqhfLrcDNs8onBNCrj26wqafBhBB2h86ojYwMa3CDcw+9dwHRhm3ErIIHmaS/sRS8kya4CcOhrnuXui25DuCr/GAAAAABYktHRACIBR1IAAAAB3RJTUUH5AwVFQoG6leVvAAAAMhJREFUCNdVzVl3gjAQBeALxogkGqFpgwuopJultS64dRGX1uX//6EOj70vc+a7Z84AjlthVc5rXt0XsgE0VYsHgWQsFH7rRt/izkTtju42enHSbztsAAxNau9BeTCp+0jzyfq0P4+AFyYygtfwbYz3iU0BzfoEUzeYYZ4v5BKrSUwwtEmGtdgkwIdxCD7V1zcQ8wxbXZQnO9sNO+UX7OduCYfK+Cii9Of3JBApAhntR1pRa+q5p85AUYslPxabi6fzXnjF/1zxBxDEExxpChblAAAAAElFTkSuQmCC" />
+                                   </svg>
+                                </div>
+                            </div>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="clearfix">
+                                <div class="float-left">
+                                    塑料模具用零件
+                                </div>
+                                <div class="float-right">
+                                    <svg 
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="13px" height="13px">
+                                   <image  x="0px" y="0px" width="13px" height="13px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAwFBMVEX///+Mn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7H///9z/UeUAAAAP3RSTlMAGg4NG4CulR6vraaip7InCbCgn6GXqxF3qmSbDIiGeHqTZqWOo55rY2dppAqYnBSaEImQkRaCdH2DfLMriyGS3eMuAAAAAWJLR0QAiAUdSAAAAAd0SU1FB+QMFRUKKDaBmHMAAACoSURBVAjXPY7pDoIwGATXFj8oeFEpnlVRQEVB8cL7/R9L1Oj8m2SzGQAVxlkJZwZKqvTHBCxhO7UPddFooiVc2fak9KTy7Q44Udd3er5D/YGwMCS3q0fjSWBOZ2SUKkIijSieR19dLBMgUViV4zW5MgzTTDnZ+2pDylSDVG0DpSlHx8522ttrGegDHdFs2NVTcb4U11N2uwMP99co4nf0k7Oc8ZwNLeAF6/gOzOShMgYAAAAASUVORK5CYII=" />
+                                   </svg>
+                                </div>
+                            </div>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="clearfix">
+                                <div class="float-left">
+                                    注塑成型用商品
+                                </div>
+                                <div class="float-right">
+                                    <svg 
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="13px" height="12px">
+                                   <image  x="0px" y="0px" width="13px" height="12px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAMCAMAAACOacfrAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA21BMVEX///+Mn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7GMn7H///802vyCAAAAR3RSTlMAo28uNwYnZds+wL53a+uMXBjEsJLJ9mQrzdY0fYTYgJniWBB0jZZMuuU9hxkJJKd+vJOoM1ND3VBR4J2JcXvR2tPQv16Im503mRsAAAABYktHRACIBR1IAAAAB3RJTUUH5AwVFQsC9CFg5AAAAH9JREFUCNdjYAADRiYGBGB2Z4GyWNkYGNg5oBxOLm4eXj53fgFBEE9IWERUTFxCUkoaxBOVkZWThxugoMgopATnKcsoMoJoFVU1dRCtoQkktES1GYV0gAxddz0GBn0DQ3kjYwYTUzN3cwtLK2sbW0Y7Bm0peyEHR0cnZxdXNwYAPMYMGAdtb6sAAAAASUVORK5CYII=" />
+                                   </svg>
+                                </div>
+                            </div>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                            <li>
+                                <a href="">自动化</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- 轮播图 -->
+            <div class="content-top-content">
+                <!-- 轮播图 -->
+                <!-- 在div id为carousel 加入data-ride="carousel"即可实现图片轮播，这里响应老板要求不让其轮播，把它删掉 -->
+                <div id="carousel" class="carousel">
+                    <!-- 指示符 -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                    </ul>
+                    <!-- 轮播图片 -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="#">
+                                <img src="../images/lunbo1.png" />
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#">
+                                <img src="../images/lunbo2.png" />
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#">
+                                <img src="../images/lunbo3.png" />
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 左右切换按钮 -->
+                    <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+            <!-- 个人信息 -->
+            <div class="content-top-right">
+                <div class="content-top-right-top">
+                    <svg 
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="45px" height="45px">
+                   <image  x="0px" y="0px" width="45px" height="45px"  xlink:href="data:img/png;base64,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" />
+                   </svg>
+                </div>
+                <div class="content-top-right-welcome">
+                    Hi~欢迎回来
+                    <!-- 这里面是电话号码 -->
+                    <span>13753570654</span>
+                </div>
+                <!-- 支付 -->
+                <div class="content-top-right-pay">
+                    <ul class="clear">
+                        <li>
+                            <!-- 引擎模板更换 -->
+                            <span>0</span>
+                            待支付
+                        </li>
+                        <li>
+                            <span>0</span>
+                            待发货
+                        </li>
+                        <li>
+                            <span>0</span>
+                            全部订单
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <button class="content-top-right-btn">
+                    <svg 
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="24px" height="24px">
+                   <image  x="0px" y="0px" width="24px" height="24px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAAzCAMAAADrVgtcAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACplBMVEVmZmYAnef///9mZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmYAnecAnecAnecAnecAnedmZmZmZmYAnecAnecAnecAnecAnecAnedmZmZmZmZmZmZmZmZmZmYAnecAnecAnecAnecAnedmZmZmZmZmZmZmZmYAnecAnecAnecAnecAnecAnecAnedmZmZmZmZmZmZmZmZmZmYAnecAnecAnecAnedmZmZmZmYAnecAnecAnecAnedmZmZmZmZmZmYAnecAnecAnecAnedmZmZmZmYAnecAnecAnecAnecAnecAnedmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmYAnef///8tRxNZAAAA33RSTlMAAAACNHClx+fu99m4kVUWHIni/LtXAxD5SzzjzK+Zl6C84KMMWfqGNgVdsv0TW+xqBiWu0Q8x+MAZVvS0AdazOfBoc9IKR/7xJ4+KDenz2vYRfGkunL9GuQ4Hb0TtvXkXjPuiN97ESVDDQ+SLnylCTWDqQa3174coWM3CX8txqut7vjqxLW5FElOsngS3Jqt3pyQk6I/7/E75jlSVHmUUcvJJ9X6WG2Q+Arr9lBW7A9zTCUBeD8m9lTOOC6+wDZrIeF7jYQGD3wZbqOLgWh1Pxi/UiCC2z4Iwdmyd5Xc9ct9/hgAAAAFiS0dEAmYLfGQAAAAHdElNRQfkDBUVDxhtL1yaAAADUUlEQVRIx5WW6SNUURTAr4wxY5tsWUJokLQgNWRps4SolApR2kSLShKlPZWm0jq0pz20kKV90SLtSXud+VM6d7Y3y5s3M+fDu/ecc3/3vXPOXR4hBmLNs+HbCoRgJ7R3cHQSEbNkoLMLaIurm/sgk5CHoycYiL2XCcp7sHKgnY+v3xA//4BAFThUzEUFBdMxgpBhoWqLaHjYCGrzGWmcGuWKA0aHR+haI8dQLmqsMWqcBN3RMYaO8bHoiItnp0IT0Dkhgs01cRK6JrNjU9CVmMTuS07Br2cNz2MqgCTVWABpOGcam8MGHelGszUtAyDTg8UxHWDGTONZzsJZZxmaZ6M52zhFYrCkc9hnm8uBkXkAwTls1sxcLiwP551vYM0HKOCiCA+xBfrGhWgs5MRyFwEs1jcuYU+UtiwFWKZvK0JsOTdWjBtP3+aOWAk3FgewgpAcp5Wr0ldTXVy6hrcWMW+T2Lqy9YrNXx6Ju2yDagsnc2MBmkMiBSrIxuAUlVbJjVUxFBSTQs0kpjOJsmmzCF8rINUALl5btm4D2M6NCRHasRM7fABPguN3YT9+d40TJ2UNUL1H0ctGntixFJ9N9ibsU50mtQCxBAPcbw4m1ZzNitjwdOGbgzGSCFBFBAAHGJMVu+gEicdfLYnCULWxg4fqtIG6w0f0sKOYkRDiBnBMoUa6U+z4CbmsnqHqZfKGk7pYJWKnyGl8niHkLH7sOcTOy+XyC41qqvEiqpeU2GWadxQKXFHAWYRcxeYaYtdv4MCm5hYKtTQ3oXLzli52G+AOIa24kvNFpA2Nd2ls7R04VN7Q2dXV2UB7He1WOtg9bO5j64xtQSs98PIUmXzwUK4ljx5b6WJPsCnDVkwv3ael+HimKsDzbjXU/eKlpgC43yDsVSGuqtfWVG/zVO4GeqcoM9HzpvetTPau930PU7cPzO1co0zpx1ilWsRV7vhoNfVJfZl9/kJViZhzldDYMH2Bfcw9Lr1bkJ8Rzr0UHejCT8ollslXPF77LWQwNF/8xiBGH2BUdLAK+lsj1Yw2D5P20RqVEMuwkm8009+JBZj0x89ERbnS4s3F/PzDosqVNZb80skEJ8b85PWnEosx4W+eft45MVfhH1v+338RhuX6D6p2AYf1VbStAAAAAElFTkSuQmCC" />
+                   </svg>
+                    </svg>&nbsp;&nbsp;在线客服
+                </button>
+                <hr class="division">
+                <div class="content-top-right-need">
+                    <button><svg 
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="14px" height="16px">
+                       <image  x="0px" y="0px" width="14px" height="16px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAQAAACMnYaxAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkDBUVGgBJ9iLYAAAA3klEQVQY022RsUrDYBRGT0gR7NKlYyftJDiIQ4tShw6O+gB16qMIUtBFWvICXQVHKY51UHHzFQIOoUOhCnXxOCRtUuN3lwuHe+7/c5FSnRkZiJTRgV8uvP0PNoyNPHTu9V9Y9dWJodhy7mWFPAFjtjllyBNTPqkX5wYm7oo36oePhjnqufRIxMBnZ9bynccu7WX9lYnN/LVNEwcFQyftEWu+e5d+27bfXqxWYejEF6si7hQMCEbGNlwZ7jNDBrUrYuiDb5mhAPdFHK0N66oAe2zRpc8JMZsxzY/n5eP9AgFW9NwcioO/AAAAAElFTkSuQmCC" />
+                       </svg>&nbsp;&nbsp;&nbsp;&nbsp;提交需求</button>
+                    <span>
+                        维嘉愿意根据客户具体需求,提供个性化定制
+                    </span>
+                </div>
+                <div class="content-top-right-need">
+
+                    <button><svg 
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="21px" height="21px">
+                       <image  x="0px" y="0px" width="21px" height="21px"  xlink:href="data:img/png;base64,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" />
+                       </svg>&nbsp;&nbsp;成为供应商</button>
+                    <span>我们为合作供应商提供更多的销售渠道</span>
+                </div>
+            </div>
+        </div>
+        <!-- 展示商品 -->
+        <div>
+            <!-- product -->
+            <!-- 产品模板 -->
+            <!-- copy 循环这个以达到复制产品 -->
+            <div class="content-content-product">
+                <div class="content-content-product-top">
+                    <hr><span>工厂自动化零件</span>
+                </div>
+                <!-- 产品分类 -->
+                <div class="content-content-product-list">
+                    <ul class="clear">
+                        <li><a href="">直线运动零件</a></li>
+                        <li><a href="">气动/液压设备</a></li>
+                        <li><a href="">铝合金型材/管材</a></li>
+                        <li><a href="">输送机/滚轮/传送零件</a></li>
+                        <li><a href="">联轴器/带轮/传动零件</a></li>
+                        <li><a href="">脚轮/调整块/支柱/面板</a></li>
+                    </ul>
+                </div>
+                <!-- 产品 product -->
+                <div class="content-content-product-product">
+                    <table>
+                        <tr>
+                            <!-- 产品模板套用 -->
+                            <!-- <div>
+                                <img src="图片" alt="">
+                                <div class="product">
+                                    <a href="链接地址">商品名</a>
+                                    <span class="product-symbol">¥ <span class="product-money">价格</span></span>
+                                </div>
+                            </div> -->
+                            <td>
+                                <div>
+                                    <!-- 商品图 -->
+                                    <a href="">
+                                        <img src="../images/text.png" alt="">
+                                    </a>
+                                    <!-- 商品信息 -->
+                                    <div class="product">
+                                        <!-- 名称 -->
+                                        <a href="">史丹利 1650W 185mm 电圆锯</a>
+                                        <!-- 价格 -->
+                                        <span class="product-symbol">¥ <span class="product-money">475.00</span></span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <!-- 商品图 -->
+                                    <a href="">
+                                        <img src="../images/text.png" alt="">
+                                    </a>
+                                    <!-- 商品信息 -->
+                                    <div class="product">
+                                        <!-- 名称 -->
+                                        <a href="">史丹利 1650W 185mm 电圆锯</a>
+                                        <!-- 价格 -->
+                                        <span class="product-symbol">¥ <span class="product-money">475.00</span></span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <!-- 商品图 -->
+                                    <a href="">
+                                        <img src="../images/text.png" alt="">
+                                    </a>
+                                    <!-- 商品信息 -->
+                                    <div class="product">
+                                        <!-- 名称 -->
+                                        <a href="">史丹利 1650W 185mm 电圆锯</a>
+                                        <!-- 价格 -->
+                                        <span class="product-symbol">¥ <span class="product-money">475.00</span></span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <!-- 商品图 -->
+                                    <a href="">
+                                        <img src="../images/text.png" alt="">
+                                    </a>
+                                    <!-- 商品信息 -->
+                                    <div class="product">
+                                        <!-- 名称 -->
+                                        <a href="">史丹利 1650W 185mm 电圆锯</a>
+                                        <!-- 价格 -->
+                                        <span class="product-symbol">¥ <span class="product-money">475.00</span></span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <!-- 商品图 -->
+                                    <a href="">
+                                        <img src="../images/text.png" alt="">
+                                    </a>
+                                    <!-- 商品信息 -->
+                                    <div class="product">
+                                        <!-- 名称 -->
+                                        <a href="">史丹利 1650W 185mm 电圆锯</a>
+                                        <!-- 价格 -->
+                                        <span class="product-symbol">¥ <span class="product-money">475.00</span></span>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div>
+                                    <!-- 商品图 -->
+                                    <a href="">
+                                        <img src="../images/text.png" alt="">
+                                    </a>
+                                    <!-- 商品信息 -->
+                                    <div class="product">
+                                        <!-- 名称 -->
+                                        <a href="">史丹利 1650W 185mm 电圆锯</a>
+                                        <!-- 价格 -->
+                                        <span class="product-symbol">¥ <span class="product-money">475.00</span></span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <!-- 商品图 -->
+                                    <a href="">
+                                        <img src="../images/text.png" alt="">
+                                    </a>
+                                    <!-- 商品信息 -->
+                                    <div class="product">
+                                        <!-- 名称 -->
+                                        <a href="">史丹利 1650W 185mm 电圆锯</a>
+                                        <!-- 价格 -->
+                                        <span class="product-symbol">¥ <span class="product-money">475.00</span></span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <!-- 商品图 -->
+                                    <a href="">
+                                        <img src="../images/text.png" alt="">
+                                    </a>
+                                    <!-- 商品信息 -->
+                                    <div class="product">
+                                        <!-- 名称 -->
+                                        <a href="">史丹利 1650W 185mm 电圆锯</a>
+                                        <!-- 价格 -->
+                                        <span class="product-symbol">¥ <span class="product-money">475.00</span></span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <!-- 商品图 -->
+                                    <a href="">
+                                        <img src="../images/text.png" alt="">
+                                    </a>
+                                    <!-- 商品信息 -->
+                                    <div class="product">
+                                        <!-- 名称 -->
+                                        <a href="">史丹利 1650W 185mm 电圆锯</a>
+                                        <!-- 价格 -->
+                                        <span class="product-symbol">¥ <span class="product-money">475.00</span></span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <!-- 商品图 -->
+                                    <a href="">
+                                        <img src="../images/text.png" alt="">
+                                    </a>
+                                    <!-- 商品信息 -->
+                                    <div class="product">
+                                        <!-- 名称 -->
+                                        <a href="">史丹利 1650W 185mm 电圆锯</a>
+                                        <!-- 价格 -->
+                                        <span class="product-symbol">¥ <span class="product-money">475.00</span></span>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tail -->
+    <!-- 尾部 -->
+    <div class="tail clearboth">
+        <div class="centre">
+            <div class="tail-top">
+                <ul>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px"
+                            height="55px">
+                            <image x="0px" y="0px" width="48px" height="55px"
+                                xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIoAAACiCAMAAACppqUNAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABNVBMVEU0SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV7////u5UIsAAAAZXRSTlMAJLQMhvmHAVnmMcPEFJf9BGrvQNEeqNIJe/VrUd2YKrjFEIz6WgJiiDfHtRid20pJc/N3BkbV/qUZpCGuzjqE9utnZlbh+5Qtv5nc06epfO7eurno58hIdqNggCCfj3Aw369Qz9GlK84AAAABYktHRGYs1NklAAAAB3RJTUUH5AwVFAs21Ff+ZgAABQ5JREFUeNrtnHlf0zAYxx9ARFBkth6oKFp0eB+IB56ooNb7Plq6dYO8/7dgM9Y8yRpYN5L28WN/f3VdlnyX5Eme5JM8AHvXyOjoiIFs9q6xfeOMje8fK5sDJg5Mso4mD0yUSzJ1kAkdmioRZPrwDJM0c3i6JJDaEYf1yDlSK4PEPco0OuoWDnLsOBZ/wnVP4KfjxwoFmT15ChvldE1trFMnZ4sjmTuDXfVst6tOn8UufGauIJD5c9ga5yUDnjqE78/NFwDiLVwQBU5eVIa1iYuT4qsLC55lkPoiljZ+KTPYj+0fR87Fuk2Sy1ewDa5qp8CRq5jiymVrINeuY8+8cXOnVLduYJ++fs0KSO022uvSneWdEy7fWUJLv10zT3L3nsj//oOV3dOuPLwvEt+7axjk0WPsAk+e9k//9Ammf/zIIMjss1WR8fMXuQyj/vK5+MnqM2PD79q6yPXV69zDhff6lfjZ+poRkDc+1rX/pphfWvhvw9WnVvUXe2zxIXqZXibsYFDb02rlgZnRYZARSSuDY2bucVqvm0Znknyzl1bm59f+c7pWY5cseB19PB2trPliu/h/ek2dx5o07aHu5BVrNf0W+9c7C367bq2gVe209dVMZgWll/se6++DtTWeuq7UJ/mISeyufOXV9sfsX579hPPWZ9v7AfKydrW3I8x9we5UxC6JvDPzRTaP+a9YYwcL2juSl7Xf0kHDW0DvqMAdNbGLx/2qzlBaX/yOA/K+QvcZ5WXtj2SC+Yn1VPzu68golv4TcPL+VTQIl7SsTVGWfg/s0pjR8u8lFeXPMI6eIa08VFDKA+GqUCqUCqVCkRSEu2vDBkrgZxWAtJujVS7PdFCUUFNQWKFUKBWKERS3R5FNFBUoLSJF6Zfu/0VJG4cACpOeK5QK5d9C8SuUclA6vmpadMQ/BAqKVxwKy8hXUNzuY4MOSlihSChNufRyUUI6KKnj5pWPonhRdlEUn7XJP8RK+S3BZx1FW4SE0n2KykdJbblZPopiy+WitLtPfHJyy0WRD9+GpaLEjAxKgwyK56go6XZZXAzKZjKaxd0Vobq4D3PnZwLFa7akn6mV0kXJtTu5dxS/U7ao/jbToIStoAgUtccE6QtHQWGsFeY5dWIQJR3zme/3oCSK+hvRUCiuuuG1XWQsOoqroOy092IAJW601C6xXaQrSCLQoTimUbwMR6I2SP2EOZ6KojgwJlGyIMzfBC/Cjy6oKN3XDeMNtNXD4UTJuBFLb0NsE15bsNl93zSOotpOK0is1JPfdYpPe2qcfLmFz4ZR5Km33THQQO49W56Mkpi16Mz9sx7YgtK8nUZnRI8Vu94m0W1uty2gRNgyXBtOlgSiLEr/rjI4SrBtM9hiToZEsmyhHJPiwCgei2LlhWCJ8F1m8Ily5DwwCmRmtiDbBHHP/bIte9OhKm7MLbWqvEiCaeXzoUygJH5KI/u3N9LN/jhnLkZQPCPHCo2gmFGFUqFUKBWKVRRCBxcJHedkFA65Ejr6S+hANKFj4lxkDs9zkblSAJQuWgCh6yedJFQu5QClq0pA6AIXF5lrbUDpsh8QugLJReZiKBeZ67JA6RIxELpazUXmwjlQuoYPhIITcJEJ2TD8f7MQyAIohfcAQkFPuMiEggFKAXKAUNggLjLBlIBSiCkgFHiLi0w4Mi4yQdqAUug6IBTQj4tMmEOgFPwRCIXE5CITKBQohU8FQkFluQyF2v0LBLFSU/PlJy8AAAAASUVORK5CYII=" />
+                        </svg><span>现货</span></li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px"
+                            height="55px">
+                            <image x="0px" y="0px" width="48px" height="55px"
+                                xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIoAAACiCAMAAACppqUNAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABNVBMVEU0SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV7////u5UIsAAAAZXRSTlMAJLQMhvmHAVnmMcPEFJf9BGrvQNEeqNIJe/VrUd2YKrjFEIz6WgJiiDfHtRid20pJc/N3BkbV/qUZpCGuzjqE9utnZlbh+5Qtv5nc06epfO7eurno58hIdqMggK9wUN8wn49gzy0vMssAAAABYktHRGYs1NklAAAAB3RJTUUH5AwVFAcco1l4vAAABTVJREFUeNrtnGl30zoQhtWWUlooBJulQKHgQsq+lLKUtewY7uVedrCdzYn//1+gcmyNHStEViR5zqnfT2mtWI8lzUijWEPI9JqZnZ1RcJvpNbdvPorm989VzUEWDixGsRYPLFRLsnQwYjq0VCHI8uEjUUZHDi9XBNI4akUjso42qiCxj0UcHbONgxw/AdWftO2T8NeJ40ZBVk6dhk4508h31ulTK+ZIVs/CUD2XDNXlczCEz64aAlk7D71xIWPAS4fg/+fXDIA46xdZhYuXcm5t4dIiu3Rx3dEM0tyA2uYvF5z93P554Nxo6iS5chX64Bp3Cpy5BiWuXtEGcv0GjMybt8aVun0TxvSN61pAGnfAXjfvbo0vuHV3Eyz9TkM9yb377P4PHm7/vez2owes8P17ikEeP4Eh8PTZ5PLPnkL5J48Vgqw832E3fvFSyDCar16wr+w8V+Z+X79hd337TthdOO/esq+9ea0E5L0Lbe2+N/NNDc8m155cNV9O2eMSo4wvFXZQ1va42n6oxjuU8UhcKfSZwn6ar1tKZxKx2Ysr9fPr5Dmdq7nLGlYdE1Y6XGlbi/1l/cfX0gVoSdUr1HGrYq6WP8D4+qhh3c6LFbhqnNEezRQiKL7sf6D9/tUW4+XjSn6RT1BEb+SbjbY/FR955T+Yt/7XvR+QDWt3RgfC6mcYTiZ2SbI7M5+z5rH2BVrsoKG9o2xY+zV1Gs46rI4M7qixXTy6ropdaXPjGzjkfUb3GbNh7ffdCeYHtJP53deZWaj9B4HJ+6dpEKpMWJuibP4qvaRRo61fm3mU3zILPUXafpRDqQ6EqkapUfY2imfbvh+0qkZpu+nao1M1igOzSLdiFNJjKGHVKDZDke4hZcO2M3UPlUbpunwBSod3WYCvNAr0RCkJxDE1So2yp1BsIRlBESlMiDmUttvPXfSHskfubwDF2fWxnQyMn1zzzaOE8SfLT3cwg8pQuunnFMatDGUAxjqEqQzFg9k4gUlR2kZQvMRI4gfv52D6DAUqTkt7GlBAzgiMSzgoJSSP4kVuXGMrXevvPrhVDQptgRjG8a10qEZAZRClNfxKQGv1esnqOueJTaE4bPu3R2G6cft4laCkfpUqTJ1tauiWSRSn4FKyKK7RVhlxKcOg3a8GJQczIDkUuVh1CpTUiiMWEBanIFMoQyvOVJ1Oj+3SN5oeZXekuqx7Ss19ClC8wkK6F7WST32GwtFkB1wWJR2ZpTV5/NQoNUqNYhJlrJhTsWTfMFGF0ofnD/pyMGpQnDDfG4HMLKQEJb92GXZTrzSNAhQOSEJTblqcFqUbWtF4dcKuIRQ7HGkQDtagJRoUyaI4tu8Wq3W8kNNbgiYlgdK1/WAQcdSLL7eD4hWhYVMeJYz4spjJeC2ORU1umPIoDt9gglxddm/kskAQINFBvE1kt9ABTr5pNO2vhJNBRpsmELitDIqTs1mr1x1f0k+aRsT1ShkzzH1W0J9Qtk1tXuj3RCmUJAwchELzjBdaQr+Dy6HYluu3xZcCji4Xp0s1So1So9QoWlEQvbiI6HXOCMNLrohe/UX0QjSi18Sp0Lw8T4XmSAHBdNCCIDp+EhfBciiHYDqqRBAd4KJCc6yNYDrsRxAdgaRCczCUCs1xWYLpEDFBdLSaCs2Bc4LpGD5BlJyACk3KBvln05DIgmBK70EQJT2hQpMKhmBKkEMQpQ2iQpNMiWBKMUUQJd6iQpOOjApNkjaCKXUdQZTQjwpNmkOCKfkjQZQSkwpNolCCKX0qQZRUlkpRqt0/Ci/m6A0jacEAAAAASUVORK5CYII=" />
+                        </svg><span>实价</span></li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px"
+                            height="55px">
+                            <image x="0px" y="0px" width="48px" height="55px"
+                                xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIoAAACiCAMAAACppqUNAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABNVBMVEU0SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV7////u5UIsAAAAZXRSTlMAJLQMhvmHAVnmMcPEFJf9BGrvQNEeqNIJe/VrUd2YKrjFEIz6WgJiiDfHtRid20pJc/N3BkbV/qUZpCGuzjqE9utnZlbh+5Qtv5nc06epfO7eurno58hIdqOPYIAgMM9wn1Cv33e1cF8AAAABYktHRGYs1NklAAAAB3RJTUUH5AwVFAoNfEcmAwAABahJREFUeNrtnHl70zgQh9WWUlooBJujQKHgQsrNUspRznLjPdhllzNxHLuJv/9X2CiJNLItY8WWlHke8vvPkSK9lnXMyNYQUl9z8/NzGoqpr4UDi0myeHBh2hxk6dByMtTyoaXpkqwcTriOrEwRZPXosUTQsaOrUwJpHHeSjJzjjWmQuCcSiU641kFOnoLqT7vuabg6ddIqyNqZs/BQzjXSD+vsmTV7JOvnoateGHfV1QvQhc+vWwLZuAhP45IwgFeOwO8XNyyAeJuXeYXLV1LT2tKVZZ50edMzDNLcgtoWr+Ym+4WDi8C51TRJcu06PIMb0iVw7gbkuH7NGMjNW9Azb98pyvXbbejTt24aAWnchfG6fW+nOOPOvW0Y6Xcb+knuP+DlP3y0+/O8u48f8swP7msGefIUusCz5+X5nz+D/E+faARZe7HHC375SmlgNF+/5H/Ze6Ft+n3zlpf67r3ydOG9f8f/9vaNFpAPPrS1/8HOPw3cW7X2lKr5quYTr9DL5NIxDiYde1LtPtIzO0wyI0mlcc5UnqfluqN1JVFbvaTSv76Wr+lSLVw1YHWUWDpSGbPFfmL/ybVyCVpSt4VaZBVLtfo79K8/DNjtMl9BqsY5495MzoOSy/0T2u8vYz5e2q+UZ/kIWcx6vqK3/TF/y2t/w7r1j+n9ANGt3ct2hPVP0J1s7JKIOzOfxOGx8S+02GFLe0eiW/sfmzS8TbCOLO6o8V08alcNp9Lm1meYkA9Y3WcU3dovgwXmK7ST/d3XuXmo/SuBxfubbRAqwa1lKNvfJzZp9Gjn+3Ya5UcVQ0+Tdh+nUKYHQjVDmaH8Yiittmh+ByO1+Q8deyjh4B/dIEyXlPjsOnICayjx2DaNOzKUNgUNJymvBgqzwRxZq4Sjq0kapjrKPlvAYglKyDgnaJjqKD2GEuZRvD5faZ3IOIrH6uqnShq3SgsskCRWdHMro0SspihVEusr+8IbRcWHVBmFP4JOqiQ+gsIusOwbRcl22vy84sUsS1utyKoofDPWTZcEKKOpZaCWYpEVUULeDzIliSijIR2rllkRRdL4EhTidQVWMyid7EguQBkskuobVtVQeKME2ZKyKBOoEgpvFMcLmBhdP5DLEIrQKImqzKC4vHxv2ii+UP50UaIEC4rnoEHpJVhQogQLSugUlM+GlQ/dWqmRK6N43aJbjWyjdJIilGD8U88WChhv2T8wazawhtIrQvGto0RFKKy52tZQ3CIU9pNrDWWYs9/NVcYRO/ZQKEWYrywSGsoWSky7Q74yZsJ0LaJE1ITPV8Z6bc8iiiu9b+6MRBZRPE9WGe8qrkWUoXKV8aVJmmoThS9Nfj61regya0Lh2ylRPjUY+CNKfpkWFLAxO/nUIWas8J5YCwozEMYOcjrVF5NMo0CjRMUo5Q6sDhTeKOMdqHSqA3OfcRSw7Hoy0PFFudOsAQWcRVeSyubh8iFdHwUejy9J5dZD+RCqjSLYUm4m1RNJy6eWuiiCX+RnUyPhwikvtCaK6KGF2dSkFQR+ltMUikjSyqWKUtgxrYcikPShMwQSFIU1sR5KW/J4hJ1uQQpv72r2Fd4AkZjcz5Go7CPXHUGxrKpcszgqVkJdlNHWQnbZbacPdam9hamLMhzO3dxNd1p8GPVjtXcwGib+fQlJJVVDafkjDS8iTd+dVkMxohnKDGWGMkP5VVAQfbiI6HPOBMNHrog+/UX0QTSiz8Sp0Hw8T4XmSAHBdNCCIDp+MsyC5VAOwXRUiSA6wEWF5lgbwXTYjyA6AkmF5mAoFZrjsgTTIWKC6Gg1FZoD5wTTMXyCKDgBFZqQDdXvzUAgC4IpvAdBFPSECk0oGIIpQA5BFDaICk0wJYIpxBRBFHiLCk04Mio0QdoIptB1BFFAPyo0YQ4JpuCPBFFITCo0gUIJpvCpBFFQWSpNoXb/B+p059izTCQAAAAAAElFTkSuQmCC" />
+                        </svg><span>优质</span></li>
+                    <li><img src="../images/salable product.png" width="48px" height="55px" alt=""><span>正品</span></li>
+                    <li><img src="../images/automation.png" width="48px" height="55px" alt=""><span>自动化</span></li>
+                </ul>
+            </div>
+            <hr class="tail-hr">
+            <div class="tail-content">
+                <!-- 关于我们 -->
+                <div class="tail-content-about">
+                    <ul>
+                        <li><span>关于我们</span></li>
+                        <li><a href="">公司概要</a></li>
+                        <li><a href="">加入我们</a></li>
+                        <li><a href="">成为供应商</a></li>
+                    </ul>
+                </div>
+                <!-- 这里的tail-content-about主要是为了引入上面的样式 -->
+                <div class="tail-content-about">
+                    <ul>
+                        <li><span>购物指南</span></li>
+                        <li><a href="">常见问题</a></li>
+                        <li><a href="">服务条款</a></li>
+                        <li><a href="">隐私政策</a></li>
+                        <li><a href="">质量证明</a></li>
+                    </ul>
+                </div>
+                <!-- tp time and phone -->
+                <div class="tail-content-tp">
+                    <div class="tail-content-t">
+                        <ul>
+                            <li>电话<span>021-63721599</span></li>
+                            <li>
+                                邮件<span>WKEA@WKEA.CN</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tail-content-p">
+                        <ul class="clear">
+                            <li>
+                                <span>工作时间</span>
+                                周一到周日9:00-18:00
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="tail-content-hr">
+                <div class="tail-content-vx">
+                    <span>维嘉公众号</span>
+                    <img src="../images/code2.png" alt="">
+                </div>
+            </div>
+            <hr class="segmentation">
+            <div class="tail-tail">
+                WKEA© All Rights Reserved Privacy Policy - Terms of Use 沪ICP备02011020号-20
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
