@@ -9,7 +9,7 @@ wkea静态网页
 
 #### 安装教程
 
-1.  xxxx
+1. ssss
 2.  xxxx
 3.  xxxx
 
