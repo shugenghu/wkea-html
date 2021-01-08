@@ -13,7 +13,6 @@ input[type=checkbox]:after {
     background-color: #fff;
     box-sizing:border-box;
 }
-
 input[type=checkbox]:checked:after {
     content: "\2714";
     display:block;
@@ -26,14 +25,11 @@ input[type=checkbox]:checked:after {
     background-color: #009CE1;
 
 }
-
-/* 内容样式 */
 .content{
+    height: auto;
     background-color: white;
 }
-.middle-top{
-    margin-top: 30px;
-}
+/* 内容样式 */
 .middle-top .toppage{
     color: rgb(151,166,174);
     text-decoration: none;
@@ -46,17 +42,14 @@ input[type=checkbox]:checked:after {
 }
 .product-search{
     width: 1290px;
-    /* height: 2400px; */
-    /* border: 1px solid red; */
-    margin-top: 20px;
+    height: auto;
 }
 /* part_1 */
 .product-search .search-other{
     width: 1290px;
     height: 38px;
-    border: 1px solid #EFF3F6;
+    border: 1px solid #EBEBEB;
     background-color: #FFFFFF;
-    margin-top: 10px;
 }
 .product-search .search-other .other{
     width: 100px;
@@ -97,7 +90,7 @@ input[type=checkbox]:checked:after {
 .search-type{
     width: 1290px;
     height: 50px;
-    border: 1px solid #EFF3F6;
+    border: 1px solid #EBEBEB;
     background-color: #FFFFFF;
     margin-top: 10px;
 }
@@ -107,7 +100,8 @@ input[type=checkbox]:checked:after {
     background-color:#EFF3F6 ;
     color: #34495E;
     font-size: 18px;
-    border: 1px solid #E5E5E5;
+    border-right: 1px solid #EBEBEB;
+    border-bottom: 0;
     text-align:  center;
     line-height: 50px;
 }
@@ -137,7 +131,7 @@ input[type=checkbox]:checked:after {
 .search-brand{
     width: 1290px;
     height: 51px;
-    border: 1px solid #EFF3F6;
+    border: 1px solid #EBEBEB;
     background-color: #FFFFFF;
     margin-top: 10px;
 }
@@ -147,7 +141,7 @@ input[type=checkbox]:checked:after {
     background-color:#EFF3F6 ;
     color: #34495E;
     font-size: 18px;
-    border: 1px solid #E5E5E5;
+    border-right: 1px solid #EBEBEB;
     text-align:  center;
     line-height: 50px;
 }
@@ -191,7 +185,7 @@ input[type=checkbox]:checked:after {
 .search-type2{
     width: 1290px;
     height: 52px;
-    border: 1px solid #EFF3F6;
+    border: 1px solid #EBEBEB;
     background-color: #FFFFFF;
     font-size: 18px;
     border-top: none;
@@ -202,7 +196,7 @@ input[type=checkbox]:checked:after {
     background-color:#EFF3F6 ;
     color: #34495E;
     font-size: 18px;
-    border: 1px solid #E5E5E5;
+    border-right: 1px solid #EBEBEB;
     text-align:  center;
     line-height: 50px;
     border-top: none;
@@ -249,17 +243,17 @@ input[type=checkbox]:checked:after {
 .search-cad{
     width: 1290px;
     height: 50px;
-    border: 1px solid #EFF3F6;
+    border: 1px solid #EBEBEB;
     background-color: #FFFFFF;
     border-top: 0;
 }
 .search-cad .cad{
     width: 141px;
-    height: 50px;
+    height: 49px;
     background-color:#EFF3F6 ;
     color: #34495E;
     font-size: 18px;
-    border: 1px solid #E5E5E5;
+    border-right: 1px solid #EBEBEB;
     text-align:  center;
     line-height: 50px;
     border-top: none;
@@ -305,14 +299,15 @@ input[type=checkbox]:checked:after {
 .product-infos{
     widows: 1290px; 
     height: 50px;
-    border: 1px solid #EFF3F6;
+    border: 1px solid #EBEBEB;
     margin-top: 20px;
+    border-bottom: 0;
 }
 .product-infos .people{
     width: 141px;
     height: 49px;
     background-color: #EFF3F6;
-    border: 1px solid #E5E5E5;
+    border-right: 1px solid #EBEBEB;
     line-height: 50px;
     color: #009CE1;
     font-size: 18px;
@@ -323,7 +318,7 @@ input[type=checkbox]:checked:after {
     width: 141px;
     height: 49px;
     background-color: #EFF3F6;
-    border: 1px solid #E5E5E5;
+    border-right: 1px solid #EBEBEB;
     line-height: 50px;
     color: #34495E;
     font-size: 18px;
@@ -342,7 +337,7 @@ input[type=checkbox]:checked:after {
 .product-infos .price-type .txt{
     width: 315px;
     height: 49px;
-    border: 1px solid #E5E5E5;
+    border-right: 1px solid #EBEBEB;
     line-height: 49px;
     padding-left: 30px;
     background-color: #EFF3F6;
@@ -368,7 +363,7 @@ input[type=checkbox]:checked:after {
     font-size: 14px;
     font-weight: 100;
     line-height: 29px;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 .product-infos .product-count{
     width: 150px;
@@ -387,17 +382,16 @@ input[type=checkbox]:checked:after {
 }
 .product-look{
     width: 1290px;
-    height: 1345px;
-    border: 1px solid #EFF3F6;
+    height: auto;
+    padding-bottom: 130px;
 }
 .product-look dl{
-    height: 336px;
-    width: 257.5px;
+    height: 337px;
+    width: 258px;
     border: 1px solid #EFF3F6;
-    float: left;
-    border-right:0 ;
-    border-top: 0;
+    display: inline-block;
     margin: 0;
+    margin-right: -5px;
 }
 .product-look dl dt{
     width: 257px;
@@ -408,9 +402,9 @@ input[type=checkbox]:checked:after {
 }
 .product-look dl dt img{
     width: 152px;
-    height: 118px;
+    height: 150px;
     /* border: 1px solid red; */
-    margin-top: 20px;
+
 }
 .product-look dl .tit{
     width: 200px;

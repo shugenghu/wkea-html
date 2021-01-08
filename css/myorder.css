@@ -2,11 +2,8 @@
     position: relative;
 }
 .content{
-    height: 1250px;
     background-color: white;
-}
-.middle-top{
-    margin-top: 30px;
+    padding-bottom: 130px;
 }
 .middle-top .toppage{
     color: #72899B;
@@ -102,7 +99,7 @@
 .address{
     color: #72899B;
     font-size: 14px;
-    margin-left: 50px;
+    margin-left: 15px;
 }
 .address a{
     color: #009CE1;
@@ -302,7 +299,7 @@
     width:1290px;
     border: 1px solid #E5E5E5;
     background-color: #EFF3F6;
-    margin-top: 60px;
+    margin-top: 40px;
     line-height: 55px;
 }
 .content-item-info-4 div{

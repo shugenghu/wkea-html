@@ -9,8 +9,10 @@ $(function(){
     $('#chooseinvoice').hide();
     //新增发票_专用
     $('#zhuaninvoice').hide();
-    //新增发票_普通
-    $('#puinvoice').hide();
+    //新增发票_普通_个人
+    $('#geinvoice').hide();
+    // 新增发票_普通_企业
+    $('#qiinvoice').hide();
     //增票开具确认书
     $('#addinvoice').hide();
 
@@ -22,14 +24,25 @@ $(function(){
       backgroundDiv.style.cssText="left:0;top:0;position:fixed;background:#000000;opacity:0.5;width:100%;height:100%;z-Index:3";
       body.appendChild(backgroundDiv);
     })
-    //点击新增发票，弹出新增发票对话框_普通
-    $('#newinvoice').click(function(){
-        $('#puinvoice').show();
+    //点击新增发票，弹出新增发票对话框_普通_个人
+   $('#invoice').click(function(){
+       $('#geinvoice').show();
+       backgroundDiv.style.cssText="left:0;top:0;position:fixed;background:#000000;opacity:0.5;width:100%;height:100%;z-Index:3";
+      body.appendChild(backgroundDiv);
+    })
+    //点击新增发票，弹出新增发票对话框_普通_企业
+    $('#qiradio').click(function(){
+        $('#qiinvoice').show();
         backgroundDiv.style.cssText="left:0;top:0;position:fixed;background:#000000;opacity:0.5;width:100%;height:100%;z-Index:3";
         body.appendChild(backgroundDiv);
     })
     //点击专用发票按钮，弹出专用发票详情对话框
-    $('#zhuanradio').click(function(){
+    $('#zhuanradio1').click(function(){
+        $('#zhuaninvoice').show();
+        backgroundDiv.style.cssText="left:0;top:0;position:fixed;background:#000000;opacity:0.5;width:100%;height:100%;z-Index:3";
+        body.appendChild(backgroundDiv);
+    })
+    $('#zhuanradio2').click(function(){
         $('#zhuaninvoice').show();
         backgroundDiv.style.cssText="left:0;top:0;position:fixed;background:#000000;opacity:0.5;width:100%;height:100%;z-Index:3";
         body.appendChild(backgroundDiv);
@@ -64,7 +77,7 @@ $(function(){
     $('#wrong1').click(function(){
        $('#chooseaddress').hide();
        backgroundDiv.style.cssText = "overflow:hidden";
-       body.removeChile(backgroundDiv);
+       body.removeChild(backgroundDiv);
     })
     $('#wrong2').click(function(){
        $('#myaddress').hide();
@@ -74,15 +87,18 @@ $(function(){
     $('#wrong3').click(function(){
        $('#chooseinvoice').hide();
        backgroundDiv.style.cssText = "overflow:hidden";
-       body.removeChile(backgroundDiv);
+       body.removeChild(backgroundDiv);
     })
     $('#wrong4').click(function(){
         $('#zhuaninvoice').hide();
     })
     $('#wrong5').click(function(){
-        $('#puinvoice').hide();
+        $('#geinvoice').hide();
     })
     $('#wrong6').click(function(){
+        $('#qiinvoice').hide();
+    })
+    $('#wrong7').click(function(){
         $('#addinvoice').hide();
     })
     
@@ -90,7 +106,7 @@ $(function(){
    $('#btn_no1').click(function(){
        $('#chooseaddress').hide();
        backgroundDiv.style.cssText = "overflow:hidden";
-       body.removeChile(backgroundDiv)
+       body.removeChild(backgroundDiv)
    })
    $('#btn_no2').click(function(){
        $('#myaddress').hide();
@@ -98,13 +114,15 @@ $(function(){
    $('#btn_no3').click(function(){
        $('#chooseinvoice').hide();
        backgroundDiv.style.cssText = "overflow:hidden";
-       body.removeChile(backgroundDiv)
+       body.removeChild(backgroundDiv)
    })
    $('#btn_no4').click(function(){
        $('#zhuaninvoice').hide();
    })
   $('#btn_no5').click(function(){
-       $('#puinvoice').hide();
+       $('#geinvoice').hide();
    })
-   
+  $('#btn_no6').click(function(){
+      $('#qiinvoice').hide();
+  })
 })
