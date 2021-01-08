@@ -1,0 +1,180 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+	/* 引用字体 */
+@font-face{
+    font-family: TitilliumWeb;
+    src: url(fonts/TitilliumWeb-Regular-10.ttf);
+}
+.TitilliumWeb{
+    font-family: 'TitilliumWeb';
+}
+			#wkea-phone {
+				width: 639px;
+				height: 612px;
+				border: 1.3px solid wheat;
+			}
+
+			#wkea-phone-header {
+				height: 115px;
+				line-height: 160px;
+				width: 90%;
+				margin: auto;
+				
+			}
+			.wkea-phone-header-icon
+			 {
+				width: 88px;
+				height: 88px;
+				float: right;
+				margin-top: 15px;
+			}
+			
+			.wkea-phone-header-btn {
+				height: 31px;
+				width: 124px;
+				margin-top: 15px;
+				float: left;
+				margin-left: 110px;
+				color: #72899B;
+				background-color: #FFFFFF;
+				border: none;
+				border-radius:2px ;
+				
+				
+			}
+
+			#wkea-phone-header ul {
+				width: 100%;
+				list-style: none;
+				border-bottom: 2px solid #EFF3F6;
+				overflow: hidden;
+
+			}
+
+			#wkea-phone-header ul li {
+				float: left;			
+				height: 112px;
+				overflow: hidden;
+			}
+
+			#wkea-phone-header ul li a {
+				text-decoration: none;
+				color: #34495E;
+				font-size: 24px;
+				font-weight: bold;
+			}
+			.wkea-phone-header-item1{
+				border-bottom: 5px solid #34495E;
+				
+			}
+			.wkea-phone-header-item2{
+				margin-left: 50px;
+				
+			}
+			#wkea-phone-header ul .wkea-phone-header-item2 a{
+				color: #72899B;
+			}
+			#wkea-phone-content{
+	       
+				width: 68%;
+				height: 315px;
+				margin: 0 auto;
+				text-align: center;
+			
+				  margin-top: 70px;
+			
+			}
+			#wkea-phone-content ul{
+				list-style: none;
+				text-align: left;
+			}
+			#wkea-phone-content ul li{
+				height: 75px;
+					border-bottom:2px  solid  #DFE4E8;
+					overflow: hidden;
+					margin-bottom: 40px;
+			}
+			.wkea-phone-content-txt{
+				color: #34495E;
+				font-size: 20px;
+			}
+			.wkea-phone-content-input1{
+				height: 50px;
+				width: 430px;
+				border: none;
+			
+				margin-bottom: 30px;
+				font-size: 20px;
+				color: #72899B;
+			
+			}
+			.wkea-phone-content-input2{
+			
+				height: 50px;
+				width: 250px;
+				border: none;
+			   font-size: 20px;
+			   color: #72899B;
+			 
+			}
+			.wkea-phone-content-input1,.wkea-phone-content-input2:focus{
+				outline: none;
+			}
+			.wkea-phone-content-btn{
+			margin-top: 10px;
+				width: 430px;
+				height: 54px;
+				background-color: #3DC0FA;
+				border: none;
+				box-shadow: 0 3px 9px rgb(0, 156, 225,0.45);
+				color: #FFFFFF;
+				font-size: 18px;
+				border-radius: 6px;
+				border-bottom:none;
+				
+				border: 1px solid #2289C2;
+			}
+			
+			.wkea-phone-content-btn:focus{
+				outline: none;
+				box-shadow: 6px;
+			}
+			.wkea-phone-footer-txt1 {
+				margin-top: 20px;
+				text-align: center;
+				height: 32px;
+				line-height: 32px;
+				vertical-align: middle;
+				color: #34495E;
+				font-size: 18px;
+			}
+			
+			#wkea-phone-footer {
+				text-align: center;
+				color: #72899B;
+			}
+			.wkea-phone-footer-txt3 {			
+				height: 20px;
+				line-height: 20px;
+				vertical-align: text-bottom;			
+				font-size: 16px;
+			}
+			.wkea-btnSendcode{
+				margin-top: 10px;
+				float: right;
+			height: 30px;
+			line-height: 30px;
+			font-size: 14px;
+			background-color: #EFF3F6;
+			border-radius: 6px;
+			border: none;
+			width: 100px;
+			color: #72899B;
+			}
+			.wkea-btnSendcode:focus{		
+				outline: none;
+				border: 1px solid #009CE1;
+			}
+		

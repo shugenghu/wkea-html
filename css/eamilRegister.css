@@ -1,0 +1,147 @@
+
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			#eamilRegister{
+				height: 840px;
+				width:639px;
+				border:  1px solid #009CE1;
+				
+			}
+			#eamilRegister-header{
+				height: 100px;
+				text-align: center;
+				line-height: 100px;
+				color: #34495E;
+				font-weight: bold;
+				font-size: 24px;
+			}
+		#eamilRegister-content{
+			width: 68%;
+			height: 638px;
+			margin: 0 auto;
+			text-align: center;
+			 
+		
+		}
+			#eamilRegister-footer {
+				height: 92px;
+				line-height: 92px;
+				background-color:#EFF3F6 ;
+				text-align: center;
+			}
+			.eamilRegister-footer-txt1{
+				color: #72899B;
+				font-size: 18px;
+			}
+			.eamilRegister-footer-txt2 a{
+				color: #009CE1;
+				font-size: 18px;
+			}
+		
+			#eamilRegister ul{
+				list-style: none;
+				text-align: left;
+			}
+			#eamilRegister-content ul li{
+				height: 70px;
+			  border-bottom:2px  solid  #DFE4E8;
+			  overflow: hidden;
+					margin-bottom: 40px;
+			}
+			.eamilRegister-content-txt{
+				color: #34495E;
+				font-size: 20px;
+			}
+			.eamilRegister-content-input1{
+				height: 50px;
+				width: 430px;
+				border: none;
+			
+				margin-bottom: 30px;
+				font-size: 20px;
+				color: #72899B;
+			
+			}
+			.eamilRegister-content-input2{
+			
+				height: 50px;
+				width: 250px;
+				border: none;
+			   font-size: 20px;
+			   color: #72899B;
+			 
+			}
+			.eamilRegister-content-input1,.eamilRegister-content-input2:focus{
+				outline: none;
+			}
+			.eamilRegister-content-btn{
+			
+				width: 430px;
+				height: 54px;
+				background-color: #3DC0FA;
+				border: none;
+				box-shadow: 0 3px 9px rgb(0, 156, 225,0.45);
+				color: #FFFFFF;
+				font-size: 18px;
+				border-radius: 6px;
+				border-bottom:none;
+			}
+			
+			.eamilRegister-content-btn:focus{
+				outline: none;
+			
+				box-shadow: 6px;
+			}
+			.eamilRegister-footer-txt1 {
+				margin-top: 20px;
+				text-align: center;
+				vertical-align: bottom;
+				color: #72899B;
+				font-size: 18px;
+			}
+			
+			#eamilRegister-footer {
+				text-align: center;
+				color: #72899B;
+			}
+			.eamilRegister-footer-txt3 {			
+				height: 20px;
+				line-height: 20px;
+				vertical-align: text-bottom;			
+				font-size: 16px;
+			}
+			.btnSendcode{
+				margin-top: 10px;
+				float: right;
+			height: 30px;
+			line-height: 30px;
+			font-size: 14px;
+			background-color: #EFF3F6;
+			border-radius: 6px;
+			border: none;
+			width: 100px;
+			color: #72899B;
+			}
+			.btnSendcode:focus{		
+				outline: none;
+				border: 1px solid #009CE1;
+			}
+			.eamilRegister-content2{
+				margin-top: 15px;
+				font-size: 16px;
+				color: #34495E;
+			}
+			.eamilRegister-content2 a{
+				color: #009CE1;
+			}
+	
+		/* 引用字体 */
+@font-face{
+    font-family: TitilliumWeb;
+    src: url(fonts/TitilliumWeb-Regular-10.ttf);
+}
+.TitilliumWeb{
+    font-family: 'TitilliumWeb';
+}

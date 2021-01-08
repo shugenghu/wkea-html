@@ -1,0 +1,72 @@
+
+			* {
+				padding: 0px;
+				margin: 0px;
+			}
+
+
+			#Wechartcode {
+				width: 639px;
+				height: 612px;
+				border: 1.3px solid wheat;
+
+			}
+
+
+			#Wechartcode-header {
+				height: 115px;
+				line-height: 160px;
+				width: 90%;
+				margin: auto;
+				border-bottom: 2px solid #EFF3F6;
+
+			}
+
+			.Wechartcode-text {
+				color: #34495E;
+				font-weight: bold;
+				font-size: 24px;
+
+			}
+
+			.Wechartcode-icon {
+				margin-top: 15px;
+				float: right;
+				cursor: pointer;
+
+			}
+
+			#Wechartcode-content {
+				width: 100%;
+				height: 370px;
+				text-align: center;
+			}
+
+			.Wechartcode-content-img {
+				margin: 0 190px;
+				width: 255px;
+				height: 255px;
+			}
+
+			.Wechartcode-footer-txt1 {
+				margin-top: 20px;
+				text-align: center;
+				height: 32px;
+				line-height: 32px;
+				vertical-align: bottom;
+				color: #34495E;
+				font-size: 18px;
+			}
+
+			#Wechartcode-footer {
+				margin-top: 30px;
+				text-align: center;
+				color: #72899B;
+			}
+			.Wechartcode-footer-txt3 {			
+				height: 20px;
+				line-height: 20px;
+				vertical-align: text-bottom;			
+				font-size: 16px;
+			}
+	
