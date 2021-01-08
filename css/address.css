@@ -815,8 +815,8 @@ select {
     box-shadow: 0 3px 9px rgb(0, 156, 225,0.45);   
 }
 
- /* 新增发票_普通 */
- #puinvoice{
+ /* 新增发票_普通_个人 */
+ #geinvoice{
     min-width: 980px;
     position: absolute;
     top: 180px;
@@ -825,11 +825,11 @@ select {
     z-index: 5;
     border-radius: 10px;
 }
-.puinvoice_info{
+.geinvoice_info{
     width: 980px;
     height: 632px;
 }
-.puinvoice_info .info-item-1{
+.geinvoice_info .info-item-1{
     width: 980px;
     height: 80px;
     background-color:#FFFFFF;
@@ -837,105 +837,105 @@ select {
     line-height: 86px;
     border-radius: 10px;
 }
-.puinvoice_info .info-item-1 .tit{
+.geinvoice_info .info-item-1 .tit{
     font-size: 24px;
     margin-left: 50px;
     color: #34495E;
 }
-.puinvoice_info .info-item-1 .wrong{
+.geinvoice_info .info-item-1 .wrong{
     margin-left: 740px;
 }
-.puinvoice_info p{
+.geinvoice_info p{
     color: #667B8B;
     font-size: 18px;
 }
-.puinvoice_info .invoice{
+.geinvoice_info .invoice{
     margin-left:  161px;
     margin-top: 60px;
     color:#667B8B
 }
-.puinvoice_info .invoice input[type=radio]{
+.geinvoice_info .invoice input[type=radio]{
     margin-left: 48px;
     margin-right: 20px;
 }
-.puinvoice_info .invoice-type{
+.geinvoice_info .invoice-type{
     margin-left:  160px;
     margin-top: 25px;
     color:#667B8B
 }
-.puinvoice_info .invoice-type  input[type=radio]{
+.geinvoice_info .invoice-type  input[type=radio]{
     margin-left: 50px;
     margin-right: 20px;
 }
-.puinvoice_info .zhuan{
+.geinvoice_info .zhuan{
     color: #34495E;
 }
-.puinvoice_info .pu{
+.geinvoice_info .pu{
     color: #34495E;
 }
-.puinvoice_info .people label{
+.geinvoice_info .people label{
     margin-left: 160px;
 }
-.puinvoice_info .people input[type=text]{
+.geinvoice_info .people input[type=text]{
     width: 527px;
     height: 58px;
     margin-left: 50px;
     border: 1px solid #EFF3F6;
     border-radius: 5px;
 }
-.puinvoice_info .type-1{
+.geinvoice_info .type-1{
     margin-left: 215px;
     margin-top: 10px;
     line-height: -20px;
 }
-.puinvoice_info .type-1 input[type=radio]{
+.geinvoice_info .type-1 input[type=radio]{
     float: left;
     margin-left: 110px;
     margin-top: 18px;
 }
-.puinvoice_info .type-1 label{
+.geinvoice_info .type-1 label{
     margin-left: 15px;
     margin-top: 13px;
     color: #34495E;
 }
 
-.puinvoice_info .myself{
+.geinvoice_info .myself{
     margin-left: 215px;
     margin-top: 10px;
     line-height: -20px;
 }
-.puinvoice_info .myself input[type=checkbox]{
+.geinvoice_info .myself input[type=checkbox]{
     float: left;
     margin-left: 110px;
     margin-top: 10px;
 }
-.puinvoice_info .myself label{
+.geinvoice_info .myself label{
     margin-left: 15px;
     margin-top: 6px;
     color: #34495E;
 }
-.puinvoice_info .myself label a{
+.geinvoice_info .myself label a{
     color: #009CE1;
     text-decoration: none;
 }
-.puinvoice_info .zp{
+.geinvoice_info .zp{
     color: #009CE1;
     border: 1px solid #009CE1;
     width: 140px;
     margin-top: -25px;
     margin-left: 514px;
 }
-.puinvoice_info .hui{
+.geinvoice_info .hui{
     width: 977px;
     margin-top: 100px;
     border:1px solid #EFF3F6;
 }
-.puinvoice_info .info-confirm{
+.geinvoice_info .info-confirm{
     width: 980px;
     height: 100px;
     /* border: 1px solid red; */
 }
-.puinvoice_info .info-confirm .No{
+.geinvoice_info .info-confirm .No{
     width: 180px;
     height: 100px;
     /* border: 1px solid black; */
@@ -957,7 +957,179 @@ select {
 .info-confirm .No #btn_no5{
     box-shadow: 0 1px 4px rgb(201, 220, 235,0.9);
 }
-.puinvoice_info .info-confirm .Yes{
+.geinvoice_info .info-confirm .Yes{
+    width: 180px;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: block;
+    margin-left:530px;
+    margin-top: -100px;
+}
+.info-confirm .Yes input[type=button]{
+    width: 180px;
+    height: 50px;
+    border: 1px solid #2289C2;
+    display: block;
+    background-color: #009CE1;
+    margin-top: -50px;
+    border-radius: 5px;
+    box-shadow: 0 3px 9px rgb(0, 156, 225,0.45);  
+}
+
+ /* 新增发票_普通_企业 */
+ #qiinvoice{
+    min-width: 980px;
+    position: absolute;
+    top: 180px;
+    left: 350px;
+    background-color: white;
+    z-index: 5;
+    border-radius: 10px;
+}
+.qiinvoice_info{
+    width: 980px;
+    height: 703px;
+}
+.qiinvoice_info .info-item-1{
+    width: 980px;
+    height: 80px;
+    background-color:#FFFFFF;
+    box-shadow: 0 2px 11px rgb(0, 156, 225 ,0.15);
+    line-height: 86px;
+    border-radius: 10px;
+}
+.qiinvoice_info .info-item-1 .tit{
+    font-size: 24px;
+    margin-left: 50px;
+    color: #34495E;
+}
+.qiinvoice_info .info-item-1 .wrong{
+    margin-left: 740px;
+}
+.qiinvoice_info p{
+    color: #667B8B;
+    font-size: 18px;
+}
+.qiinvoice_info .invoice{
+    margin-left:  161px;
+    margin-top: 60px;
+    color:#667B8B
+}
+.qiinvoice_info .invoice input[type=radio]{
+    margin-left: 48px;
+    margin-right: 20px;
+}
+.qiinvoice_info .invoice-type{
+    margin-left:  160px;
+    margin-top: 25px;
+    color:#667B8B
+}
+.qiinvoice_info .invoice-type  input[type=radio]{
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.qiinvoice_info .zhuan{
+    color: #34495E;
+}
+.qiinvoice_info .pu{
+    color: #34495E;
+}
+.qiinvoice_info .people label{
+    margin-left: 160px;
+}
+.qiinvoice_info .people input[type=text]{
+    width: 527px;
+    height: 58px;
+    margin-left: 50px;
+    border: 1px solid #EFF3F6;
+    border-radius: 5px;
+}
+.qiinvoice_info .callus{
+    margin-left: 160px;
+}
+.qiinvoice_info .callus input[type=text]{
+    margin-left: 39px;
+    width: 527px;
+    height: 58px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #EFF3F6;
+}
+.qiinvoice_info .type-1{
+    margin-left: 215px;
+    margin-top: 10px;
+    line-height: -20px;
+}
+.qiinvoice_info .type-1 input[type=radio]{
+    float: left;
+    margin-left: 110px;
+    margin-top: 18px;
+}
+.qiinvoice_info .type-1 label{
+    margin-left: 15px;
+    margin-top: 13px;
+    color: #34495E;
+}
+
+.qiinvoice_info .myself{
+    margin-left: 215px;
+    margin-top: 10px;
+    line-height: -20px;
+}
+.qiinvoice_info .myself input[type=checkbox]{
+    float: left;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.qiinvoice_info .myself label{
+    margin-left: 15px;
+    margin-top: 6px;
+    color: #34495E;
+}
+.qiinvoice_info .myself label a{
+    color: #009CE1;
+    text-decoration: none;
+}
+.qiinvoice_info .zp{
+    color: #009CE1;
+    border: 1px solid #009CE1;
+    width: 140px;
+    margin-top: -25px;
+    margin-left: 514px;
+}
+.qiinvoice_info .hui{
+    width: 977px;
+    margin-top: 100px;
+    border:1px solid #EFF3F6;
+}
+.qiinvoice_info .info-confirm{
+    width: 980px;
+    height: 100px;
+    /* border: 1px solid red; */
+}
+.qiinvoice_info .info-confirm .No{
+    width: 180px;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: block;
+    margin-left: 285px;
+}
+.info-confirm .No input[type=button]{
+    width: 180px;
+    height: 50px;
+    border: 1px solid #E1E9EF;
+    display: block;
+    margin-left: 20px;
+    margin-top: 25px;
+    background-color: white;
+    color: #34495E;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.info-confirm .No #btn_no5{
+    box-shadow: 0 1px 4px rgb(201, 220, 235,0.9);
+}
+.qiinvoice_info .info-confirm .Yes{
     width: 180px;
     height: 100px;
     /* border: 1px solid black; */

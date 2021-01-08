@@ -229,6 +229,7 @@
 
 .top .top-nav ul li a {
     color: white;
+    font-size: 18px;
     font-family: "微软雅黑";
 }
 
@@ -240,6 +241,6 @@
 
 .top .top-nav ul li+li {
     margin-right: 0px;
-    width: 120px;
+    width: 140px;
     background-color: white;
 }
