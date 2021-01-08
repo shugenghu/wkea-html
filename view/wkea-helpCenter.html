@@ -20,30 +20,84 @@
   <!-- 头部 -->
   <div class="top">
     <div class="top-top centre">
-      <!-- input输入框 logo cart购物车 -->
-      <div class="top-content centre">
+        <!-- 清除浮动 两边分散 -->
+        <div class="clearfix">
+            <!-- 登录注册 -->
+            <div class="float-left top-top-left">
+                <ul class="list-inline">
+                    <li class="list-inline-item">欢迎来到维嘉</li>
+                    <li class="list-inline-item"><a href="">请登录</a></li>
+                    <li class="list-inline-item"><a href="">免费注册</a></li>
+                </ul>
+            </div>
+            <!-- 展示电话号码 -->
+            <div class="float-right top-top-right">
+                <ul class="clear">
+                    <li><a href="">消息 <span class="top-top-right-number">0</span></a><hr></li>
+                    <li><a href="">我的订单</a><hr></li>
+                    <li><a href="">个人中心</a><hr></li>
+                    <li><svg 
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="15px" height="15px">
+                       <image  opacity="0.761" x="0px" y="0px" width="15px" height="15px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAMAAAAMCGV4AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAe1BMVEX///82S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S1////9ObKVVAAAAKHRSTlMAmbhXwoSri5ARYRUjrqoeOGeXOQvBK0ANondkRixsJqeUu0cvk7egB719zAAAAAFiS0dEAIgFHUgAAAAHdElNRQfkDBUVLw2VdpzTAAAAbElEQVQI11XN6xaCIBAE4A0ntVASTay8dff931CQ41mYf98yu9BBCJEQBzbHwKl1Fjh3hRP77CzZBVAWQZ8ULiGpgo5MNZrI1xYmGhigI7rd1aMftsEITPPTfQzfkC/4vPedj38GX/nqn/ovKzpDBDPdJLDbAAAAAElFTkSuQmCC" />
+                       </svg><span class="top-top-right-welcome">欢迎致电</span><span>&nbsp;021-63721599</span><hr></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- input输入框 logo cart购物车 -->
+    <div class="top-content centre clearboth">
         <!-- logo -->
         <div class="top-content-logo">
-          <img src="../images/logo.png" alt="">
-        </div>
-        <!-- 主题 -->
-        <div class="top-content-title">
-          <ul>
-            <li class="help">帮助中心</li>
-          </ul>
+            <img src="../images/logo.png" width="250px" alt="">
+            <p>一站式工业品购买平台</p>
         </div>
         <!-- 输入框 -->
         <div class="top-content-input">
-          <svg t="1608517680564" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
-            p-id="4206" width="26" height="40">
-            <path
-              d="M472.9 825.3c-47.5 0-93.6-9.3-137-27.7-41.9-17.7-79.6-43.1-111.9-75.4-32.3-32.3-57.7-70-75.4-111.9-18.4-43.4-27.7-89.5-27.7-137s9.3-93.6 27.7-137c17.7-41.9 43.1-79.6 75.4-111.9 32.3-32.3 70-57.7 111.9-75.4 43.4-18.4 89.5-27.7 137-27.7s93.6 9.3 137 27.7c41.9 17.7 79.6 43.1 111.9 75.4 32.3 32.3 57.7 70 75.4 111.9 18.4 43.4 27.7 89.5 27.7 137s-9.3 93.6-27.7 137c-17.7 41.9-43.1 79.6-75.4 111.9-32.3 32.3-70 57.7-111.9 75.4-43.3 18.4-89.4 27.7-137 27.7z m0-640c-158.8 0-288 129.2-288 288s129.2 288 288 288 288-129.2 288-288-129.2-288-288-288zM848.4 893.4l-90.5-90.5c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l90.5 90.5c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0z"
-              p-id="4207" fill="#c9cfd7"></path>
-          </svg><input type="text" placeholder="搜索/品牌/型号"><button>搜索</button>
+            <svg t="1608517680564" viewBox="0 0 1024 1024" version="1.1"
+                xmlns="http://www.w3.org/2000/svg" p-id="4206" width="26" height="40">
+                <path
+                    d="M472.9 825.3c-47.5 0-93.6-9.3-137-27.7-41.9-17.7-79.6-43.1-111.9-75.4-32.3-32.3-57.7-70-75.4-111.9-18.4-43.4-27.7-89.5-27.7-137s9.3-93.6 27.7-137c17.7-41.9 43.1-79.6 75.4-111.9 32.3-32.3 70-57.7 111.9-75.4 43.4-18.4 89.5-27.7 137-27.7s93.6 9.3 137 27.7c41.9 17.7 79.6 43.1 111.9 75.4 32.3 32.3 57.7 70 75.4 111.9 18.4 43.4 27.7 89.5 27.7 137s-9.3 93.6-27.7 137c-17.7 41.9-43.1 79.6-75.4 111.9-32.3 32.3-70 57.7-111.9 75.4-43.3 18.4-89.4 27.7-137 27.7z m0-640c-158.8 0-288 129.2-288 288s129.2 288 288 288 288-129.2 288-288-129.2-288-288-288zM848.4 893.4l-90.5-90.5c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l90.5 90.5c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0z"
+                    p-id="4207" fill="#c9cfd7"></path>
+            </svg><input type="text" placeholder="搜索/品牌/型号"><button>搜索</button>
         </div>
-      </div>
+        <!-- 购物车 -->
+        <div class="top-content-cart">
+            <img src="../images/cart.png" width="16" height="16" alt="" srcset="">
+            <span class="top-content-cart-cart">&nbsp;购物车</span><span class="numberCircle">0</span>
+        </div>
+        <div class="top-content-recommended">
+            <ul class="clear">
+                <li>
+                    <a href="">轴承</a>
+                </li>
+                <li>
+                    <a href="">弹簧</a>
+                </li>
+                <li>
+                    <a href="">联轴器</a>
+                </li>
+                <li>
+                    <a href="">气缸</a>
+                </li>
+                <li>
+                    <a href="">同步带</a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </div>
+    <!-- nav -->
+    <!-- 导航栏 -->
+    <div class="top-nav centre">
+        <ul class="clear">
+            <li><a href="wkea-index.html">全部商品分类</a></li>
+            <li><a href="">供应商合作</a></li>
+            <li><a href="wkea-sale.html">售后服务</a></li>
+        </ul>
+    </div>
+</div>
   <!-- content -->
   <!-- 内容 -->
   <div class="content centre">

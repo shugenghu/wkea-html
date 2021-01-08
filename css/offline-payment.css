@@ -1,8 +1,15 @@
-  .content-top p{
-    color:#97A6AE;
-    margin-top: 20px;
-  }
-  
+.wk-payment-content-top-p{
+  margin: 0;
+}
+.wk-payment-content-top-p a{
+  font-family: "微软雅黑";
+  font-size: 14px;
+  color: #97A6AE;
+  /* margin-top: 20px; */
+}
+.wk-payment-content-top-p .active {
+  color: #34495E;
+}
   .content-content-content .pay .pay-top p label:first-child{
     color: #34495E;
     font-size:20px;
@@ -193,7 +200,7 @@
   .content-content-top-choose span + span{
     color: #72899B;
   }
-  .content-content-top-choose +.content-content-top-choose span +span {
+  .content-content-top-choose:last-child  span:last-child{
     color: #019be1;
 }
 

@@ -1,0 +1,471 @@
+/* 修改后，为头部导航（3个选项）增加了下边框 */
+
+.top {
+    border-bottom: 2px solid #009CE1;
+}
+
+.top .top-nav .clear li {
+    height: 56px;
+}
+
+.content {
+    height: 1150px;
+    background-color: white;
+}
+
+.middle-top {
+    padding-top: 30px;
+}
+
+.middle-top .toppage {
+    color: #72899B;
+    text-decoration: none;
+    font-family: "微软雅黑";
+}
+
+.middle-top .active {
+    color: #34495E;
+    text-decoration: none;
+    font-family: "微软雅黑";
+}
+
+
+/* 左导航栏 */
+
+.middle-left {
+    width: 250px;
+    height: 758px;
+    border: 1px solid #DFE4E8;
+    margin-top: 30px;
+    float: left;
+}
+
+.middle-left ul {
+    list-style: none;
+}
+
+.middle-left .peoplecenter {
+    width: 250px;
+    height: 79px;
+    background-color: #FBFBFB;
+    border: 1px solid #DFE4E8;
+    /* line-height: 79px; */
+    font-size: 24px;
+    color: #34495E;
+    margin: -1px 0px 0px -1px;
+    /* 左侧导航个人中心li */
+}
+
+.middle-left .peoplecenter li {
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.middle-left .myorder {
+    width: 251px;
+    height: 90px;
+}
+
+.middle-left .myorder li {
+    color: #34495E;
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.middle-left .myorder li ul {
+    margin-left: -50px;
+    margin-top: 20px;
+}
+
+.middle-left .myorder li ul li {
+    width: 70px;
+    color: #72899B;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.middle-left .myfavorites {
+    width: 251px;
+    height: 90px;
+    /* border: 1px solid red; */
+}
+
+.middle-left .myfavorites li {
+    color: #34495E;
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.middle-left .myfavorites li ul {
+    margin-left: -50px;
+    margin-top: 20px;
+}
+
+.middle-left .myfavorites li ul li {
+    font-size: 16px;
+    color: #72899B;
+    width: 70px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.middle-left .infos .personalcenter {
+    /* 左侧导航选中样式 */
+    font-size: 16px;
+    width: 66px;
+    /* 宽度66px，贴近原型图效果 */
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 1px solid #009CE1;
+    color: #009CE1;
+}
+
+.middle-left .infos {
+    width: 251px;
+    height: 220px;
+    /* border: 1px solid red; */
+}
+
+.middle-left .infos li {
+    color: #34495E;
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.middle-left .infos li ul {
+    margin-left: -50px;
+    margin-top: 20px;
+}
+
+.middle-left .infos li ul li {
+    color: #72899B;
+    font-size: 16px;
+    width: 70px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.middle-left .safe {
+    width: 251px;
+    height: 150px;
+}
+
+.middle-left .safe li {
+    color: #34495E;
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.middle-left .safe li ul {
+    margin-left: -50px;
+    margin-top: 20px;
+}
+
+.middle-left .safe li ul li {
+    color: #72899B;
+    font-size: 16px;
+    width: 70px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+/* 用户信息 */
+
+.middle-infos {
+    width: 1008px;
+    height: 955px;
+    margin-left: 270px;
+    margin-top: 30px;
+    border: 1px solid #DFE4E8;
+}
+
+.middle-infos .infos-top {
+    width: 1006px;
+    height: 78px;
+    border-bottom: 1px solid #DFE4E8;
+    background-color: #FBFBFB;
+}
+
+.middle-infos .infos-top ul {
+    list-style: none;
+    width: 550px;
+    height: 80px;
+}
+
+.middle-infos .infos-top ul li {
+    float: left;
+    width: 100px;
+    height: 81px;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 80px;
+    color: #34495E;
+    font-size: 20px;
+    margin-top: -2px;
+}
+
+.middle-infos .infos-top ul li:first-child {
+    /* margin-left: -30px; */
+    margin-left: -10px;
+    /* 略微增加点间距 */
+    color: #009CE1;
+    border-bottom: 4px solid #009CE1;
+}
+
+.middle-infos .infos-top .btn {
+    width: 400px;
+    height: 80px;
+    margin-top: -145px;
+    margin-left: 600px;
+    /* border: 1px solid red; */
+}
+
+.middle-infos .infos-top .count {
+    width: 140px;
+    height: 70px;
+    /* border: 1px solid red; */
+    float: left;
+    line-height: 70px;
+    font-size: 16px;
+    color: #34495E;
+    font-weight: "微软雅黑";
+}
+
+.middle-infos .infos-top .count span {
+    font-size: 28px;
+    color: #FF1818;
+    font-family: "TitilliumWeb";
+}
+
+.middle-infos .infos-top .check {
+    width: 100px;
+    height: 70px;
+    margin-left: 160px;
+    color: #72899B;
+    line-height: 80px;
+    /* border: 1px solid red; */
+    font-size: 16px;
+}
+
+.middle-infos .infos-top .check input[type=checkbox] {
+    width: 18px;
+    height: 18px;
+    margin: 30px 10px;
+    float: left;
+    margin-right: 10px;
+    line-height: 80px;
+    padding-left: 15px;
+}
+
+.middle-infos .infos-top .check .quan {
+    margin-left: 40px;
+    margin-top: -80px;
+    width: 60px;
+    height: 70px;
+    line-height: 80px;
+    font-size: 16px;
+}
+
+.middle-infos .infos-top .del {
+    width: 100px;
+    height: 70px;
+    margin-left: 280px;
+    color: #72899B;
+    line-height: 75px;
+    margin-top: -70px;
+}
+
+.middle-infos .infos-top .del svg {
+    margin-left: -48px;
+}
+
+.middle-infos .infos-top .del .hh {
+    margin-left: 30px;
+    margin-top: -70px;
+    width: 60px;
+    height: 70px;
+    line-height: 70px;
+    /* border: 1px solid red; */
+    font-size: 16px;
+}
+
+
+/* title */
+
+.middle-infos .middle-infos-title {
+    width: 1006px;
+    height: 64px;
+    margin-top: 10px;
+    left: 0;
+    font-size: 18px;
+    color: #34495E;
+    background-color: #EFF3F6;
+    border: 1px solid #DFE4E8;
+}
+
+.middle-infos .middle-infos-title p {
+    width: 300px;
+    height: 64px;
+    line-height: 64px;
+    padding-left: 25px;
+}
+
+.middle-infos .middle-infos-title ul {
+    width: 500px;
+    height: 64px;
+    list-style: none;
+    margin-left: 500px;
+    margin-top: -80px;
+}
+
+.middle-infos .middle-infos-title ul li {
+    float: left;
+    width: 130px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    margin-left: 20px;
+    padding-left: 45px;
+}
+
+
+/* ------------个人信息区域样式------------ */
+
+
+/* 用户信息盒子样式 */
+
+.infos-personalCenter {
+    width: 550px;
+    margin-top: 30px;
+    margin-left: 250px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* 头像样式 */
+
+.infos-personalCenter form a .user-headportrait {
+    width: 130px;
+    height: 130px;
+    border: 1px solid white;
+    border-radius: 130px;
+    margin-bottom: 33px;
+}
+
+
+/* 表单中描述文字及其所属文本框间距 */
+
+.infos-personalCenter form .form-group .element-Spacing {
+    width: 100px;
+    padding-top: 12px;
+    text-align: justify;
+}
+
+
+/* 覆盖bootstrap默认的文本框样式 */
+
+.infos-personalCenter form .form-group .form-control {
+    width: 448px;
+    height: 50px;
+    text-indent: 15px;
+    /* 调整文本框输入文字的起始位置 */
+    color: #72899B;
+    border-color: #DFE4E8;
+}
+
+
+/* 覆盖bootstrap默认的文本框间距 */
+
+.infos-personalCenter form .form-group {
+    margin-bottom: 25px;
+}
+
+
+/* 覆盖bootstrap默认的文本框得到焦点样式 */
+
+.infos-personalCenter form .form-group .form-control:focus {
+    border-color: #009CE1;
+    box-shadow: 0 0 0 0.2rem #C2EAFA;
+}
+
+
+/* 用户性别部分单选按钮样式 */
+
+.infos-personalCenter .user-sex-radio {
+    width: 448px;
+    height: 50px;
+    line-height: 50px;
+}
+
+
+/* 选中按钮后文字颜色改变 */
+
+.user-sex-radio input[type=radio]:checked+span {
+    /* 意思：选中按钮后，为sapn标签添加样式 */
+    color: #009CE1;
+}
+
+
+/* 用户生日部分下拉菜单样式 */
+
+.user-birthday {
+    width: 784px;
+}
+
+.user-birthday .user-birthday-date {
+    position: relative;
+    line-height: 50px;
+}
+
+.icon-year {
+    position: absolute;
+    top: 19px;
+    left: 88px;
+}
+
+.icon-month {
+    position: absolute;
+    top: 19px;
+    left: 244px;
+}
+
+.icon-day {
+    position: absolute;
+    top: 19px;
+    left: 400px;
+}
+
+
+/* 保存按钮样式 */
+
+.infos-personalCenter input[type=button] {
+    width: 218px;
+    height: 54px;
+    background-color: #009CE1;
+    border: 1px solid #2289C2;
+    border-radius: 5px;
+    color: white;
+    line-height: 40px;
+    margin-top: 10px;
+    box-shadow: 0 3px 9px rgb(0, 156, 225, 0.45);
+}
+
+.infos-personalCenter input[type=button]:focus {
+    outline: 0;
+    background-color: #0193D3;
+    box-shadow: none;
+}
+
+
+/* 占位样式 */
+
+.occupied {
+    opacity: 0;
+}

@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>商品搜索</title>
+    <title>个人信息</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/top.css">
     <link rel="stylesheet" href="../css/public.css">
-    <link rel="stylesheet" href="../css/search.css">
-    <link rel="stylesheet" href="../css/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/top.css">
     <link rel="stylesheet" href="../css/tail.css">
+    <link rel="stylesheet" href="../css/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/PersonalCenter.css">
+    <link rel="stylesheet" href="../css/address.css">
 </head>
+
 <body>
-    <div class="search_all">
+    <div class="ordercenter-all">
         <!-- 头部 -->
         <div class="top">
             <div class="top-top centre">
@@ -101,228 +104,213 @@
               </ul>
             </div>
           </div>
-         <!-- 内容 -->
-         <div class="content">
+        <!--  内容 -->
+        <div class="content">
             <div class="centre">
                 <!-- 头部导航栏 -->
                 <div class="middle-top">
-                    <a href="wkea-index.html" class="toppage">首页&nbsp;&nbsp;>&nbsp;&nbsp;</a><a href="" class="active">口罩</a>
+                    <a href="wkea-index.html" class="toppage">首页 >&nbsp;&nbsp;</a><a href="" class="toppage">个人中心
+                        >&nbsp;&nbsp;</a><a href="" class="active">个人信息</a>
                 </div>
-                <!-- 搜索导航栏 -->
-                <div class="product-search">
-                    <!-- part_1 -->
-                    <div class="search-other">
-                        <p class="other">相关搜索：</p>
+                <!-- 左导航栏 -->
+                <div class="middle-left">
+                    <ul class="peoplecenter">
+                        <li class="font-weight-bold">个人中心</li>
+                    </ul>
+                    <ul class="myorder">
+                        <li>
+                            <span class="font-weight-bold">订单</span>
+                            <ul>
+                                <li>我的订单</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="myfavorites">
+                        <li>
+                            <span class="font-weight-bold">收藏</span>
+                            <ul>
+                                <li>我的收藏</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="infos">
+                        <li>
+                            <span class="font-weight-bold">基本信息</span>
+                            <ul>
+                                <li class="personalcenter">个人信息</li>
+                                <li>收货地址</li>
+                                <li>发票地址</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="safe">
+                        <li>
+                            <span class="font-weight-bold">安全设置</span>
+                            <ul>
+                                <li>安全中心</li>
+                                <li>修改密码</li>
+                        </li>
+                        </li>
+                        </ul>
+                </div>
+                <!-- 个人信息 -->
+                <div class="middle-infos">
+                    <!-- 导航栏 -->
+                    <div class="infos-top">
                         <ul>
-                            <li>口罩&nbsp;<a href="">KN95</a></li>
-                            <li>口罩&nbsp;<a href="">一次性</a></li>
-                            <li>口罩&nbsp;<a href="">WKEA</a></li>
-                            <li>口罩&nbsp;<a href="">3M</a></li>
-                            <li>口罩&nbsp;<a href="">活性炭</a></li>
+                            <li>个人信息</li>
                         </ul>
                     </div>
-                    <!-- part_2 -->
-                    <div class="search-type">
-                       <p class="type">分类</p>
-                       <ul>
-                           <li>简易口罩</li>
-                           <li>防护口罩</li>
-                           <li>无尘室用口罩</li>
-                       </ul>
-                    </div>
-                    <!-- part_3 -->
-                    <div class="search-brand">
-                        <p class="brand">品牌</p>
-                        <ul>
-                            <li>
-                                <input type="checkbox" value=""/>
-                                <a href="">WKEA/维嘉</a>
-                            </li>
-                            <li>
-                                <input type="checkbox" value=""/>
-                                <a href="">EASUN/亿日</a>
-                            </li>
-                            <li>
-                                <input type="checkbox" value=""/>
-                                <a href="">STNV/索诺</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- part_4 -->
-                    <div class="search-type2">
-                        <p class="type2">过滤分类</p>
-                        <ul>
-                            <li>
-                                <input type="checkbox" value=""/>
-                                <a href="">简易口罩</a>
-                            </li>
-                            <li>
-                                <input type="checkbox" value=""/>
-                                <a href="">防护口罩</a>
-                            </li>
-                            <li>
-                                <input type="checkbox" value=""/>
-                                <a href="">防尘口罩</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- part_5 -->
-                    <div class="search-cad">
-                        <p class="cad">CAD</p>
-                        <ul>
-                            <li>
-                                <input type="checkbox" value=""/>
-                                <a href="">2D</a>
-                            </li>
-                            <li>
-                                <input type="checkbox" value=""/>
-                                <a href="">3D</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- 信息栏 -->
-                    <div class="product-infos">
-                        <p class="people">人气</p>
-                        <p class="price">价格</p>
-                        <div class="price-type">
-                            <p class="txt">
-                               <input type="text" value="" placeholder=" ￥最低价"/>
-                               <span>-</span>
-                               <input type="text" value="" placeholder=" ￥最高价"/>
-                               <input type="button" value="确定"/>
-                            </p>                              
-                        </div>
-                        <p class="product-count">
-                           共&nbsp;<span>23</span>&nbsp;件相关产品
-                        </p>
-                    </div>
-                    <!-- 商品展示 -->
-                    <div class="product-look">
-                        <dl>
-                            <dt><img src="../images/text.png"/></dt>
-                            <dd class="tit">史丹利&nbsp;1650W&nbsp;185mm&nbsp;电圆锯</dd>
-                            <dd class="price">￥<span>475.00</span></dd>
-                        </dl>
-                        <dl>
-                            <dt><img src="../images/text.png"/></dt>
-                            <dd class="tit">史丹利&nbsp;1650W&nbsp;185mm&nbsp;电圆锯</dd>
-                            <dd class="price">￥<span>475.00</span></dd>
-                        </dl>
-                        <dl>
-                            <dt><img src="../images/text.png"/></dt>
-                            <dd class="tit">史丹利&nbsp;1650W&nbsp;185mm&nbsp;电圆锯</dd>
-                            <dd class="price">￥<span>475.00</span></dd>
-                        </dl>
-                        <dl>
-                            <dt><img src="../images/text.png"/></dt>
-                            <dd class="tit">史丹利&nbsp;1650W&nbsp;185mm&nbsp;电圆锯</dd>
-                            <dd class="price">￥<span>475.00</span></dd>
-                        </dl>
-                        <dl>
-                            <dt><img src="../images/text.png"/></dt>
-                            <dd class="tit">史丹利&nbsp;1650W&nbsp;185mm&nbsp;电圆锯</dd>
-                            <dd class="price">￥<span>475.00</span></dd>
-                        </dl>
-                        <dl>
-                            <dt><img src="../images/text.png"/></dt>
-                            <dd class="tit">史丹利&nbsp;1650W&nbsp;185mm&nbsp;电圆锯</dd>
-                            <dd class="price">￥<span>475.00</span></dd>
-                        </dl>
-                        <dl>
-                            <dt><img src="../images/text.png"/></dt>
-                            <dd class="tit">史丹利&nbsp;1650W&nbsp;185mm&nbsp;电圆锯</dd>
-                            <dd class="price">￥<span>475.00</span></dd>
-                        </dl>
-                        <dl>
-                            <dt><img src="../images/text.png"/></dt>
-                            <dd class="tit">史丹利&nbsp;1650W&nbsp;185mm&nbsp;电圆锯</dd>
-                            <dd class="price">￥<span>475.00</span></dd>
-                        </dl>
-                        <dl>
-                            <dt><img src="../images/text.png"/></dt>
-                            <dd class="tit">史丹利&nbsp;1650W&nbsp;185mm&nbsp;电圆锯</dd>
-                            <dd class="price">￥<span>475.00</span></dd>
-                        </dl>
-                        <dl>
-                            <dt><img src="../images/text.png"/></dt>
-                            <dd class="tit">史丹利&nbsp;1650W&nbsp;185mm&nbsp;电圆锯</dd>
-                            <dd class="price">￥<span>475.00</span></dd>
-                        </dl>
-                        <dl>
-                            <dt><img src="../images/text.png"/></dt>
-                            <dd class="tit">史丹利&nbsp;1650W&nbsp;185mm&nbsp;电圆锯</dd>
-                            <dd class="price">￥<span>475.00</span></dd>
-                        </dl>
-                        <dl>
-                            <dt><img src="../images/text.png"/></dt>
-                            <dd class="tit">史丹利&nbsp;1650W&nbsp;185mm&nbsp;电圆锯</dd>
-                            <dd class="price">￥<span>475.00</span></dd>
-                        </dl>
-                        <dl>
-                            <dt><img src="../images/text.png"/></dt>
-                            <dd class="tit">史丹利&nbsp;1650W&nbsp;185mm&nbsp;电圆锯</dd>
-                            <dd class="price">￥<span>475.00</span></dd>
-                        </dl>
-                        <dl>
-                            <dt><img src="../images/text.png"/></dt>
-                            <dd class="tit">史丹利&nbsp;1650W&nbsp;185mm&nbsp;电圆锯</dd>
-                            <dd class="price">￥<span>475.00</span></dd>
-                        </dl>
-                        <dl>
-                            <dt><img src="../images/text.png"/></dt>
-                            <dd class="tit">史丹利&nbsp;1650W&nbsp;185mm&nbsp;电圆锯</dd>
-                            <dd class="price">￥<span>475.00</span></dd>
-                        </dl>
-                        <dl>
-                            <dt><img src="../images/text.png"/></dt>
-                            <dd class="tit">史丹利&nbsp;1650W&nbsp;185mm&nbsp;电圆锯</dd>
-                            <dd class="price">￥<span>475.00</span></dd>
-                        </dl>
-                        <dl>
-                            <dt><img src="../images/text.png"/></dt>
-                            <dd class="tit">史丹利&nbsp;1650W&nbsp;185mm&nbsp;电圆锯</dd>
-                            <dd class="price">￥<span>475.00</span></dd>
-                        </dl>
-                        <dl>
-                            <dt><img src="../images/text.png"/></dt>
-                            <dd class="tit">史丹利&nbsp;1650W&nbsp;185mm&nbsp;电圆锯</dd>
-                            <dd class="price">￥<span>475.00</span></dd>
-                        </dl>
-                        <dl>
-                            <dt><img src="../images/text.png"/></dt>
-                            <dd class="tit">史丹利&nbsp;1650W&nbsp;185mm&nbsp;电圆锯</dd>
-                            <dd class="price">￥<span>475.00</span></dd>
-                        </dl>
-                        <dl>
-                            <dt><img src="../images/text.png"/></dt>
-                            <dd class="tit">史丹利&nbsp;1650W&nbsp;185mm&nbsp;电圆锯</dd>
-                            <dd class="price">￥<span>475.00</span></dd>
-                        </dl>
+
+                    <!-- 用户信息 -->
+                    <div class="infos-personalCenter">
+                        <form>
+                            <!-- 用户头像 -->
+                            <a><img class="user-headportrait" src="../images/headPortrait.png">
+
+                                <!-- 用户名 -->
+                                <div class="form-group row">
+                                    <label for="input-userName" class="col-form-label element-Spacing">
+                                        用户名：
+                                    </label>
+                                    <div class="">
+                                        <input type="text" class="form-control" id="input-userName">
+                                    </div>
+                                </div>
+
+                                <!-- 姓名 -->
+                                <div class="form-group row">
+                                    <label for="input-name" class="col-form-label element-Spacing">
+                                        姓<text class="occupied">空</text>名：
+                                    </label>
+                                    <div class="">
+                                        <input type="text" class="form-control" id="input-name">
+                                    </div>
+                                </div>
+
+                                <!-- 性别 -->
+                                <div class="form-group row">
+                                    <label for="input-name" class="col-form-label element-Spacing radio-middle">
+                                        性<text class="occupied">空</text>别：
+                                    </label>
+                                    <div class="user-sex-radio">
+                                        <div class="radio" style="float: left;">
+                                            <label>
+                                                <input type="radio" name="optionsRadios"
+                                                    id="radio-sex-male" value="男" checked>&emsp;<span>男</span>
+                                            </label>
+                                        </div>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" style="margin-left: -180px;"
+                                                    name="optionsRadios" id="radio-sex-female" value="女">&emsp;<span>女</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 手机号 -->
+                                <div class="form-group row">
+                                    <label for="input-userName" class="col-form-label element-Spacing">
+                                        手机号：
+                                    </label>
+                                    <div class="">
+                                        <input type="text" class="form-control" id="input-userName">
+                                    </div>
+                                </div>
+
+                                <!-- 邮箱 -->
+                                <div class="form-group row">
+                                    <label for="input-userName" class="col-form-label element-Spacing">
+                                        邮<text class="occupied">空</text>箱：
+                                    </label>
+                                    <div class="">
+                                        <input type="text" class="form-control" id="input-userName">
+                                    </div>
+                                </div>
+
+                                <!-- QQ -->
+                                <div class="form-group row">
+                                    <label for="input-userName" class="col-form-label element-Spacing">
+                                        Q<text class="occupied">空&nbsp;</text>Q：
+                                    </label>
+                                    <div class="">
+                                        <input type="text" class="form-control" id="input-userName">
+                                    </div>
+                                </div>
+
+                                <!-- 生日-start -->
+                                <div class="form-group row user-birthday">
+                                    <div class="">
+                                        <label for="input-userName" class="col-form-label element-Spacing">
+                                            生<text class="occupied">空</text>日：
+                                        </label>
+                                    </div>
+                                    <div class="row col-10 user-birthday-date">
+                                        <!-- 年-start -->
+                                        <select class="form-control col-2" style="text-indent: 4px;">
+                                            <option>--</option>
+                                        </select>
+                                        <svg class="icon-year" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                        </svg>
+                                        <label class="col-1">年</label>
+                                        <!-- 年-end -->
+
+                                        <!-- 月-start -->
+                                        <select class="form-control col-2" style="text-indent: 4px;">                                          
+                                            <option>--</option>
+                                        </select>
+                                        <svg class="icon-month" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                        </svg>
+                                        <label class="col-1">月</label>
+                                        <!-- 月-end -->
+
+                                        <!-- 日-start -->
+                                        <select class="form-control col-2" style="text-indent: 4px;">
+                                            <option>--</option>
+                                        </select>
+                                        <svg class="icon-day" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                        </svg>
+                                        <label class="col-1">日</label>
+                                        <!-- 日-end -->
+                                    </div>
+                                </div>
+                                <!-- 生日-end -->
+
+                                <!-- 保存按钮 -->
+                                <div class="Yes">
+                                    <input type="button" value="保&nbsp;存" />
+                                </div>
+                        </form>
                     </div>
                 </div>
             </div>
-         </div>  
-         <!-- 底部 -->
-         <div class="tail">
+        </div>
+        <!-- 底部 -->
+        <div class="tail">
             <div class="centre">
                 <div class="tail-top">
                     <ul>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px"
-                                height="55px">
+                        <li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="55px">
                                 <image x="0px" y="0px" width="48px" height="55px"
                                     xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIoAAACiCAMAAACppqUNAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABNVBMVEU0SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV7////u5UIsAAAAZXRSTlMAJLQMhvmHAVnmMcPEFJf9BGrvQNEeqNIJe/VrUd2YKrjFEIz6WgJiiDfHtRid20pJc/N3BkbV/qUZpCGuzjqE9utnZlbh+5Qtv5nc06epfO7eurno58hIdqNggCCfj3Aw369Qz9GlK84AAAABYktHRGYs1NklAAAAB3RJTUUH5AwVFAs21Ff+ZgAABQ5JREFUeNrtnHlf0zAYxx9ARFBkth6oKFp0eB+IB56ooNb7Plq6dYO8/7dgM9Y8yRpYN5L28WN/f3VdlnyX5Eme5JM8AHvXyOjoiIFs9q6xfeOMje8fK5sDJg5Mso4mD0yUSzJ1kAkdmioRZPrwDJM0c3i6JJDaEYf1yDlSK4PEPco0OuoWDnLsOBZ/wnVP4KfjxwoFmT15ChvldE1trFMnZ4sjmTuDXfVst6tOn8UufGauIJD5c9ga5yUDnjqE78/NFwDiLVwQBU5eVIa1iYuT4qsLC55lkPoiljZ+KTPYj+0fR87Fuk2Sy1ewDa5qp8CRq5jiymVrINeuY8+8cXOnVLduYJ++fs0KSO022uvSneWdEy7fWUJLv10zT3L3nsj//oOV3dOuPLwvEt+7axjk0WPsAk+e9k//9Ammf/zIIMjss1WR8fMXuQyj/vK5+MnqM2PD79q6yPXV69zDhff6lfjZ+poRkDc+1rX/pphfWvhvw9WnVvUXe2zxIXqZXibsYFDb02rlgZnRYZARSSuDY2bucVqvm0Znknyzl1bm59f+c7pWY5cseB19PB2trPliu/h/ek2dx5o07aHu5BVrNf0W+9c7C367bq2gVe209dVMZgWll/se6++DtTWeuq7UJ/mISeyufOXV9sfsX579hPPWZ9v7AfKydrW3I8x9we5UxC6JvDPzRTaP+a9YYwcL2juSl7Xf0kHDW0DvqMAdNbGLx/2qzlBaX/yOA/K+QvcZ5WXtj2SC+Yn1VPzu68golv4TcPL+VTQIl7SsTVGWfg/s0pjR8u8lFeXPMI6eIa08VFDKA+GqUCqUCqVCkRSEu2vDBkrgZxWAtJujVS7PdFCUUFNQWKFUKBWKERS3R5FNFBUoLSJF6Zfu/0VJG4cACpOeK5QK5d9C8SuUclA6vmpadMQ/BAqKVxwKy8hXUNzuY4MOSlihSChNufRyUUI6KKnj5pWPonhRdlEUn7XJP8RK+S3BZx1FW4SE0n2KykdJbblZPopiy+WitLtPfHJyy0WRD9+GpaLEjAxKgwyK56go6XZZXAzKZjKaxd0Vobq4D3PnZwLFa7akn6mV0kXJtTu5dxS/U7ao/jbToIStoAgUtccE6QtHQWGsFeY5dWIQJR3zme/3oCSK+hvRUCiuuuG1XWQsOoqroOy092IAJW601C6xXaQrSCLQoTimUbwMR6I2SP2EOZ6KojgwJlGyIMzfBC/Cjy6oKN3XDeMNtNXD4UTJuBFLb0NsE15bsNl93zSOotpOK0is1JPfdYpPe2qcfLmFz4ZR5Km33THQQO49W56Mkpi16Mz9sx7YgtK8nUZnRI8Vu94m0W1uty2gRNgyXBtOlgSiLEr/rjI4SrBtM9hiToZEsmyhHJPiwCgei2LlhWCJ8F1m8Ily5DwwCmRmtiDbBHHP/bIte9OhKm7MLbWqvEiCaeXzoUygJH5KI/u3N9LN/jhnLkZQPCPHCo2gmFGFUqFUKBWKVRRCBxcJHedkFA65Ejr6S+hANKFj4lxkDs9zkblSAJQuWgCh6yedJFQu5QClq0pA6AIXF5lrbUDpsh8QugLJReZiKBeZ67JA6RIxELpazUXmwjlQuoYPhIITcJEJ2TD8f7MQyAIohfcAQkFPuMiEggFKAXKAUNggLjLBlIBSiCkgFHiLi0w4Mi4yQdqAUug6IBTQj4tMmEOgFPwRCIXE5CITKBQohU8FQkFluQyF2v0LBLFSU/PlJy8AAAAASUVORK5CYII=" />
                             </svg><span>现货</span></li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px"
-                                height="55px">
+                        <li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="55px">
                                 <image x="0px" y="0px" width="48px" height="55px"
                                     xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIoAAACiCAMAAACppqUNAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABNVBMVEU0SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV7////u5UIsAAAAZXRSTlMAJLQMhvmHAVnmMcPEFJf9BGrvQNEeqNIJe/VrUd2YKrjFEIz6WgJiiDfHtRid20pJc/N3BkbV/qUZpCGuzjqE9utnZlbh+5Qtv5nc06epfO7eurno58hIdqMggK9wUN8wn49gzy0vMssAAAABYktHRGYs1NklAAAAB3RJTUUH5AwVFAcco1l4vAAABTVJREFUeNrtnGl30zoQhtWWUlooBJulQKHgQsq+lLKUtewY7uVedrCdzYn//1+gcmyNHStEViR5zqnfT2mtWI8lzUijWEPI9JqZnZ1RcJvpNbdvPorm989VzUEWDixGsRYPLFRLsnQwYjq0VCHI8uEjUUZHDi9XBNI4akUjso42qiCxj0UcHbONgxw/AdWftO2T8NeJ40ZBVk6dhk4508h31ulTK+ZIVs/CUD2XDNXlczCEz64aAlk7D71xIWPAS4fg/+fXDIA46xdZhYuXcm5t4dIiu3Rx3dEM0tyA2uYvF5z93P554Nxo6iS5chX64Bp3Cpy5BiWuXtEGcv0GjMybt8aVun0TxvSN61pAGnfAXjfvbo0vuHV3Eyz9TkM9yb377P4PHm7/vez2owes8P17ikEeP4Eh8PTZ5PLPnkL5J48Vgqw832E3fvFSyDCar16wr+w8V+Z+X79hd337TthdOO/esq+9ea0E5L0Lbe2+N/NNDc8m155cNV9O2eMSo4wvFXZQ1va42n6oxjuU8UhcKfSZwn6ar1tKZxKx2Ysr9fPr5Dmdq7nLGlYdE1Y6XGlbi/1l/cfX0gVoSdUr1HGrYq6WP8D4+qhh3c6LFbhqnNEezRQiKL7sf6D9/tUW4+XjSn6RT1BEb+SbjbY/FR955T+Yt/7XvR+QDWt3RgfC6mcYTiZ2SbI7M5+z5rH2BVrsoKG9o2xY+zV1Gs46rI4M7qixXTy6ropdaXPjGzjkfUb3GbNh7ffdCeYHtJP53deZWaj9B4HJ+6dpEKpMWJuibP4qvaRRo61fm3mU3zILPUXafpRDqQ6EqkapUfY2imfbvh+0qkZpu+nao1M1igOzSLdiFNJjKGHVKDZDke4hZcO2M3UPlUbpunwBSod3WYCvNAr0RCkJxDE1So2yp1BsIRlBESlMiDmUttvPXfSHskfubwDF2fWxnQyMn1zzzaOE8SfLT3cwg8pQuunnFMatDGUAxjqEqQzFg9k4gUlR2kZQvMRI4gfv52D6DAUqTkt7GlBAzgiMSzgoJSSP4kVuXGMrXevvPrhVDQptgRjG8a10qEZAZRClNfxKQGv1esnqOueJTaE4bPu3R2G6cft4laCkfpUqTJ1tauiWSRSn4FKyKK7RVhlxKcOg3a8GJQczIDkUuVh1CpTUiiMWEBanIFMoQyvOVJ1Oj+3SN5oeZXekuqx7Ss19ClC8wkK6F7WST32GwtFkB1wWJR2ZpTV5/NQoNUqNYhJlrJhTsWTfMFGF0ofnD/pyMGpQnDDfG4HMLKQEJb92GXZTrzSNAhQOSEJTblqcFqUbWtF4dcKuIRQ7HGkQDtagJRoUyaI4tu8Wq3W8kNNbgiYlgdK1/WAQcdSLL7eD4hWhYVMeJYz4spjJeC2ORU1umPIoDt9gglxddm/kskAQINFBvE1kt9ABTr5pNO2vhJNBRpsmELitDIqTs1mr1x1f0k+aRsT1ShkzzH1W0J9Qtk1tXuj3RCmUJAwchELzjBdaQr+Dy6HYluu3xZcCji4Xp0s1So1So9QoWlEQvbiI6HXOCMNLrohe/UX0QjSi18Sp0Lw8T4XmSAHBdNCCIDp+EhfBciiHYDqqRBAd4KJCc6yNYDrsRxAdgaRCczCUCs1xWYLpEDFBdLSaCs2Bc4LpGD5BlJyACk3KBvln05DIgmBK70EQJT2hQpMKhmBKkEMQpQ2iQpNMiWBKMUUQJd6iQpOOjApNkjaCKXUdQZTQjwpNmkOCKfkjQZQSkwpNolCCKX0qQZRUlkpRqt0/Ci/m6A0jacEAAAAASUVORK5CYII=" />
                             </svg><span>实价</span></li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px"
-                                height="55px">
+                        <li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="55px">
                                 <image x="0px" y="0px" width="48px" height="55px"
                                     xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIoAAACiCAMAAACppqUNAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABNVBMVEU0SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV7////u5UIsAAAAZXRSTlMAJLQMhvmHAVnmMcPEFJf9BGrvQNEeqNIJe/VrUd2YKrjFEIz6WgJiiDfHtRid20pJc/N3BkbV/qUZpCGuzjqE9utnZlbh+5Qtv5nc06epfO7eurno58hIdqOPYIAgMM9wn1Cv33e1cF8AAAABYktHRGYs1NklAAAAB3RJTUUH5AwVFAoNfEcmAwAABahJREFUeNrtnHl70zgQh9WWUlooBJujQKHgQsrNUspRznLjPdhllzNxHLuJv/9X2CiJNLItY8WWlHke8vvPkSK9lnXMyNYQUl9z8/NzGoqpr4UDi0myeHBh2hxk6dByMtTyoaXpkqwcTriOrEwRZPXosUTQsaOrUwJpHHeSjJzjjWmQuCcSiU641kFOnoLqT7vuabg6ddIqyNqZs/BQzjXSD+vsmTV7JOvnoateGHfV1QvQhc+vWwLZuAhP45IwgFeOwO8XNyyAeJuXeYXLV1LT2tKVZZ50edMzDNLcgtoWr+Ym+4WDi8C51TRJcu06PIMb0iVw7gbkuH7NGMjNW9Azb98pyvXbbejTt24aAWnchfG6fW+nOOPOvW0Y6Xcb+knuP+DlP3y0+/O8u48f8swP7msGefIUusCz5+X5nz+D/E+faARZe7HHC375SmlgNF+/5H/Ze6Ft+n3zlpf67r3ydOG9f8f/9vaNFpAPPrS1/8HOPw3cW7X2lKr5quYTr9DL5NIxDiYde1LtPtIzO0wyI0mlcc5UnqfluqN1JVFbvaTSv76Wr+lSLVw1YHWUWDpSGbPFfmL/ybVyCVpSt4VaZBVLtfo79K8/DNjtMl9BqsY5495MzoOSy/0T2u8vYz5e2q+UZ/kIWcx6vqK3/TF/y2t/w7r1j+n9ANGt3ct2hPVP0J1s7JKIOzOfxOGx8S+02GFLe0eiW/sfmzS8TbCOLO6o8V08alcNp9Lm1meYkA9Y3WcU3dovgwXmK7ST/d3XuXmo/SuBxfubbRAqwa1lKNvfJzZp9Gjn+3Ya5UcVQ0+Tdh+nUKYHQjVDmaH8Yiittmh+ByO1+Q8deyjh4B/dIEyXlPjsOnICayjx2DaNOzKUNgUNJymvBgqzwRxZq4Sjq0kapjrKPlvAYglKyDgnaJjqKD2GEuZRvD5faZ3IOIrH6uqnShq3SgsskCRWdHMro0SspihVEusr+8IbRcWHVBmFP4JOqiQ+gsIusOwbRcl22vy84sUsS1utyKoofDPWTZcEKKOpZaCWYpEVUULeDzIliSijIR2rllkRRdL4EhTidQVWMyid7EguQBkskuobVtVQeKME2ZKyKBOoEgpvFMcLmBhdP5DLEIrQKImqzKC4vHxv2ii+UP50UaIEC4rnoEHpJVhQogQLSugUlM+GlQ/dWqmRK6N43aJbjWyjdJIilGD8U88WChhv2T8wazawhtIrQvGto0RFKKy52tZQ3CIU9pNrDWWYs9/NVcYRO/ZQKEWYrywSGsoWSky7Q74yZsJ0LaJE1ITPV8Z6bc8iiiu9b+6MRBZRPE9WGe8qrkWUoXKV8aVJmmoThS9Nfj61regya0Lh2ylRPjUY+CNKfpkWFLAxO/nUIWas8J5YCwozEMYOcjrVF5NMo0CjRMUo5Q6sDhTeKOMdqHSqA3OfcRSw7Hoy0PFFudOsAQWcRVeSyubh8iFdHwUejy9J5dZD+RCqjSLYUm4m1RNJy6eWuiiCX+RnUyPhwikvtCaK6KGF2dSkFQR+ltMUikjSyqWKUtgxrYcikPShMwQSFIU1sR5KW/J4hJ1uQQpv72r2Fd4AkZjcz5Go7CPXHUGxrKpcszgqVkJdlNHWQnbZbacPdam9hamLMhzO3dxNd1p8GPVjtXcwGib+fQlJJVVDafkjDS8iTd+dVkMxohnKDGWGMkP5VVAQfbiI6HPOBMNHrog+/UX0QTSiz8Sp0Hw8T4XmSAHBdNCCIDp+MsyC5VAOwXRUiSA6wEWF5lgbwXTYjyA6AkmF5mAoFZrjsgTTIWKC6Gg1FZoD5wTTMXyCKDgBFZqQDdXvzUAgC4IpvAdBFPSECk0oGIIpQA5BFDaICk0wJYIpxBRBFHiLCk04Mio0QdoIptB1BFFAPyo0YQ4JpuCPBFFITCo0gUIJpvCpBFFQWSpNoXb/B+p059izTCQAAAAAAElFTkSuQmCC" />
                             </svg><span>优质</span></li>
-                        <li><img src="../images/salable product.png" width="48px" height="55px" alt=""><span>正品</span></li>
+                        <li><img src="../images/salable product.png" width="48px" height="55px" alt=""><span>正品</span>
+                        </li>
                         <li><img src="../images/automation.png" width="48px" height="55px" alt=""><span>自动化</span></li>
                     </ul>
                 </div>
@@ -361,8 +349,7 @@
                         <div class="tail-content-p">
                             <ul class="clear">
                                 <li>
-                                    <span>工作时间</span>
-                                    周一到周日9:00-18:00
+                                    <span>工作时间</span> 周一到周日9:00-18:00
                                 </li>
                             </ul>
                         </div>
@@ -378,7 +365,9 @@
                     WKEA© All Rights Reserved Privacy Policy - Terms of Use 沪ICP备02011020号-20
                 </div>
             </div>
-          </div>
+        </div>
+    </div>
     </div>
 </body>
+
 </html>

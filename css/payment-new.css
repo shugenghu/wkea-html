@@ -1,5 +1,6 @@
 .wk-payment-content-top-p{
   margin: 0;
+  color: #97A6AE;
 }
 .wk-payment-content-top-p a{
   font-family: "微软雅黑";
@@ -36,10 +37,17 @@ font-size: 16px;
   overflow: hidden;
 }
 .content-content-content .pay .pay-content .pay-content-left{
-  float: left;
+  /* float: left; */
   margin-left: 116px;
   margin-top: 83px;
 } 
+.pay-content-left p:first-child{
+  float: left;
+  margin-left: 60px;
+}
+.pay-content-left p:last-child{
+  margin-left: 605px;
+}
 .content-content-content .pay .pay-content .pay-content-left p input[type=radio]{
   width: 20px;
   height: 20px;
@@ -50,69 +58,7 @@ font-size: 16px;
 .content-content-content .pay .pay-content .pay-content-left p:last-child{
   margin-top:77px ;
 }
-.content-content-content .pay .pay-content .pay-content-right{
-  float: right;
-  width: 720px;
-    border-left: 1px solid #EFF3F6;
-  margin-top: 42px;
-} 
-.content-content-content .pay .pay-content .pay-content-right .right-all{
-  padding-left: 124px;
-  padding-top: 13px;
-}
-.content-content-content .pay .pay-content .pay-content-right .right-all  p:first-child{
-  color: #34495E;
-  font-size: 18px;
-}
-.content-content-content .pay .pay-content .pay-content-right .right-all p+p label:first-child span{
-  color: #34495E;
-}
-.content-content-content .pay .pay-content .pay-content-right .right-all p+p label:first-child span:first-child{
-  font-size: 16px;
-}
-.content-content-content .pay .pay-content .pay-content-right .right-all p+p label:first-child span:last-child{
-  font-size: 18px;
-}
-.content-content-content .pay .pay-content .pay-content-right .right-all p+p label:last-child{
-  background-color: #009CE1;
-  color: white;
-  font-size: 12px;
-  width: 45px;
-  height: 23px;
-  border-radius:15px ;
-  text-align: center;
-  line-height: 23px;
-  /* vertical-align: middle; */
-  margin-left: 16px;
-}
-.content-content-content .pay .pay-content .pay-content-right .right-all p+p{
-  margin-bottom: 29px;
-}
-.content-content-content .pay .pay-content .pay-content-right .right-all  .right-right{
- float: left;
-}
-.content-content-content .pay .pay-content .pay-content-right .right-all p+p+p  .wechat-word{
-  display: block;
-  width: 150px;
- 
-}
-.content-content-content .pay .pay-content .pay-content-right  .right-all .wechat-word{
-  margin: 12px 16px;
-  color: #72899B;
-}
-.content-content-content .pay .pay-content .pay-content-right .right-all ul{
-  float: left;
-  padding: 0px;
-  list-style-type: none;
-}
-.content-content-content .pay .pay-content .pay-content-right .right-all ul li{
-  font-size: 20px;
-  color: #526A7D;
-  margin: 15px 50px;
-}
-.content-content-content .pay .pay-content .pay-content-right .right-all ul li:nth-child(2) span{
-  font-size: 22px;
-}
+
 .content-content-content  .pay .pay-bottom{
   height: 133px;
   clear: both;
@@ -160,7 +106,113 @@ font-size: 16px;
   .content-content-top-choose:last-child  span:last-child{
     color: #019be1;
 }
+/* 微信支付弹出框 */
+.modal-content{
+  margin-left: -227px;
+  margin-top: 48px;
+}
+#wechat-clink{
+  margin-left: -16px;
+  margin-top: -16px;
+}
+#wechat-clink,.modal-body{
+  width:980px ;
+  height: 625px;
+  background-color: white;
+  margin-top: -16px;
+}
+ .modal-header{
+   width: 980px;
+  height: 100px;
+  background-color: white;
+}
+.modal-content hr{
+  border: 1px solid #009de117;
+  width: 976px;
+  margin-left: -15px;
+  margin-top: -2px;
+
+}
+.modal-header .close{
+  margin-top: 2px;
+  margin-right: 15px;
+}
+.modal-header .close span{
+  font-size: 32px;
+    color: #34495E;
+    font-weight: 400;
+}
+.modal-header .modal-title{ 
+  margin-top: 17px;
+    margin-left: 30px;
+    font-size: 24px;
+    color: #34495E;
+}
+#wechat-clink p:first-child label {
+  margin-left: 50px;
+}
+.QR-code{
+  width: 289px;
+  height: 373px;
+  /* border:1px solid #EFF3F6 ; */
+  border-radius: 6px;
+  box-shadow: 1px 1px 10px 0px #EFF3F6;
+  margin-left: 315px;
+  margin-top: 60px;
+  float: left;
+}
+.QR-code p .code-pic{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.QR-code p:last-child{
+  margin-top: 23px;
+    text-align: center;
+}
+.QR-code p:last-child label:first-child{
+  vertical-align: middle;
+}
+.QR-code p:last-child label:last-child{
+  vertical-align: middle;
+  margin-left: 15px;
+  color: #72899B;
+  font-size: 14px;
+}
+.wxscans img{ 
+  margin: 100px 15px;
+}
+.clink-pay{
+  clear: both;
+}
+.clink-pay input:first-child{
+  width: 186px;
+  height: 54px;
+  line-height: 54px;
+  color: #FFFFFF;
+  background-color: #009CE1;
+  border-radius: 5px;
+  border: 1px solid #2289C2;
+  font-size: 18px;
+  margin-left: 247px;
+  margin-top: 64px;
+}
+.clink-pay input:last-child{
+  width: 186px;
+  height: 54px;
+  line-height: 54px;
+  color: #72899B;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  border: 1px solid #E1E9EF;
+  font-size: 18px;
+  margin-left: 73px;
+}
+/* 底部 */
 
 .tail{
   clear: both;
+}
+
+.content-content-top div .choose {
+  z-index: 0;
 }

@@ -4,19 +4,37 @@ body{
 .top .top-nav ul li:nth-child(3) a {
   color: #009CE1;
   border-bottom: 4px solid #009CE1;
-  padding: 6px 0;
+  padding: 15px 0;
 }
 
 .content{
-  /* margin-left: 5px ; */
   width: 100%;
-  /* border-top: 1px solid #009CE1; */
   background-color: white;
   height: auto;
 }
+/* 内容头部样式 */
+.content-top-p {
+  color: #97A6AE;
+  margin: 0;
+}
+.content-top-p  a{
+  color: #97A6AE;
+  font-size: 14px;
+}
+.content-top-p  a:first-child{
+  padding-right: 5px;
+}
+.content-top-p  a:last-child{
+  padding-left: 5px;
+}
+.content-top-p  a:not(:first-child){
+  padding:0 5px ;
+}
+.content-top-p  span a{
+  color: #34495E;
+}
 
 .content-sale {
-  /* width: 1303px; */
   width: 1290px;
   height: auto;
 }
@@ -26,31 +44,8 @@ body{
   height: auto; 
   float: left;
 }
-.sale-left p{
-  padding: 10px 0;
-}
-.sale-left p a:first-child{
-  margin-right: 5px ;
-}
-.sale-left p a:not(:first-child){
-  margin:5px;
-}
-.sale-left p a,.sale-left p{
-  color: #97A5AD;
-  font-size:14px;
-  margin-top: 15px;
-}
-.sale-left p a{
-  text-decoration: none;
-}
-.sale-left p span a {
- margin: 5px;
-  color:#34495E ;
-}
-.sale-left p span a:hover{
-  color:#34495E ;
-  text-decoration: none;
-}
+
+
 .sale-left .left-ul{
   width:100%;
   height:273px;
@@ -102,7 +97,7 @@ text-align:center;
   float: left;
   width: 900px;
   height: auto;
-  margin: 40px 26px 110px;
+  margin: -24px 26px 90px;
 }
 .content-sale-top {
   padding-top: 12px;
@@ -112,7 +107,7 @@ text-align:center;
 .content-sale-top p {
   color: #a19e9e;
   font-size: 14px;
-  margin: 20px 0;
+  margin: 12px 0;
 }
 
 .content-sale-top p span {
@@ -120,12 +115,11 @@ text-align:center;
 }
 
 .content-sale-top .content-sale-pic p:last-child {
-  margin-top: -220px;
-  /* margin-left: 2px; */
+  margin-top: -210px;
 }
 
 .content-sale-top .content-sale-word {
-  margin-top: -190px;
+  margin-top: -174px;
   margin-left: 20px;
 }
 
@@ -186,7 +180,7 @@ margin: 5px 50px;
   margin-top: 5px;
 }
 .content-sale-content .how .step ul li{
-  font-size: 12px;
+  font-size: 14px;
   color:#72899B ;
   padding: 8px 0;
 }
