@@ -1,0 +1,274 @@
+.content-top{
+    height: 520px;
+}
+/* 内容区 */
+.content-top-left ul {
+    background-color: white;
+    margin-bottom: 0px;
+}
+.content-top-left ul li{
+    z-index: 100000000;
+}
+.content-top-left ul li a {
+    font-size: 12px;
+    color: #34495E;
+    font-family: "微软雅黑";
+}
+.content-top-left ul li ul {
+    position: absolute;
+    z-index: 10000000;
+    display: none;
+    top: 240px;
+    margin-left: 234px;
+    list-style: none;
+    padding: 0px;
+    width: 808px;
+    height: 520px;
+    border: 1px solid #EFF3F6;
+    background-color: white;
+}
+.content-top-left ul li:hover{
+    background-color: rgba(0, 156, 225, 17%);
+}
+.content-top-left ul li:hover ul{
+    display: block;
+}
+.content-top-left ul li:hover div{
+    color: #009CE1;
+}
+.content-top-left ul li:hover ul{
+    border: 1px solid #009CE1;
+}
+.content-top-left ul li ul li:hover{
+    background-color: white;
+}
+.content-top-left ul li ul li:hover a{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #009CE1;
+    text-decoration: none;
+    color: #009CE1;
+}
+.content-top-left ul li ul li {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 60px;
+    width: 402px;
+}
+.content-top-left {
+    width: 250px;
+    float: left;
+}
+.content-top-left ul li{
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 40px;
+    line-height: 40px;
+}
+.content-top-content{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 786px;
+    height: 507px;
+}
+.content-top-right{
+    background-color: white;
+    width: 230px;
+    height: 507px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.content-top-right-top{
+    text-align: center;
+    width: 230px;
+    line-height: 80px;
+    height: 80px;
+}
+.content-top-right-welcome{
+    text-align: center;
+    width: 230px;
+    height: 40px;
+    color: #34495E;
+}
+.content-top-right-welcome span{
+    display: block;
+    color: #939EA9;
+    font-size: 12px;
+    font-family: 'TitilliumWeb';
+}
+.content-top-right-pay{
+    height: 80px;
+}
+.content-top-right-pay ul{
+    padding: 0;
+    margin: 0;
+    width: 230px;
+    height: 80px;
+}
+.content-top-right-pay ul li{
+    font-family: "微软雅黑";
+    color: #333333;
+    font-size: 12px;
+    height: 85px;
+    text-align: center;
+    width: 75px;
+}
+.content-top-right-pay ul li span{
+    color: #019be1;
+    font-size: 16px;
+    font-family: 'TitilliumWeb';
+    padding-top: 15px;
+    padding-bottom: 5px;
+    display: block;
+}
+.content .content-top .content-top-right .content-top-right-btn{
+    background-color: white;
+    width: 230px;
+    height: 55px;
+    border: none;
+    outline: none;
+    color: #34495E;
+}
+.content-top-right hr{
+    background-color: #EFF3F6;
+    width: 85%;
+    margin: 0 auto;
+    padding: 0;
+}
+.content-top-right-need{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 110px;
+}
+.content-top-right-need +.content-top-right-need button{
+    color: #34495e;
+    background-color: white;
+    border: 1px solid #009ce1;
+}
+.content-top-right-need + .content-top-right-need button{
+    font-weight: bold;
+}
+.content-top-right-need button{
+    font-family: "微软雅黑";
+    font-size: 14px;
+    background-color: #009ce1;
+    color: white;
+    width: 196px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.content-top-right-need span{
+    padding-top: 10px;
+    display: block;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #a2acb5;
+}
+.content-top-right .division{
+    margin-bottom: 20px;
+}
+/* 商品内容css */
+.content-content-product{
+    margin-top: 20px;
+    height: 765px;
+    background-color: white;
+}
+.content-content-product-top{
+    padding-top: 25px;
+}
+.content-content-product-top hr{
+    display: inline;
+    border: 3px solid #1296db;
+}
+.content-content-product-top span{
+    font-size: 18px;
+    font-family: "微软雅黑";
+    color: #34495E;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.content-content-product-list{
+    height: 63px;
+}
+.content-content-product-list ul li a {
+    font-family: "微软雅黑";
+    font-size: 12px;
+    color: #34495E;
+}
+.content-content-product-list ul{
+    margin:0;
+    padding:0;
+    padding-top: 25px;
+}
+.content-content-product-list ul li {
+    height: 14px;
+    line-height: 12px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-right: 1px solid #919CA8;
+}
+.content-content-product-list ul li:last-child{
+    border-right: none;
+}
+.content-content-product-product {
+    height: 650px;
+}
+.content-content-product-product table{
+    margin-left: 20px;
+    margin-top: 17px;
+    width: 1250px;
+    height: 616px;
+}
+.content-content-product-product table tr td{
+    text-align: center;
+    border-bottom: 1px solid #eff3f6;
+    border-left: 1px solid #eff3f6;
+}
+.content-content-product-product table tr td:first-child{
+    border-left:none;
+}
+.content-content-product-product table tr +tr td{
+    width: 250px;
+    height: 308px;
+    border-bottom: none;
+}
+.content-content-product-product img{
+    width: 193px;
+    height: 193px;
+}
+.product{
+    padding-left: 15px;
+}
+.product a{
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #34495e;
+    display: block;
+}
+.content-content-product-product table tr td a:hover +div a{
+    text-decoration: none;
+    color: red;
+}
+.product a:hover{
+    text-decoration: none;
+    color: red;
+}
+.product .product-symbol{
+    font-size: 14px;
+    color: red;
+    font-family: 'TitilliumWeb';
+}
+.product .product-money{
+    font-size: 20px;
+    color: red;
+    font-family: 'TitilliumWeb';
+}
+.content{
+    margin-bottom: 20px;
+}

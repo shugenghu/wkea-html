@@ -1,0 +1,417 @@
+.content{
+    height: 1250px;
+    background-color: white;
+}
+.middle-top{
+    margin-top: 30px;
+}
+.middle-top .toppage{
+    color: #72899B;
+    text-decoration: none;
+    font-family: "微软雅黑";
+}
+.middle-top .active{
+     color: #34495E;
+     text-decoration: none;
+     font-family: "微软雅黑";
+}
+
+/* 左导航栏 */
+.middle-left{
+    width: 251px;
+    height: 758px;
+    border: 1px solid #EFF3F6;
+    margin-top: 30px;
+    float: left;
+}
+.middle-left ul{
+    list-style: none;
+}
+.middle-left .peoplecenter{
+    width: 251px;
+    height: 79px;
+    background-color: #FBFBFB;
+    border: 1px solid #EFF3F6;
+    line-height: 79px;
+    font-size: 24px;
+    color: #34495E;
+}
+.middle-left .peoplecenter li{
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.middle-left .myorder{
+    width: 251px;
+    height: 90px;
+    /* border: 1px solid red; */
+}
+.middle-left .myorder li{
+    color:#34495E ;
+    font-size: 20px ;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.middle-left .myorder li ul{
+    margin-left: -50px;
+    margin-top: 20px;
+}
+.middle-left .myorder li ul li{
+    width: 70px;
+    color: #009CE1;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 1px solid #009CE1;
+    margin-top: 10px;
+}
+.middle-left .myfavorites{
+    width: 251px;
+    height: 90px;
+    /* border: 1px solid red; */
+}
+.middle-left .myfavorites li{
+    color:#34495E ;
+    font-size: 20px ;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.middle-left .myfavorites li ul{
+    margin-left: -50px;
+    margin-top: 20px;
+}
+.middle-left .myfavorites li ul li{
+    color: #72899B;
+    font-size: 16px;
+    width: 70px;
+    text-align: center;
+    margin-top: 10px;
+}
+.middle-left .infos{
+    width: 251px;
+    height: 220px;
+    /* border: 1px solid red; */
+}
+.middle-left .infos li{
+    color:#34495E ;
+    font-size: 20px ;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.middle-left .infos li ul{
+    margin-left: -50px;
+    margin-top: 20px;
+}
+.middle-left .infos li ul li{
+    color: #72899B;
+    font-size: 16px;
+    width: 70px;
+    text-align: center;
+    margin-top: 30px;
+}
+.middle-left .safe{
+    width: 251px;
+    height: 150px;
+}
+.middle-left .safe li{
+    color:#34495E ;
+    font-size: 20px ;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.middle-left .safe li ul{
+    margin-left: -50px;
+    margin-top: 20px;
+}
+.middle-left .safe li ul li{
+    color: #72899B;
+    font-size: 16px;
+    width: 70px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* 订单信息 */
+.middle-infos{
+    width: 1008px;
+    height: auto;
+    margin-left: 270px;
+    margin-top: 30px;
+    border: 1px solid #EFF3F6;
+}
+.middle-infos .infos-top{
+    width: 1006px;
+    height: 80px; 
+    border: 1px solid #EFF3F6;
+    background-color: #FBFBFB;
+}
+.middle-infos .infos-top ul{
+    list-style: none;
+    width: 550px;
+    height: 80px;
+}
+.middle-infos .infos-top ul li{
+    float: left;
+    width: 100px;
+    height: 80px;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 80px;
+    color: #34495E;
+    font-size: 20px;
+    margin-top: -2px;
+}
+.middle-infos .infos-top ul li:first-child{
+    margin-left: -30px;
+    color: #009CE1;
+    border-bottom: 4px solid #009CE1;
+}
+.middle-infos .infos-top .btn{
+    width: 400px;
+    height: 80px;
+    margin-top: -145px;
+    margin-left: 600px;
+}
+.middle-infos .infos-top .btn input[type=text]{
+    width: 234px;
+    height: 42px;
+    /* margin-left: -40px; */
+    margin-top: 15px;
+    border: 1px solid #E5E5E5;
+}
+.middle-infos .infos-top .btn input[type=button]{
+    width: 74px;
+    height: 42px;
+    /* margin-left: -80px; */
+    margin-top: 15px;
+    background-color: #009CE1;
+    color: white;
+    border: 0;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+ /* title */
+.middle-infos .middle-infos-title{
+    width: 1006px;
+    height: 64px;
+    margin-top: 10px;
+    left: 0;
+    font-size: 18px;
+    color: #34495E;
+    background-color: #EFF3F6;
+    border: 1px solid #E5E5E5;
+}
+.middle-infos .middle-infos-title p{
+    width: 300px;
+    height: 64px;
+    line-height: 64px;
+    padding-left: 25px;
+}
+.middle-infos .middle-infos-title ul{
+    width: 600px;
+    height: 64px;
+    list-style: none;
+    margin-left: 450px;
+    margin-top: -80px;
+}
+.middle-infos .middle-infos-title ul li{
+    float: left;
+    width: 130px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+/* table */
+.middle-order-infos{
+    width: 1006px;
+    /* height: 199px; */
+    border: 1px solid #EFF3F6;
+    margin-top: 10px;
+}
+.middle-order-infos .product-title{
+    width: 1006px;
+    height: 50px;
+    border: 1px solid #E5E5E5;
+    background-color: #EFF3F6;
+}
+
+.middle-order-infos .product-title ul{
+    list-style: none;
+    color: #72899B;
+    font-family: "TitilliumWeb";
+    font-size: 15px;
+}
+.middle-order-infos .product-title ul li{
+    float: left;
+    width: 240px;
+    height: 50px;
+    /* border: 1px solid red; */
+    line-height: 50px;
+}
+.middle-order-infos .product-title span{
+    font-size: 17px;
+}
+.middle-order-infos .product-title .math{
+    margin-left: -20px;
+}
+.middle-order-infos .product-title .logo{
+    margin-left: 260px;
+    padding-left: 200px;
+}
+.content-item-info-3 table{
+    border: 1px solid #E5E5E5;
+    width: 1290px;
+    margin-top:30px 
+}
+td{
+    border-bottom: 1px solid #EFF3F6;
+}
+.content-item-info-3 table tr:first-child{
+    height: 74px;
+    background-color: #EFF3F6;
+    font-weight: 100px;
+}
+.content-item-info-3 table tr:last-child{
+    background-color:white;
+}
+.content-item-info-3 table tr td:first-child {
+    width: 70px;
+}
+.content-item-info-3 div table tr td .cxbox{
+    display: inline-block;
+    margin-left: 40px;
+}
+.content-item-info-3 div table tr +tr {
+    height: 210px;
+}
+.content-item-info-3 div table tr .table-1{
+    width: 180px;
+    padding-left: 40px;
+    color: #34495E;
+}
+.content-item-info-3 div table tr .table-2{
+    width: 400px;
+    font-weight: 350;
+    font-size: 16px;
+    color: #34495E;
+    padding-left: 20px;
+}
+.content-item-info-3 div table tr .table-3{
+    font-size: 16px;
+    font-weight: 350;
+    color: #34495E;
+    padding-left: 80px;
+}
+.content-item-info-3 div table tr .table-4{
+    font-weight: 350;
+    font-size: 16px;
+    color: #34495E;
+    padding-left: 130px;
+}
+.content-item-info-3 div table tr .table-5{
+    font-weight: 350;
+    font-size: 16px;
+    color: #34495E;
+}
+.product-img{
+    width: 102px;
+    height: 102px;
+    line-height: 102px;
+    border: 1px solid #E8E8E8;
+    text-align: center;
+    margin-left: 20px;
+}
+.product-img img{
+    width: 76px;
+    height: 59px;
+}
+.product-message{
+    width: 380px;
+    height: 149px;
+    margin-left: 20px;
+    padding-top: 20px;
+    border-right: 1px solid #EFF3F6;
+    display: inline-block;
+}
+.product-message span{
+    font-family: "微软雅黑";
+    font-size: 12px;
+    font-weight: bold;
+    color:#34495E ;
+    padding-top: -10px;
+    width: 300px;
+    display: inline-block;
+}
+.product-message div ul{
+    padding: 0;
+    list-style: none;
+    margin-top: 13px;
+}
+.product-message div ul li{
+    color: #72899B;
+    font-size: 12px;
+    font-family: "微软雅黑";
+}
+.product-price{
+    width: 150px;
+    text-align: center;
+    font-family: "TitilliumWeb";
+    font-size: 14px;
+    color: #FF1818;
+    border-right: 1px solid #EFF3F6;
+}
+.product-price span{
+    font-family: "TitilliumWeb";
+    font-size: 20px;
+}
+.product-number{
+    width: 170px;
+    text-align: center;
+    font-family: "TitilliumWeb";
+    font-size: 14px;
+    color: #009CE1;
+    padding-left: 0px;
+    border-right: 1px solid  #EFF3F6;
+}
+.product-number .No{
+    color: #72899B;
+    font-size: 14px;
+}
+.product-number .wait{
+    color: #FF1818;
+    font-size: 14px;
+}
+.product-number a{
+    width: 100px;
+    height:20px;
+    line-height: 11px;
+    display:inline-block;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    margin-left: 0px;
+    font-weight: bold;
+    color: #009CE1;
+}
+.product-number a:hover{
+    text-decoration: none;
+}
+.table-5{
+    text-align: center;
+}
+.table-6{
+    width: 120px;
+    text-align: center;
+}
+.product-amount{
+    text-align: center;
+    font-family: "TitilliumWeb";
+    font-size: 20px;
+    color: #34495E;
+    padding-left: 50px;
+}
+.product-amount span{
+    font-family: "TitilliumWeb";
+    font-size: 14px;
+}

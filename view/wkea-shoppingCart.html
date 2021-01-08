@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/top.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/tail.css">
+    <link rel="stylesheet" href="../css/shoppingCart.css">
+    <link rel="stylesheet" href="../css/bootstrap-icons.css">
+    <script src="../js/jquery-3.5.1.js"></script>
+    <script src="../js/bootstrap.js"></script>
+</head>
+
+<body>
+    <div class="top">
+        <div class="top-top centre">
+            <!-- 清除浮动 两边分散 -->
+            <div class="clearfix">
+                <!-- 登录注册 -->
+                <div class="float-left top-top-left">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">欢迎来到维嘉</li>
+                        <li class="list-inline-item"><a href="">请登录</a></li>
+                        <li class="list-inline-item"><a href="">免费注册</a></li>
+                    </ul>
+                </div>
+                <!-- 展示电话号码 -->
+                <div class="float-right top-top-right">
+                    <ul class="clear">
+                        <li><a href="">消息 <span class="top-top-right-number">0</span></a><hr></li>
+                        <li><a href="">我的订单</a><hr></li>
+                        <li><a href="">个人中心</a><hr></li>
+                        <li><svg 
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="15px" height="15px">
+                           <image  opacity="0.761" x="0px" y="0px" width="15px" height="15px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAMAAAAMCGV4AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAe1BMVEX///82S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S182S1////9ObKVVAAAAKHRSTlMAmbhXwoSri5ARYRUjrqoeOGeXOQvBK0ANondkRixsJqeUu0cvk7egB719zAAAAAFiS0dEAIgFHUgAAAAHdElNRQfkDBUVLw2VdpzTAAAAbElEQVQI11XN6xaCIBAE4A0ntVASTay8dff931CQ41mYf98yu9BBCJEQBzbHwKl1Fjh3hRP77CzZBVAWQZ8ULiGpgo5MNZrI1xYmGhigI7rd1aMftsEITPPTfQzfkC/4vPedj38GX/nqn/ovKzpDBDPdJLDbAAAAAElFTkSuQmCC" />
+                           </svg><span class="top-top-right-welcome">欢迎致电</span><span>&nbsp;021-63721599</span><hr></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- input输入框 logo cart购物车 -->
+        <div class="top-content centre clearboth">
+            <!-- logo -->
+            <div class="top-content-logo">
+                <img src="../images/logo.png" width="250px" alt="">
+                <p>一站式工业品购买平台</p>
+            </div>
+            <!-- 输入框 -->
+            <div class="top-content-input">
+                <svg t="1608517680564" viewBox="0 0 1024 1024" version="1.1"
+                    xmlns="http://www.w3.org/2000/svg" p-id="4206" width="26" height="40">
+                    <path
+                        d="M472.9 825.3c-47.5 0-93.6-9.3-137-27.7-41.9-17.7-79.6-43.1-111.9-75.4-32.3-32.3-57.7-70-75.4-111.9-18.4-43.4-27.7-89.5-27.7-137s9.3-93.6 27.7-137c17.7-41.9 43.1-79.6 75.4-111.9 32.3-32.3 70-57.7 111.9-75.4 43.4-18.4 89.5-27.7 137-27.7s93.6 9.3 137 27.7c41.9 17.7 79.6 43.1 111.9 75.4 32.3 32.3 57.7 70 75.4 111.9 18.4 43.4 27.7 89.5 27.7 137s-9.3 93.6-27.7 137c-17.7 41.9-43.1 79.6-75.4 111.9-32.3 32.3-70 57.7-111.9 75.4-43.3 18.4-89.4 27.7-137 27.7z m0-640c-158.8 0-288 129.2-288 288s129.2 288 288 288 288-129.2 288-288-129.2-288-288-288zM848.4 893.4l-90.5-90.5c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l90.5 90.5c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0z"
+                        p-id="4207" fill="#c9cfd7"></path>
+                </svg><input type="text" placeholder="搜索/品牌/型号"><button>搜索</button>
+            </div>
+            <!-- 购物车 -->
+            <div class="top-content-cart">
+                <img src="../images/cart.png" width="16" height="16" alt="" srcset="">
+                <span class="top-content-cart-cart">&nbsp;购物车</span><span class="numberCircle">0</span>
+            </div>
+            <div class="top-content-recommended">
+                <ul class="clear">
+                    <li>
+                        <a href="">轴承</a>
+                    </li>
+                    <li>
+                        <a href="">弹簧</a>
+                    </li>
+                    <li>
+                        <a href="">联轴器</a>
+                    </li>
+                    <li>
+                        <a href="">气缸</a>
+                    </li>
+                    <li>
+                        <a href="">同步带</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- nav -->
+        <!-- 导航栏 -->
+        <div class="top-nav centre">
+            <ul class="clear">
+                <li><a href="wkea-index.html">全部商品分类</a></li>
+                <li><a href="">供应商合作</a></li>
+                <li><a href="wkea-sale.html">售后服务</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content wk-content">
+        <div class="centre">
+            <div class="content-top wk-nav-top">
+                <a href="wkea-index.html">首页</a> > <a href="" class="active">我的购物车</a>
+            </div>
+            <div>
+                <div class="content-content-top">
+                    <div class="content-content-top-choose">
+                        <hr class="hractive">
+                        <span class="choose">1</span>
+                        <span>我的购物车</span>
+                    </div>
+                    <div class="content-content-top-choose">
+                        <hr>
+                        <span class="choose">2</span>
+                        <span>确认订单信息</span>
+                    </div>
+                    <div class="content-content-top-choose">
+                        <hr>
+                        <span class="choose">3</span>
+                        <span>支付订单</span>
+                    </div>
+                </div>
+                <div class="content-content-content">
+                    <div>
+                        <table>
+                            <tr>
+                                <!-- table页的表头 -->
+                                <td><input type="checkbox" class="cxbox"></td>
+                                <td class="table-1">全选</td>
+                                <td class="table-2">商品信息</td>
+                                <td class="table-3">单价</td>
+                                <td class="table-4">数量</td>
+                                <td class="table-5">金额</td>
+                                <td class="table-6">操作</td>
+                            </tr>
+                            <!-- 商品 product  套着模板来遍历 -->
+                            <tr>
+                                <td><input type="checkbox" class="cxbox" name="" id=""></td>
+                                <td>
+                                    <div class="product-img">
+                                        <!-- 在span中的class中加入show 显示下架蒙版 -->
+                                        <img src="../images/product-text.png" alt=""><span>已下架</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="product-message">
+                                        <span>维嘉 KN95折叠式耳带式口罩（50个/盒）环保装；
+                                            D-2401-0015</span>
+                                        <div>
+                                            <ul>
+                                                <li>品牌：维嘉</li>
+                                                <li>型号：D-2401-0015</li>
+                                                <li>订货号：D-2401-0015</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="product-price"><span>¥</span>&nbsp;&nbsp;10000000.00</td>
+                                <td class="product-number"><a class="reduce" href="">-</a>3<a class="up" href="">+</a>
+                                </td>
+                                <td class="product-amount"><span>¥</span>&nbsp;&nbsp;10000000.00</td>
+                                <td class="product-del"><a href="">删除</a></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" class="cxbox" name="" id=""></td>
+                                <td>
+                                    <div class="product-img">
+                                        <img src="../images/product-text.png" alt=""><span class="show">已下架</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="product-message">
+                                        <span>维嘉 KN95折叠式耳带式口罩（50个/盒）环保装；
+                                            D-2401-0015</span>
+                                        <div>
+                                            <ul>
+                                                <li>品牌：维嘉</li>
+                                                <li>型号：D-2401-0015</li>
+                                                <li>订货号：D-2401-0015</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="product-price"><span>¥</span>&nbsp;&nbsp;10000000.00</td>
+                                <td class="product-number"><a class="reduce" href="">-</a>3<a class="up" href="">+</a>
+                                </td>
+                                <td class="product-amount"><span>¥</span>&nbsp;&nbsp;10000000.00</td>
+                                <td class="product-del"><a href="">删除</a></td>
+                            </tr>
+
+                            <tr>
+                                <td><input type="checkbox" class="cxbox" name="" id=""></td>
+                                <td colspan="4" class="delectAllProduct">全选<a href="">删除选中的商品</a></td>
+                                <td colspan="2" class="settlement">
+                                    <div>
+                                        总金额：&nbsp;&nbsp;<span>¥</span><span>10000000.00</span>
+                                    </div>
+                                    <input type="submit" value="结算">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tail">
+        <div class="centre">
+            <div class="tail-top">
+                <ul>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px"
+                            height="55px">
+                            <image x="0px" y="0px" width="48px" height="55px"
+                                xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIoAAACiCAMAAACppqUNAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABNVBMVEU0SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV7////u5UIsAAAAZXRSTlMAJLQMhvmHAVnmMcPEFJf9BGrvQNEeqNIJe/VrUd2YKrjFEIz6WgJiiDfHtRid20pJc/N3BkbV/qUZpCGuzjqE9utnZlbh+5Qtv5nc06epfO7eurno58hIdqNggCCfj3Aw369Qz9GlK84AAAABYktHRGYs1NklAAAAB3RJTUUH5AwVFAs21Ff+ZgAABQ5JREFUeNrtnHlf0zAYxx9ARFBkth6oKFp0eB+IB56ooNb7Plq6dYO8/7dgM9Y8yRpYN5L28WN/f3VdlnyX5Eme5JM8AHvXyOjoiIFs9q6xfeOMje8fK5sDJg5Mso4mD0yUSzJ1kAkdmioRZPrwDJM0c3i6JJDaEYf1yDlSK4PEPco0OuoWDnLsOBZ/wnVP4KfjxwoFmT15ChvldE1trFMnZ4sjmTuDXfVst6tOn8UufGauIJD5c9ga5yUDnjqE78/NFwDiLVwQBU5eVIa1iYuT4qsLC55lkPoiljZ+KTPYj+0fR87Fuk2Sy1ewDa5qp8CRq5jiymVrINeuY8+8cXOnVLduYJ++fs0KSO022uvSneWdEy7fWUJLv10zT3L3nsj//oOV3dOuPLwvEt+7axjk0WPsAk+e9k//9Ammf/zIIMjss1WR8fMXuQyj/vK5+MnqM2PD79q6yPXV69zDhff6lfjZ+poRkDc+1rX/pphfWvhvw9WnVvUXe2zxIXqZXibsYFDb02rlgZnRYZARSSuDY2bucVqvm0Znknyzl1bm59f+c7pWY5cseB19PB2trPliu/h/ek2dx5o07aHu5BVrNf0W+9c7C367bq2gVe209dVMZgWll/se6++DtTWeuq7UJ/mISeyufOXV9sfsX579hPPWZ9v7AfKydrW3I8x9we5UxC6JvDPzRTaP+a9YYwcL2juSl7Xf0kHDW0DvqMAdNbGLx/2qzlBaX/yOA/K+QvcZ5WXtj2SC+Yn1VPzu68golv4TcPL+VTQIl7SsTVGWfg/s0pjR8u8lFeXPMI6eIa08VFDKA+GqUCqUCqVCkRSEu2vDBkrgZxWAtJujVS7PdFCUUFNQWKFUKBWKERS3R5FNFBUoLSJF6Zfu/0VJG4cACpOeK5QK5d9C8SuUclA6vmpadMQ/BAqKVxwKy8hXUNzuY4MOSlihSChNufRyUUI6KKnj5pWPonhRdlEUn7XJP8RK+S3BZx1FW4SE0n2KykdJbblZPopiy+WitLtPfHJyy0WRD9+GpaLEjAxKgwyK56go6XZZXAzKZjKaxd0Vobq4D3PnZwLFa7akn6mV0kXJtTu5dxS/U7ao/jbToIStoAgUtccE6QtHQWGsFeY5dWIQJR3zme/3oCSK+hvRUCiuuuG1XWQsOoqroOy092IAJW601C6xXaQrSCLQoTimUbwMR6I2SP2EOZ6KojgwJlGyIMzfBC/Cjy6oKN3XDeMNtNXD4UTJuBFLb0NsE15bsNl93zSOotpOK0is1JPfdYpPe2qcfLmFz4ZR5Km33THQQO49W56Mkpi16Mz9sx7YgtK8nUZnRI8Vu94m0W1uty2gRNgyXBtOlgSiLEr/rjI4SrBtM9hiToZEsmyhHJPiwCgei2LlhWCJ8F1m8Ily5DwwCmRmtiDbBHHP/bIte9OhKm7MLbWqvEiCaeXzoUygJH5KI/u3N9LN/jhnLkZQPCPHCo2gmFGFUqFUKBWKVRRCBxcJHedkFA65Ejr6S+hANKFj4lxkDs9zkblSAJQuWgCh6yedJFQu5QClq0pA6AIXF5lrbUDpsh8QugLJReZiKBeZ67JA6RIxELpazUXmwjlQuoYPhIITcJEJ2TD8f7MQyAIohfcAQkFPuMiEggFKAXKAUNggLjLBlIBSiCkgFHiLi0w4Mi4yQdqAUug6IBTQj4tMmEOgFPwRCIXE5CITKBQohU8FQkFluQyF2v0LBLFSU/PlJy8AAAAASUVORK5CYII=" />
+                        </svg><span>现货</span></li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px"
+                            height="55px">
+                            <image x="0px" y="0px" width="48px" height="55px"
+                                xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIoAAACiCAMAAACppqUNAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABNVBMVEU0SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV7////u5UIsAAAAZXRSTlMAJLQMhvmHAVnmMcPEFJf9BGrvQNEeqNIJe/VrUd2YKrjFEIz6WgJiiDfHtRid20pJc/N3BkbV/qUZpCGuzjqE9utnZlbh+5Qtv5nc06epfO7eurno58hIdqMggK9wUN8wn49gzy0vMssAAAABYktHRGYs1NklAAAAB3RJTUUH5AwVFAcco1l4vAAABTVJREFUeNrtnGl30zoQhtWWUlooBJulQKHgQsq+lLKUtewY7uVedrCdzYn//1+gcmyNHStEViR5zqnfT2mtWI8lzUijWEPI9JqZnZ1RcJvpNbdvPorm989VzUEWDixGsRYPLFRLsnQwYjq0VCHI8uEjUUZHDi9XBNI4akUjso42qiCxj0UcHbONgxw/AdWftO2T8NeJ40ZBVk6dhk4508h31ulTK+ZIVs/CUD2XDNXlczCEz64aAlk7D71xIWPAS4fg/+fXDIA46xdZhYuXcm5t4dIiu3Rx3dEM0tyA2uYvF5z93P554Nxo6iS5chX64Bp3Cpy5BiWuXtEGcv0GjMybt8aVun0TxvSN61pAGnfAXjfvbo0vuHV3Eyz9TkM9yb377P4PHm7/vez2owes8P17ikEeP4Eh8PTZ5PLPnkL5J48Vgqw832E3fvFSyDCar16wr+w8V+Z+X79hd337TthdOO/esq+9ea0E5L0Lbe2+N/NNDc8m155cNV9O2eMSo4wvFXZQ1va42n6oxjuU8UhcKfSZwn6ar1tKZxKx2Ysr9fPr5Dmdq7nLGlYdE1Y6XGlbi/1l/cfX0gVoSdUr1HGrYq6WP8D4+qhh3c6LFbhqnNEezRQiKL7sf6D9/tUW4+XjSn6RT1BEb+SbjbY/FR955T+Yt/7XvR+QDWt3RgfC6mcYTiZ2SbI7M5+z5rH2BVrsoKG9o2xY+zV1Gs46rI4M7qixXTy6ropdaXPjGzjkfUb3GbNh7ffdCeYHtJP53deZWaj9B4HJ+6dpEKpMWJuibP4qvaRRo61fm3mU3zILPUXafpRDqQ6EqkapUfY2imfbvh+0qkZpu+nao1M1igOzSLdiFNJjKGHVKDZDke4hZcO2M3UPlUbpunwBSod3WYCvNAr0RCkJxDE1So2yp1BsIRlBESlMiDmUttvPXfSHskfubwDF2fWxnQyMn1zzzaOE8SfLT3cwg8pQuunnFMatDGUAxjqEqQzFg9k4gUlR2kZQvMRI4gfv52D6DAUqTkt7GlBAzgiMSzgoJSSP4kVuXGMrXevvPrhVDQptgRjG8a10qEZAZRClNfxKQGv1esnqOueJTaE4bPu3R2G6cft4laCkfpUqTJ1tauiWSRSn4FKyKK7RVhlxKcOg3a8GJQczIDkUuVh1CpTUiiMWEBanIFMoQyvOVJ1Oj+3SN5oeZXekuqx7Ss19ClC8wkK6F7WST32GwtFkB1wWJR2ZpTV5/NQoNUqNYhJlrJhTsWTfMFGF0ofnD/pyMGpQnDDfG4HMLKQEJb92GXZTrzSNAhQOSEJTblqcFqUbWtF4dcKuIRQ7HGkQDtagJRoUyaI4tu8Wq3W8kNNbgiYlgdK1/WAQcdSLL7eD4hWhYVMeJYz4spjJeC2ORU1umPIoDt9gglxddm/kskAQINFBvE1kt9ABTr5pNO2vhJNBRpsmELitDIqTs1mr1x1f0k+aRsT1ShkzzH1W0J9Qtk1tXuj3RCmUJAwchELzjBdaQr+Dy6HYluu3xZcCji4Xp0s1So1So9QoWlEQvbiI6HXOCMNLrohe/UX0QjSi18Sp0Lw8T4XmSAHBdNCCIDp+EhfBciiHYDqqRBAd4KJCc6yNYDrsRxAdgaRCczCUCs1xWYLpEDFBdLSaCs2Bc4LpGD5BlJyACk3KBvln05DIgmBK70EQJT2hQpMKhmBKkEMQpQ2iQpNMiWBKMUUQJd6iQpOOjApNkjaCKXUdQZTQjwpNmkOCKfkjQZQSkwpNolCCKX0qQZRUlkpRqt0/Ci/m6A0jacEAAAAASUVORK5CYII=" />
+                        </svg><span>实价</span></li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px"
+                            height="55px">
+                            <image x="0px" y="0px" width="48px" height="55px"
+                                xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIoAAACiCAMAAACppqUNAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABNVBMVEU0SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV40SV7////u5UIsAAAAZXRSTlMAJLQMhvmHAVnmMcPEFJf9BGrvQNEeqNIJe/VrUd2YKrjFEIz6WgJiiDfHtRid20pJc/N3BkbV/qUZpCGuzjqE9utnZlbh+5Qtv5nc06epfO7eurno58hIdqOPYIAgMM9wn1Cv33e1cF8AAAABYktHRGYs1NklAAAAB3RJTUUH5AwVFAoNfEcmAwAABahJREFUeNrtnHl70zgQh9WWUlooBJujQKHgQsrNUspRznLjPdhllzNxHLuJv/9X2CiJNLItY8WWlHke8vvPkSK9lnXMyNYQUl9z8/NzGoqpr4UDi0myeHBh2hxk6dByMtTyoaXpkqwcTriOrEwRZPXosUTQsaOrUwJpHHeSjJzjjWmQuCcSiU641kFOnoLqT7vuabg6ddIqyNqZs/BQzjXSD+vsmTV7JOvnoateGHfV1QvQhc+vWwLZuAhP45IwgFeOwO8XNyyAeJuXeYXLV1LT2tKVZZ50edMzDNLcgtoWr+Ym+4WDi8C51TRJcu06PIMb0iVw7gbkuH7NGMjNW9Azb98pyvXbbejTt24aAWnchfG6fW+nOOPOvW0Y6Xcb+knuP+DlP3y0+/O8u48f8swP7msGefIUusCz5+X5nz+D/E+faARZe7HHC375SmlgNF+/5H/Ze6Ft+n3zlpf67r3ydOG9f8f/9vaNFpAPPrS1/8HOPw3cW7X2lKr5quYTr9DL5NIxDiYde1LtPtIzO0wyI0mlcc5UnqfluqN1JVFbvaTSv76Wr+lSLVw1YHWUWDpSGbPFfmL/ybVyCVpSt4VaZBVLtfo79K8/DNjtMl9BqsY5495MzoOSy/0T2u8vYz5e2q+UZ/kIWcx6vqK3/TF/y2t/w7r1j+n9ANGt3ct2hPVP0J1s7JKIOzOfxOGx8S+02GFLe0eiW/sfmzS8TbCOLO6o8V08alcNp9Lm1meYkA9Y3WcU3dovgwXmK7ST/d3XuXmo/SuBxfubbRAqwa1lKNvfJzZp9Gjn+3Ya5UcVQ0+Tdh+nUKYHQjVDmaH8Yiittmh+ByO1+Q8deyjh4B/dIEyXlPjsOnICayjx2DaNOzKUNgUNJymvBgqzwRxZq4Sjq0kapjrKPlvAYglKyDgnaJjqKD2GEuZRvD5faZ3IOIrH6uqnShq3SgsskCRWdHMro0SspihVEusr+8IbRcWHVBmFP4JOqiQ+gsIusOwbRcl22vy84sUsS1utyKoofDPWTZcEKKOpZaCWYpEVUULeDzIliSijIR2rllkRRdL4EhTidQVWMyid7EguQBkskuobVtVQeKME2ZKyKBOoEgpvFMcLmBhdP5DLEIrQKImqzKC4vHxv2ii+UP50UaIEC4rnoEHpJVhQogQLSugUlM+GlQ/dWqmRK6N43aJbjWyjdJIilGD8U88WChhv2T8wazawhtIrQvGto0RFKKy52tZQ3CIU9pNrDWWYs9/NVcYRO/ZQKEWYrywSGsoWSky7Q74yZsJ0LaJE1ITPV8Z6bc8iiiu9b+6MRBZRPE9WGe8qrkWUoXKV8aVJmmoThS9Nfj61regya0Lh2ylRPjUY+CNKfpkWFLAxO/nUIWas8J5YCwozEMYOcjrVF5NMo0CjRMUo5Q6sDhTeKOMdqHSqA3OfcRSw7Hoy0PFFudOsAQWcRVeSyubh8iFdHwUejy9J5dZD+RCqjSLYUm4m1RNJy6eWuiiCX+RnUyPhwikvtCaK6KGF2dSkFQR+ltMUikjSyqWKUtgxrYcikPShMwQSFIU1sR5KW/J4hJ1uQQpv72r2Fd4AkZjcz5Go7CPXHUGxrKpcszgqVkJdlNHWQnbZbacPdam9hamLMhzO3dxNd1p8GPVjtXcwGib+fQlJJVVDafkjDS8iTd+dVkMxohnKDGWGMkP5VVAQfbiI6HPOBMNHrog+/UX0QTSiz8Sp0Hw8T4XmSAHBdNCCIDp+MsyC5VAOwXRUiSA6wEWF5lgbwXTYjyA6AkmF5mAoFZrjsgTTIWKC6Gg1FZoD5wTTMXyCKDgBFZqQDdXvzUAgC4IpvAdBFPSECk0oGIIpQA5BFDaICk0wJYIpxBRBFHiLCk04Mio0QdoIptB1BFFAPyo0YQ4JpuCPBFFITCo0gUIJpvCpBFFQWSpNoXb/B+p059izTCQAAAAAAElFTkSuQmCC" />
+                        </svg><span>优质</span></li>
+                    <li><img src="../images/salable product.png" width="48px" height="55px" alt=""><span>正品</span></li>
+                    <li><img src="../images/automation.png" width="48px" height="55px" alt=""><span>自动化</span></li>
+                </ul>
+            </div>
+            <hr class="tail-hr">
+            <div class="tail-content">
+                <!-- 关于我们 -->
+                <div class="tail-content-about">
+                    <ul>
+                        <li><span>关于我们</span></li>
+                        <li><a href="">公司概要</a></li>
+                        <li><a href="">加入我们</a></li>
+                        <li><a href="">成为供应商</a></li>
+                    </ul>
+                </div>
+                <!-- 这里的tail-content-about主要是为了引入上面的样式 -->
+                <div class="tail-content-about">
+                    <ul>
+                        <li><span>购物指南</span></li>
+                        <li><a href="">常见问题</a></li>
+                        <li><a href="">服务条款</a></li>
+                        <li><a href="">隐私政策</a></li>
+                        <li><a href="">质量证明</a></li>
+                    </ul>
+                </div>
+                <!-- tp time and phone -->
+                <div class="tail-content-tp">
+                    <div class="tail-content-t">
+                        <ul>
+                            <li>电话<span>021-63721599</span></li>
+                            <li>
+                                邮件<span>WKEA@WKEA.CN</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tail-content-p">
+                        <ul class="clear">
+                            <li>
+                                <span>工作时间</span>
+                                周一到周日9:00-18:00
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="tail-content-hr">
+                <div class="tail-content-vx">
+                    <span>维嘉公众号</span>
+                    <img src="../images/code2.png" alt="">
+                </div>
+            </div>
+            <hr class="segmentation">
+            <div class="tail-tail">
+                WKEA© All Rights Reserved Privacy Policy - Terms of Use 沪ICP备02011020号-20
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
