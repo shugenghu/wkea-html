@@ -1,0 +1,9 @@
+div{
+    height: 10px;
+}
+div:empty{
+    display: none;
+}
+div span:empty{
+    display: none;
+}

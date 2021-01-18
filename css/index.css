@@ -68,11 +68,15 @@
     line-height: 40px;
 }
 .content-top-content{
+    z-index: 1;
     float: left;
     margin-top: 10px;
-    margin-left: 10px;
-    width: 786px;
+    width: 1047px;
     height: 507px;
+}
+.content-top-content img{
+    height: 507px;
+    width: 1047px;
 }
 .content-top-right{
     background-color: white;
